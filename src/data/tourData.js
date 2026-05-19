@@ -9,7 +9,7 @@ export const TOUR_DATA = [
     title: 'Museum Kota Makassar',
     subtitle: 'Halaman Depan',
     description: 'Museum Sejarah Kota Makassar',
-    panorama: 'assets/Museum Kota Makassar/030_Halaman Depan_E6D21F.jpg',
+    panorama: 'assets/Museum Kota/01_Scene 1.jpg',
     thumbnail: 'assets/thumb_museum_kota.jpg',
     duration: 200,
     initialHeading: 0,
