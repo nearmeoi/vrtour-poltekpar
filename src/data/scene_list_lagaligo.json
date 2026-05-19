@@ -1,0 +1,518 @@
+[
+  {
+    "id": 1,
+    "key": "lagaligo_001",
+    "title": "Pintu Masuk",
+    "path": "assets/Museum La Galigo/01_Pintu Masuk.jpg"
+  },
+  {
+    "id": 2,
+    "key": "lagaligo_002",
+    "title": "Halaman Depan",
+    "path": "assets/Museum La Galigo/02_Halaman Depan.jpg"
+  },
+  {
+    "id": 3,
+    "key": "lagaligo_003",
+    "title": "Lobby Utama",
+    "path": "assets/Museum La Galigo/03_Lobby Utama.jpg"
+  },
+  {
+    "id": 4,
+    "key": "lagaligo_004",
+    "title": "Area Resepsi",
+    "path": "assets/Museum La Galigo/04_Area Resepsi.jpg"
+  },
+  {
+    "id": 5,
+    "key": "lagaligo_005",
+    "title": "Galeri Prasejarah",
+    "path": "assets/Museum La Galigo/05_Galeri Prasejarah.jpg"
+  },
+  {
+    "id": 6,
+    "key": "lagaligo_006",
+    "title": "Budaya Pedalaman Perkampungan 1",
+    "path": "assets/Museum La Galigo/06_Budaya Pedalaman Perkampungan 1.jpg"
+  },
+  {
+    "id": 7,
+    "key": "lagaligo_007",
+    "title": "Budaya Pedalaman Perkampungan 2",
+    "path": "assets/Museum La Galigo/07_Budaya Pedalaman Perkampungan 2.jpg"
+  },
+  {
+    "id": 8,
+    "key": "lagaligo_008",
+    "title": "Budaya Pedalaman Perkampungan 3",
+    "path": "assets/Museum La Galigo/08_Budaya Pedalaman Perkampungan 3.jpg"
+  },
+  {
+    "id": 9,
+    "key": "lagaligo_009",
+    "title": "Budaya Pedalaman Perkampungan 4",
+    "path": "assets/Museum La Galigo/09_Budaya Pedalaman Perkampungan 4.jpg"
+  },
+  {
+    "id": 10,
+    "key": "lagaligo_010",
+    "title": "Budaya Pedalaman Perkampungan 5",
+    "path": "assets/Museum La Galigo/10_Budaya Pedalaman Perkampungan 5.jpg"
+  },
+  {
+    "id": 11,
+    "key": "lagaligo_011",
+    "title": "Budaya Pedalaman Perkampungan 6",
+    "path": "assets/Museum La Galigo/11_Budaya Pedalaman Perkampungan 6.jpg"
+  },
+  {
+    "id": 12,
+    "key": "lagaligo_012",
+    "title": "Budaya Pedalaman Perkampungan 7",
+    "path": "assets/Museum La Galigo/12_Budaya Pedalaman Perkampungan 7.jpg"
+  },
+  {
+    "id": 13,
+    "key": "lagaligo_013",
+    "title": "Budaya Pedalaman Perkampungan 8",
+    "path": "assets/Museum La Galigo/13_Budaya Pedalaman Perkampungan 8.jpg"
+  },
+  {
+    "id": 14,
+    "key": "lagaligo_014",
+    "title": "Budaya Pedalaman Perkampungan 9",
+    "path": "assets/Museum La Galigo/14_Budaya Pedalaman Perkampungan 9.jpg"
+  },
+  {
+    "id": 15,
+    "key": "lagaligo_015",
+    "title": "Budaya Pedalaman Perkampungan 10",
+    "path": "assets/Museum La Galigo/15_Budaya Pedalaman Perkampungan 10.jpg"
+  },
+  {
+    "id": 16,
+    "key": "lagaligo_016",
+    "title": "Budaya Pedalaman Perkampungan 11",
+    "path": "assets/Museum La Galigo/16_Budaya Pedalaman Perkampungan 11.jpg"
+  },
+  {
+    "id": 17,
+    "key": "lagaligo_017",
+    "title": "Budaya Pedalaman Perkampungan 12",
+    "path": "assets/Museum La Galigo/17_Budaya Pedalaman Perkampungan 12.jpg"
+  },
+  {
+    "id": 18,
+    "key": "lagaligo_018",
+    "title": "Budaya Pedalaman Perkampungan 13",
+    "path": "assets/Museum La Galigo/18_Budaya Pedalaman Perkampungan 13.jpg"
+  },
+  {
+    "id": 19,
+    "key": "lagaligo_019",
+    "title": "Budaya Pedalaman Perkampungan 14",
+    "path": "assets/Museum La Galigo/19_Budaya Pedalaman Perkampungan 14.jpg"
+  },
+  {
+    "id": 20,
+    "key": "lagaligo_020",
+    "title": "Budaya Pedalaman Perkampungan 15",
+    "path": "assets/Museum La Galigo/20_Budaya Pedalaman Perkampungan 15.jpg"
+  },
+  {
+    "id": 21,
+    "key": "lagaligo_021",
+    "title": "Budaya Pedalaman Perkampungan 16",
+    "path": "assets/Museum La Galigo/21_Budaya Pedalaman Perkampungan 16.jpg"
+  },
+  {
+    "id": 22,
+    "key": "lagaligo_022",
+    "title": "Budaya Pedalaman Perkampungan 17",
+    "path": "assets/Museum La Galigo/22_Budaya Pedalaman Perkampungan 17.jpg"
+  },
+  {
+    "id": 23,
+    "key": "lagaligo_023",
+    "title": "Budaya Pedalaman Agraris 1",
+    "path": "assets/Museum La Galigo/23_Budaya Pedalaman Agraris 1.jpg"
+  },
+  {
+    "id": 24,
+    "key": "lagaligo_024",
+    "title": "Budaya Pedalaman Agraris 2",
+    "path": "assets/Museum La Galigo/24_Budaya Pedalaman Agraris 2.jpg"
+  },
+  {
+    "id": 25,
+    "key": "lagaligo_025",
+    "title": "Budaya Pedalaman Agraris 3",
+    "path": "assets/Museum La Galigo/25_Budaya Pedalaman Agraris 3.jpg"
+  },
+  {
+    "id": 26,
+    "key": "lagaligo_026",
+    "title": "Budaya Pedalaman Agraris 4",
+    "path": "assets/Museum La Galigo/26_Budaya Pedalaman Agraris 4.jpg"
+  },
+  {
+    "id": 27,
+    "key": "lagaligo_027",
+    "title": "Budaya Pedalaman Agraris 5",
+    "path": "assets/Museum La Galigo/27_Budaya Pedalaman Agraris 5.jpg"
+  },
+  {
+    "id": 28,
+    "key": "lagaligo_028",
+    "title": "Budaya Pedalaman Agraris 6",
+    "path": "assets/Museum La Galigo/28_Budaya Pedalaman Agraris 6.jpg"
+  },
+  {
+    "id": 29,
+    "key": "lagaligo_029",
+    "title": "Budaya Pedalaman Agraris 7",
+    "path": "assets/Museum La Galigo/29_Budaya Pedalaman Agraris 7.jpg"
+  },
+  {
+    "id": 30,
+    "key": "lagaligo_030",
+    "title": "Budaya Pedalaman Agraris 8",
+    "path": "assets/Museum La Galigo/30_Budaya Pedalaman Agraris 8.jpg"
+  },
+  {
+    "id": 31,
+    "key": "lagaligo_031",
+    "title": "Budaya Pedalaman Agraris 9",
+    "path": "assets/Museum La Galigo/31_Budaya Pedalaman Agraris 9.jpg"
+  },
+  {
+    "id": 32,
+    "key": "lagaligo_032",
+    "title": "Budaya Pedalaman Agraris 10",
+    "path": "assets/Museum La Galigo/32_Budaya Pedalaman Agraris 10.jpg"
+  },
+  {
+    "id": 33,
+    "key": "lagaligo_033",
+    "title": "Budaya Pedalaman Agraris 11",
+    "path": "assets/Museum La Galigo/33_Budaya Pedalaman Agraris 11.jpg"
+  },
+  {
+    "id": 34,
+    "key": "lagaligo_034",
+    "title": "Budaya Pedalaman Agraris 12",
+    "path": "assets/Museum La Galigo/34_Budaya Pedalaman Agraris 12.jpg"
+  },
+  {
+    "id": 35,
+    "key": "lagaligo_035",
+    "title": "Budaya Pedalaman Agraris 13",
+    "path": "assets/Museum La Galigo/35_Budaya Pedalaman Agraris 13.jpg"
+  },
+  {
+    "id": 36,
+    "key": "lagaligo_036",
+    "title": "Budaya Pedalaman Agraris 14",
+    "path": "assets/Museum La Galigo/36_Budaya Pedalaman Agraris 14.jpg"
+  },
+  {
+    "id": 37,
+    "key": "lagaligo_037",
+    "title": "Budaya Pedalaman Agraris 15",
+    "path": "assets/Museum La Galigo/37_Budaya Pedalaman Agraris 15.jpg"
+  },
+  {
+    "id": 38,
+    "key": "lagaligo_038",
+    "title": "Budaya Pedalaman Agraris 16",
+    "path": "assets/Museum La Galigo/38_Budaya Pedalaman Agraris 16.jpg"
+  },
+  {
+    "id": 39,
+    "key": "lagaligo_039",
+    "title": "Budaya Pesisir (Bahari) 1",
+    "path": "assets/Museum La Galigo/39_Budaya Pesisir (Bahari) 1.jpg"
+  },
+  {
+    "id": 40,
+    "key": "lagaligo_040",
+    "title": "Budaya Pesisir (Bahari) 2",
+    "path": "assets/Museum La Galigo/40_Budaya Pesisir (Bahari) 2.jpg"
+  },
+  {
+    "id": 41,
+    "key": "lagaligo_041",
+    "title": "Budaya Pesisir (Bahari) 3",
+    "path": "assets/Museum La Galigo/41_Budaya Pesisir (Bahari) 3.jpg"
+  },
+  {
+    "id": 42,
+    "key": "lagaligo_042",
+    "title": "Budaya Pesisir (Bahari) 4",
+    "path": "assets/Museum La Galigo/42_Budaya Pesisir (Bahari) 4.jpg"
+  },
+  {
+    "id": 43,
+    "key": "lagaligo_043",
+    "title": "Budaya Pesisir (Bahari) 5",
+    "path": "assets/Museum La Galigo/43_Budaya Pesisir (Bahari) 5.jpg"
+  },
+  {
+    "id": 44,
+    "key": "lagaligo_044",
+    "title": "Budaya Pesisir (Bahari) 6",
+    "path": "assets/Museum La Galigo/44_Budaya Pesisir (Bahari) 6.jpg"
+  },
+  {
+    "id": 45,
+    "key": "lagaligo_045",
+    "title": "Budaya Pesisir (Bahari) 7",
+    "path": "assets/Museum La Galigo/45_Budaya Pesisir (Bahari) 7.jpg"
+  },
+  {
+    "id": 46,
+    "key": "lagaligo_046",
+    "title": "Budaya Pesisir (Bahari) 8",
+    "path": "assets/Museum La Galigo/46_Budaya Pesisir (Bahari) 8.jpg"
+  },
+  {
+    "id": 47,
+    "key": "lagaligo_047",
+    "title": "Budaya Pesisir (Bahari) 9",
+    "path": "assets/Museum La Galigo/47_Budaya Pesisir (Bahari) 9.jpg"
+  },
+  {
+    "id": 48,
+    "key": "lagaligo_048",
+    "title": "Budaya Pesisir (Bahari) 10",
+    "path": "assets/Museum La Galigo/48_Budaya Pesisir (Bahari) 10.jpg"
+  },
+  {
+    "id": 49,
+    "key": "lagaligo_049",
+    "title": "Budaya Pesisir (Bahari) 11",
+    "path": "assets/Museum La Galigo/49_Budaya Pesisir (Bahari) 11.jpg"
+  },
+  {
+    "id": 50,
+    "key": "lagaligo_050",
+    "title": "Budaya Pesisir (Bahari) 12",
+    "path": "assets/Museum La Galigo/50_Budaya Pesisir (Bahari) 12.jpg"
+  },
+  {
+    "id": 51,
+    "key": "lagaligo_051",
+    "title": "Budaya Pesisir (Bahari) 13",
+    "path": "assets/Museum La Galigo/51_Budaya Pesisir (Bahari) 13.jpg"
+  },
+  {
+    "id": 52,
+    "key": "lagaligo_052",
+    "title": "Perkembangan Kota 1",
+    "path": "assets/Museum La Galigo/52_Perkembangan Kota 1.jpg"
+  },
+  {
+    "id": 53,
+    "key": "lagaligo_053",
+    "title": "Perkembangan Kota 2",
+    "path": "assets/Museum La Galigo/53_Perkembangan Kota 2.jpg"
+  },
+  {
+    "id": 54,
+    "key": "lagaligo_054",
+    "title": "Perkembangan Kota 3",
+    "path": "assets/Museum La Galigo/54_Perkembangan Kota 3.jpg"
+  },
+  {
+    "id": 55,
+    "key": "lagaligo_055",
+    "title": "Perkembangan Kota 4",
+    "path": "assets/Museum La Galigo/55_Perkembangan Kota 4.jpg"
+  },
+  {
+    "id": 56,
+    "key": "lagaligo_056",
+    "title": "Perkembangan Kota 5",
+    "path": "assets/Museum La Galigo/56_Perkembangan Kota 5.jpg"
+  },
+  {
+    "id": 57,
+    "key": "lagaligo_057",
+    "title": "Perkembangan Kota 6",
+    "path": "assets/Museum La Galigo/57_Perkembangan Kota 6.jpg"
+  },
+  {
+    "id": 58,
+    "key": "lagaligo_058",
+    "title": "Perkembangan Kota 7",
+    "path": "assets/Museum La Galigo/58_Perkembangan Kota 7.jpg"
+  },
+  {
+    "id": 59,
+    "key": "lagaligo_059",
+    "title": "Perkembangan Kota 8",
+    "path": "assets/Museum La Galigo/59_Perkembangan Kota 8.jpg"
+  },
+  {
+    "id": 60,
+    "key": "lagaligo_060",
+    "title": "Perkembangan Kota 9",
+    "path": "assets/Museum La Galigo/60_Perkembangan Kota 9.jpg"
+  },
+  {
+    "id": 61,
+    "key": "lagaligo_061",
+    "title": "Perkembangan Kota 10",
+    "path": "assets/Museum La Galigo/61_Perkembangan Kota 10.jpg"
+  },
+  {
+    "id": 62,
+    "key": "lagaligo_062",
+    "title": "Perkembangan Kota 11",
+    "path": "assets/Museum La Galigo/62_Perkembangan Kota 11.jpg"
+  },
+  {
+    "id": 63,
+    "key": "lagaligo_063",
+    "title": "Gedung P (Gereja Kuno) 1",
+    "path": "assets/Museum La Galigo/63_Gedung P (Gereja Kuno) 1.jpg"
+  },
+  {
+    "id": 64,
+    "key": "lagaligo_064",
+    "title": "Gedung P (Gereja Kuno) 2",
+    "path": "assets/Museum La Galigo/64_Gedung P (Gereja Kuno) 2.jpg"
+  },
+  {
+    "id": 65,
+    "key": "lagaligo_065",
+    "title": "Gedung P (Gereja Kuno) 3",
+    "path": "assets/Museum La Galigo/65_Gedung P (Gereja Kuno) 3.jpg"
+  },
+  {
+    "id": 66,
+    "key": "lagaligo_066",
+    "title": "Gedung P (Gereja Kuno) 4",
+    "path": "assets/Museum La Galigo/66_Gedung P (Gereja Kuno) 4.jpg"
+  },
+  {
+    "id": 67,
+    "key": "lagaligo_067",
+    "title": "Gedung P (Gereja Kuno) 5",
+    "path": "assets/Museum La Galigo/67_Gedung P (Gereja Kuno) 5.jpg"
+  },
+  {
+    "id": 68,
+    "key": "lagaligo_068",
+    "title": "Gedung P (Gereja Kuno) 6",
+    "path": "assets/Museum La Galigo/68_Gedung P (Gereja Kuno) 6.jpg"
+  },
+  {
+    "id": 69,
+    "key": "lagaligo_069",
+    "title": "Gedung P (Gereja Kuno) 7",
+    "path": "assets/Museum La Galigo/69_Gedung P (Gereja Kuno) 7.jpg"
+  },
+  {
+    "id": 70,
+    "key": "lagaligo_070",
+    "title": "Gedung P (Gereja Kuno) 8",
+    "path": "assets/Museum La Galigo/70_Gedung P (Gereja Kuno) 8.jpg"
+  },
+  {
+    "id": 71,
+    "key": "lagaligo_071",
+    "title": "Gedung P (Gereja Kuno) 9",
+    "path": "assets/Museum La Galigo/71_Gedung P (Gereja Kuno) 9.jpg"
+  },
+  {
+    "id": 72,
+    "key": "lagaligo_072",
+    "title": "Gedung P (Gereja Kuno) 10",
+    "path": "assets/Museum La Galigo/72_Gedung P (Gereja Kuno) 10.jpg"
+  },
+  {
+    "id": 73,
+    "key": "lagaligo_073",
+    "title": "Gedung P (Gereja Kuno) 11",
+    "path": "assets/Museum La Galigo/73_Gedung P (Gereja Kuno) 11.jpg"
+  },
+  {
+    "id": 74,
+    "key": "lagaligo_074",
+    "title": "Gedung P (Gereja Kuno) 12",
+    "path": "assets/Museum La Galigo/74_Gedung P (Gereja Kuno) 12.jpg"
+  },
+  {
+    "id": 75,
+    "key": "lagaligo_075",
+    "title": "Gedung P (Gereja Kuno) 13",
+    "path": "assets/Museum La Galigo/75_Gedung P (Gereja Kuno) 13.jpg"
+  },
+  {
+    "id": 76,
+    "key": "lagaligo_076",
+    "title": "Gedung P (Gereja Kuno) 14",
+    "path": "assets/Museum La Galigo/76_Gedung P (Gereja Kuno) 14.jpg"
+  },
+  {
+    "id": 77,
+    "key": "lagaligo_077",
+    "title": "Gedung P (Gereja Kuno) 15",
+    "path": "assets/Museum La Galigo/77_Gedung P (Gereja Kuno) 15.jpg"
+  },
+  {
+    "id": 78,
+    "key": "lagaligo_078",
+    "title": "Gedung P (Gereja Kuno) 16",
+    "path": "assets/Museum La Galigo/78_Gedung P (Gereja Kuno) 16.jpg"
+  },
+  {
+    "id": 79,
+    "key": "lagaligo_079",
+    "title": "Gedung P (Gereja Kuno) 17",
+    "path": "assets/Museum La Galigo/79_Gedung P (Gereja Kuno) 17.jpg"
+  },
+  {
+    "id": 80,
+    "key": "lagaligo_080",
+    "title": "Gedung P (Gereja Kuno) 18",
+    "path": "assets/Museum La Galigo/80_Gedung P (Gereja Kuno) 18.jpg"
+  },
+  {
+    "id": 81,
+    "key": "lagaligo_081",
+    "title": "Galeri Naskah Kuno",
+    "path": "assets/Museum La Galigo/81_Galeri Naskah Kuno.jpg"
+  },
+  {
+    "id": 82,
+    "key": "lagaligo_082",
+    "title": "Galeri Keramik",
+    "path": "assets/Museum La Galigo/82_Galeri Keramik.jpg"
+  },
+  {
+    "id": 83,
+    "key": "lagaligo_083",
+    "title": "Galeri Perunggu",
+    "path": "assets/Museum La Galigo/83_Galeri Perunggu.jpg"
+  },
+  {
+    "id": 84,
+    "key": "lagaligo_084",
+    "title": "Koridor Lantai 1",
+    "path": "assets/Museum La Galigo/84_Koridor Lantai 1.jpg"
+  },
+  {
+    "id": 85,
+    "key": "lagaligo_085",
+    "title": "Area Pameran Khusus",
+    "path": "assets/Museum La Galigo/85_Area Pameran Khusus.jpg"
+  },
+  {
+    "id": 86,
+    "key": "lagaligo_086",
+    "title": "Ruang Spesial",
+    "path": "assets/Museum La Galigo/86_Ruang Spesial.jpg"
+  }
+]

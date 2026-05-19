@@ -5,7 +5,8 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { DeviceOrientationControls } from './utils/DeviceOrientationControls.js';
 import { GazeController } from './components/GazeController.js';
 import { PanoramaViewer } from './components/PanoramaViewer.js';
-import { isIOS, isMobile, isCardboardForced } from './utils/deviceDetection.js';
+import { isIOS, isAndroid, isMobile, isCardboardForced } from './utils/deviceDetection.js';
+import { CardboardModeManager } from './components/CardboardModeManager.js';
 import { iOSFullscreenHelper } from './utils/iOSFullscreenHelper.js';
 import { VROverlay } from './components/VROverlay.js';
 import { CONFIG } from './config.js';
@@ -13,27 +14,40 @@ import { InfoOverlay } from './components/InfoOverlay.js';
 import { InfoPanel3D } from './components/InfoPanel3D.js';
 import { InputHandler } from './components/InputHandler.js';
 import { LandingScreen } from './components/LandingScreen.js';
+import { OrbitalMenu } from './components/OrbitalMenu.js';
 
-// Initialize WebXR Polyfill for iOS/mobile devices without native WebXR
+// Initialize WebXR Polyfill ONLY for iOS devices (no native WebXR)
+// Android has native WebXR support — do NOT override it with polyfill
 // This must be done BEFORE any WebXR code runs
 import WebXRPolyfill from 'webxr-polyfill';
-const polyfill = new WebXRPolyfill({
-    cardboard: true,
-    webvr: true,
-    allowCardboardOnDesktop: false,
-    cardboardConfig: {
-        CARDBOARD_UI_DISABLED: false,
-        ROTATE_INSTRUCTIONS_DISABLED: true,
-        BUFFER_SCALE: 0.75
-    }
-});
-console.log('WebXR Polyfill initialized:', polyfill);
+const needsPolyfill = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+    (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1) ||
+    new URLSearchParams(window.location.search).get('cardboard') === 'true';
+
+if (needsPolyfill) {
+    const polyfill = new WebXRPolyfill({
+        cardboard: true,
+        webvr: true,
+        allowCardboardOnDesktop: false,
+        cardboardConfig: {
+            CARDBOARD_UI_DISABLED: false,
+            ROTATE_INSTRUCTIONS_DISABLED: true,
+            BUFFER_SCALE: 0.75
+        }
+    });
+    console.log('WebXR Polyfill initialized (iOS/Cardboard):', polyfill);
+} else {
+    console.log('Using native WebXR (no polyfill needed)');
+}
 
 class App {
     constructor() {
         // Device detection
         this.isIOSDevice = isIOS() || isCardboardForced();
+        this.isAndroidDevice = isAndroid();
         this.isMobileDevice = isMobile();
+
+        console.log(`Device detection — iOS: ${this.isIOSDevice}, Android: ${this.isAndroidDevice}, Mobile: ${this.isMobileDevice}`);
 
         // iOS Fullscreen Helper (video fullscreen wrapper)
         if (this.isIOSDevice) {
@@ -48,6 +62,11 @@ class App {
         this.currentState = 'welcome';
         this.isVRMode = false;
         this.isGyroEnabled = false;
+        this.hasRealGyroscope = false;
+
+        // Cardboard fallback (for devices without WebXR)
+        this.useCardboardFallback = false;
+        this.cardboardManager = null;
 
         // Setup
         this.initRenderer();
@@ -127,20 +146,45 @@ class App {
 
     initWebXR() {
         if (!navigator.xr) {
-            console.log('No WebXR available');
+            console.log('No WebXR available — using Cardboard fallback');
+            this._setupCardboardFallback();
             return;
         }
 
         navigator.xr.isSessionSupported('immersive-vr').then(supported => {
             if (supported) {
-                console.log('WebXR immersive-vr supported (native or polyfill)');
+                console.log('WebXR immersive-vr supported');
                 this._setupWebXR();
             } else {
-                console.log('WebXR immersive-vr not supported on this device');
+                console.log('WebXR immersive-vr not supported — using Cardboard fallback');
+                this._setupCardboardFallback();
             }
         }).catch(e => {
-            console.log('WebXR check failed:', e);
+            console.log('WebXR check failed, using Cardboard fallback:', e);
+            this._setupCardboardFallback();
         });
+    }
+
+    _setupCardboardFallback() {
+        this.useCardboardFallback = true;
+        this.cardboardManager = new CardboardModeManager(
+            this.renderer, this.camera, this.controls
+        );
+        this.cardboardManager.init();
+
+        // Sync VR mode state
+        this.cardboardManager.onModeChange = (isVR) => {
+            this.isVRMode = isVR;
+            if (this.panoramaViewer) this.panoramaViewer.setVRMode(isVR);
+            if (this.vrButton) {
+                this.vrButton.style.display = isVR ? 'none' :
+                    (this.vrButton.id === 'vr-goggle-button') ? 'flex' : '';
+            }
+        };
+
+        // Create VR button (same goggle icon)
+        this.createVRButton();
+        console.log('Cardboard fallback initialized');
     }
 
     _setupWebXR() {
@@ -237,11 +281,6 @@ class App {
 
         // Click handler - show VR instruction overlay first
         button.addEventListener('click', () => {
-            if (!navigator.xr) {
-                console.log('WebXR not available');
-                alert('WebXR tidak tersedia di browser ini.');
-                return;
-            }
             if (this.vrOverlay) {
                 this.vrOverlay.show();
             }
@@ -253,6 +292,13 @@ class App {
 
     // Called by VROverlay when user clicks "ENTER VR"
     async startVRSession() {
+        // If using cardboard fallback, enter cardboard mode instead of WebXR
+        if (this.useCardboardFallback && this.cardboardManager) {
+            console.log('Entering Cardboard fallback mode...');
+            await this.cardboardManager.enter();
+            return;
+        }
+
         try {
             // iOS Safari scroll trick to hide address bar
             if (this.isIOSDevice) {
@@ -260,7 +306,7 @@ class App {
                 await this.triggerIOSFullscreen();
             }
 
-            // Start WebXR session
+            // Start WebXR session (native on Android, polyfill on iOS)
             const session = await navigator.xr.requestSession('immersive-vr', {
                 optionalFeatures: ['local-floor', 'bounded-floor']
             });
@@ -328,11 +374,26 @@ class App {
         );
         this.panoramaViewer.setInfoOverlay(this.infoOverlay);
         this.panoramaViewer.setInfoPanel3D(this.infoPanel3D);
+
+        // Orbital Menu (Main Hub)
+        this.orbitalMenu = new OrbitalMenu(this.scene, this.camera, (index) => {
+            console.log('Orbital Menu selected:', index);
+            this.orbitalMenu.hide();
+            this.panoramaViewer.load(index);
+            // Optionally show back button if you want users to return to the main menu
+            this.panoramaViewer.backBtn.visible = true; 
+        });
+        this.orbitalMenu.hide(); // Hidden by default
     }
 
     // ==================== ADMIN PANEL ====================
 
     initAdminPanel() {
+        // AdminPanel is excluded from production builds (tree-shaken by Vite)
+        if (import.meta.env.PROD) {
+            console.log('[AdminPanel] Disabled in production build.');
+            return;
+        }
         import('./components/AdminPanel.js').then(({ AdminPanel }) => {
             this.adminPanel = new AdminPanel(this.panoramaViewer);
             window.adminPanel = this.adminPanel;
@@ -357,8 +418,8 @@ class App {
         ctx.fillRect(0, 0, w, h);
 
         // Minimalist grid — directional guide lines
-        ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
-        ctx.lineWidth = 2;
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.08)'; // Reduced opacity
+        ctx.lineWidth = 1; // Reduced thickness
 
         // Horizon line
         ctx.beginPath();
@@ -375,7 +436,8 @@ class App {
         ctx.stroke();
 
         // Zenith/Nadir rim markers
-        ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)';
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.05)';
+        ctx.lineWidth = 1;
         ctx.beginPath();
         ctx.moveTo(0, 0); ctx.lineTo(w, 0);
         ctx.moveTo(0, h); ctx.lineTo(w, h);
@@ -391,8 +453,20 @@ class App {
     // ==================== EVENT HANDLERS ====================
 
     onPanoramaBack() {
-        console.log('Back clicked - staying in museum.');
-        this.panoramaViewer.navigateToScene('assets/Museum Kota Makassar/lobby_C12D6770.jpg');
+        console.log('Back clicked - returning to Orbital Menu.');
+        this.panoramaViewer.group.visible = false;
+        this.panoramaViewer.hotspotManager.clear();
+        this.panoramaViewer.currentSceneId = null;
+        this.panoramaViewer.currentPath = null; // Force reload on next entry
+        if (this.panoramaViewer.basicMaterial) {
+            this.panoramaViewer.basicMaterial.map = null;
+            this.panoramaViewer.basicMaterial.needsUpdate = true;
+        }
+        if (this.panoramaViewer.currentAudio) {
+            this.panoramaViewer.currentAudio.pause();
+        }
+        this.currentState = 'menu';
+        this.orbitalMenu.show();
     }
 
     // ==================== UTILITIES ====================
@@ -430,6 +504,7 @@ class App {
         const list = [];
         if (this.panoramaViewer?.group?.visible) list.push(this.panoramaViewer.group);
         if (this.infoPanel3D?.group?.visible) list.push(this.infoPanel3D.group);
+        if (this.orbitalMenu?.group?.visible) list.push(this.orbitalMenu.group);
         return list;
     }
 
@@ -439,9 +514,13 @@ class App {
         const delta = this.clock.getDelta();
 
         // Update controls
-        if (this.isGyroEnabled && this.deviceOrientationControls) {
+        if (this.cardboardManager && this.cardboardManager.isCardboardMode) {
+            this.cardboardManager.update();
+        } else if (this.isGyroEnabled && this.deviceOrientationControls) {
             this.deviceOrientationControls.update();
-        } else if (this.controls) {
+        }
+
+        if (this.controls) {
             this.controls.update();
         }
 
@@ -460,9 +539,16 @@ class App {
         if (this.infoPanel3D) {
             this.infoPanel3D.update(delta);
         }
+        if (this.orbitalMenu && this.orbitalMenu.group.visible) {
+            this.orbitalMenu.update(delta);
+        }
 
-        // Render
-        this.renderer.render(this.scene, this.camera);
+        // Render — use cardboard stereo if in cardboard mode
+        if (this.cardboardManager && this.cardboardManager.render(this.scene, this.camera)) {
+            // Rendered by CardboardModeManager (stereo)
+        } else {
+            this.renderer.render(this.scene, this.camera);
+        }
     }
 
     // ==================== CLEANUP ====================
@@ -473,7 +559,9 @@ class App {
 
         // Dispose components
         this.panoramaViewer?.dispose?.();
+        this.orbitalMenu?.dispose?.();
         this.gazeController?.dispose?.();
+        this.cardboardManager?.dispose?.();
 
         // DOM cleanup
         this.debugInfo?.remove();

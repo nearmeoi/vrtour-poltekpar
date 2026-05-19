@@ -1,0 +1,353 @@
+# Narasi Virtual Tour Museum Kota Makassar
+
+## Catatan Penggunaan
+
+Naskah ini disusun dari materi pada dokumen `MUSEUM KOTA MAKASSAR.docx` dan mengikuti alur pengunjung pada denah Museum Kota Makassar. Bahasa dibuat dengan gaya pariwisata Indonesia: informatif, ramah, dan cocok untuk voice-over singkat pada virtual tour.
+
+Untuk bagian kunjungan yang pada dokumen hanya memuat nama ruangan atau kode foto, narasi dibuat sebagai pengantar interpretatif tanpa menambahkan detail koleksi yang belum disebutkan dalam dokumen.
+
+---
+
+## Titik 00 - Pembuka Virtual Tour
+File 360 yang dipakai: belum dicantumkan sebagai kode foto pada dokumen sumber
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `MUSEUM KOTA MAKASSAR`
+
+Selamat datang di Museum Kota Makassar, ruang budaya yang menyimpan jejak perjalanan kota dari masa kerajaan, kolonial, kemerdekaan, hingga perkembangan Makassar modern. Melalui tur virtual ini, kita akan menelusuri kisah kota pelabuhan yang tumbuh sebagai pusat perdagangan, pertemuan budaya, dan dinamika sejarah di kawasan timur Nusantara.
+
+## Titik 01 - Pintu Masuk
+File 360 yang dipakai: `IMG_20260407_141232_00_177`, `IMG_20260407_141314_00_178`,
+`IMG_20260407_141424_00_179`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Pintu masuk`,
+`IMG_20260407_141232_00_177`, `IMG_20260407_141314_00_178`,
+`IMG_20260407_141424_00_179`
+
+Perjalanan dimulai dari pintu utama Museum Kota Makassar. Dari pintu ini, pengunjung diajak memasuki ruang ingatan kota, tempat koleksi, arsip, dan narasi sejarah dirangkai untuk memperkenalkan identitas Makassar dari masa ke masa. Mari melangkah perlahan dan menikmati setiap cerita yang tersaji di dalam museum ini.
+
+## Titik 02 - Registrasi dan Lobby/Hall Depan
+File 360 yang dipakai: `IMG_20260407_141424_00_179`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Lobby`,
+`IMG_20260407_141424_00_179`
+
+Area lobby menjadi ruang awal orientasi sebelum memasuki ruang pamer. Di sinilah pengunjung melakukan registrasi dan mengenal alur kunjungan museum. Museum Kota Makassar tidak hanya berfungsi sebagai tempat penyimpanan artefak, tetapi juga sebagai ruang edukasi yang membantu kita memahami warisan sejarah, budaya, dan perkembangan kota secara lebih dekat.
+
+## Titik 03 - Ruang Pamer Makassar Awal: Kerajaan Gowa-Tallo
+File 360 yang dipakai: `IMG_20260407_141638_00_181`, `IMG_20260407_141725_00_182`,
+`IMG_20260407_141749_00_183`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Ruang Pamer makassar awal (kerajaan Gowa Tallo)`, `IMG_20260407_141638_00_181`,
+`IMG_20260407_141725_00_182`, `IMG_20260407_141749_00_183`
+
+Memasuki ruang Makassar Awal, kita diajak kembali ke masa ketika Kerajaan Gowa dan Tallo menjadi kekuatan penting di Sulawesi Selatan. Ruang ini memperkenalkan fondasi sejarah Makassar sebagai pusat pemerintahan, pertahanan, dan perdagangan maritim yang kelak
+membawa kota ini dikenal luas dalam jaringan dunia.
+
+## Titik 04 - Benteng Somba Opu, Ibu Kota Kerajaan Gowa-Tallo
+File 360 yang dipakai: `IMG_20260407_141638_00_181`, `IMG_20260407_141725_00_182`,
+`IMG_20260407_141749_00_183`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Benteng Sombaopu Ibukota Kerajaan Gowa-Tallo atau Kerajaan Makassar 1528`, `IMG_20260407_141638_00_181`,
+`IMG_20260407_141725_00_182`, `IMG_20260407_141749_00_183`
+
+Di hadapan kisah Benteng Somba Opu, kita mengenal pusat Kerajaan Gowa-Tallo yang mulai dibangun pada awal abad ke-16. Benteng ini diperkuat pada masa Raja Gowa ke-IX Karaeng Tumapa'risik Kallonna dan dilanjutkan oleh Raja Gowa ke-X Karaeng Tunipallangga Ulaweng. Dahulu, kawasan ini menjadi pusat kekuasaan Kerajaan Makassar sebelum akhirnya hancur dalam Perang Makassar tahun 1666-1669.
+
+## Titik 05 - Bata Runtuhan Benteng Somba Opu
+File 360 yang dipakai: `IMG_20260407_141812_00_184`, `IMG_20260407_141838_00_185`,
+`IMG_20260407_141851_00_186`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `BATA RUNTUHAN BENTENG SOMBAOPU (ARKEOLOGI)`, `IMG_20260407_141812_00_184`,
+`IMG_20260407_141838_00_185`, `IMG_20260407_141851_00_186`
+
+Fragmen bata runtuhan Benteng Somba Opu menjadi saksi arkeologis dari kejayaan yang pernah berdiri di kawasan ini. Pada permukaannya masih dapat terlihat bentuk, motif, dan
+jejak ukiran yang menunjukkan kualitas bangunan pertahanan masa lalu. Reruntuhan ini juga mengingatkan kita bahwa kolonialisasi bermula dari persaingan dagang dan ekonomi,
+sebelum berkembang menjadi konflik politik yang besar.
+
+## Titik 06 - Benteng Tallo
+File 360 yang dipakai: `IMG_20260407_141907_00_187`, `IMG_20260407_141927_00_188`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Benteng Tallo`,
+`IMG_20260407_141907_00_187`, `IMG_20260407_141927_00_188`
+
+Benteng Tallo hadir sebagai salah satu benteng pertahanan dalam jaringan Kerajaan Gowa dan Tallo. Benteng ini dibangun menggunakan batu bata dan berada di kawasan muara Sungai Tallo. Keberadaannya memperlihatkan strategi pertahanan kerajaan maritim yang memanfaatkan posisi sungai dan pesisir sebagai bagian penting dari kekuatan kota.
+
+## Titik 07 - Sultan Hasanuddin
+File 360 yang dipakai: `IMG_20260407_141948_00_189`, `IMG_20260407_142002_00_190`,
+`IMG_20260407_142040_00_192`, `IMG_20260407_142340_00_193`,
+`IMG_20260407_142403_00_194`, `IMG_20260407_142434_00_195`,
+`IMG_20260407_142507_00_196`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `SULTAN HASANUDDIN`,
+`IMG_20260407_141948_00_189`, `IMG_20260407_142002_00_190`,
+`IMG_20260407_142040_00_192`, `IMG_20260407_142340_00_193`,
+`IMG_20260407_142403_00_194`, `IMG_20260407_142434_00_195`,
+`IMG_20260407_142507_00_196`
+
+Di hadapan sosok Sultan Hasanuddin, kita berjumpa dengan tokoh besar Kerajaan Gowa yang lahir pada 12 Januari 1631. Sebelum menjadi raja, beliau telah dipercaya memegang berbagai peran penting, mulai dari utusan kerajaan, penghubung diplomatik, hingga pengurus urusan pemerintahan dan pertahanan. Kepemimpinannya menjadi simbol
+keberanian, kecerdasan, dan keteguhan Makassar dalam mempertahankan kedaulatan.
+
+## Titik 08 - Makassar Kota Dunia 1532-1669
+File 360 yang dipakai: `IMG_20260407_142528_00_197`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Makassar Kota Dunia 1532-1669`,
+`IMG_20260407_142528_00_197`
+
+Bagian ini membawa kita melihat Makassar sebagai kota dunia pada abad ke-16 hingga ke-
+17. Bandar niaga Tallo dan Somba Opu berkembang sebagai pusat perdagangan
+internasional dengan kebijakan pintu terbuka dan prinsip laut bebas. Pedagang Portugis, Melayu, Belanda, Inggris, Spanyol, Denmark, hingga Cina pernah hadir dan berniaga di kawasan ini, menjadikan Makassar sebagai bandar transito penting di Nusantara.
+
+## Titik 09 - Ruang Islam dan Perang Makassar
+File 360 yang dipakai: `IMG_20260407_142541_00_198`, `IMG_20260407_142611_00_199`,
+`IMG_20260407_142636_00_200`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Ruangan Perang Makassar dan Perahlian Kekuasaan (islam dan perang makassar)`, `IMG_20260407_142541_00_198`,
+`IMG_20260407_142611_00_199`, `IMG_20260407_142636_00_200`
+
+Ruang ini memperlihatkan fase penting ketika dinamika agama, politik, dan perdagangan bertemu dalam sejarah Makassar. Di dalamnya, pengunjung diajak memahami bagaimana Kerajaan Makassar mempertahankan pengaruh politiknya di Sulawesi Selatan, sekaligus menghadapi tekanan VOC yang ingin menguasai perdagangan rempah-rempah dan jalur niaga maritim.
+
+## Titik 10 - Lukisan Sultan Hasanuddin dan Perang Makassar
+File 360 yang dipakai: `IMG_20260407_142722_00_201`, `IMG_20260407_142756_00_202`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `lukisan sultan hasanuddin`,
+`IMG_20260407_142722_00_201`, `IMG_20260407_142756_00_202`
+
+Di hadapan lukisan ini, kita memasuki kisah Perang Makassar tahun 1666-1669. Konflik ini berawal dari perbedaan prinsip antara Kerajaan Makassar yang mendukung perdagangan bebas dan VOC yang ingin memonopoli perdagangan. Perang berlangsung dalam dua babak, melahirkan Perjanjian Bongaya pada 18 November 1667, dan berakhir dengan runtuhnya Benteng Somba Opu pada 1669.
+
+## Titik 11 - Potret Cornelis Speelman
+
+File 360 yang dipakai: `IMG_20260407_142829_00_203`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `potret Cornelis Speelman`,
+`IMG_20260407_142829_00_203`
+
+Potret Cornelis Speelman memperlihatkan tokoh penting dari pihak VOC dalam Perang Makassar. Kehadirannya dalam narasi museum membantu pengunjung memahami sisi lain dari konflik, yaitu ambisi kolonial untuk menguasai perdagangan dan memperluas pengaruh politik. Melalui potret ini, kita dapat melihat bagaimana Makassar menjadi bagian dari
+perebutan kuasa maritim di Nusantara.
+
+## Titik 12 - Peluru Meriam: The Cannonballs
+File 360 yang dipakai: `IMG_20260407_142906_00_204`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `PELURU MERIAM THE CANNONBALLS`, `IMG_20260407_142906_00_204`
+
+Artefak peluru meriam ini menjadi penanda kuat masa ketika benteng berfungsi sebagai pusat pertahanan strategis. Peluru meriam berbahan logam ini ditemukan dalam ekskavasi di Benteng Ujung Pandang dan diduga berasal dari periode kolonial. Bentuknya yang bulat dan pejal mengingatkan kita pada teknologi persenjataan yang digunakan dalam pertahanan kota masa lalu.
+
+## Titik 13 - Peluru Meriam Fort Rotterdam
+File 360 yang dipakai: `IMG_20260407_142935_00_205`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `PELURU MERIAM MERIAM`,
+`IMG_20260407_142935_00_205`
+
+Peluru meriam ini ditemukan di Fort Rotterdam melalui ekskavasi penyelamatan pada tahun 1989. Dalam konteks sejarah, artefak ini berkaitan dengan suasana peperangan pada masa Perang Makassar 1666-1669, serta kemungkinan penimbunan persenjataan oleh Belanda
+
+pada awal abad ke-20. Benda kecil ini menyimpan kisah besar tentang pertahanan, konflik, dan perubahan kekuasaan.
+
+## Titik 14 - Ruang Kolonial dan Kemerdekaan
+File 360 yang dipakai: `IMG_20260407_143553_00_218`, `IMG_20260407_143626_00_219`,
+`IMG_20260407_143645_00_220`, `IMG_20260407_143704_00_221`,
+`IMG_20260407_143741_00_222`, `IMG_20260407_143804_00_223`,
+`IMG_20260407_143841_00_224`, `IMG_20260407_143903_00_225`,
+`IMG_20260407_143920_00_226`, `IMG_20260407_143948_00_227`,
+`IMG_20260407_144007_00_228`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Ruang Kolonial (kolonial dan
+kemerdekaaan)`, `IMG_20260407_143553_00_218`, `IMG_20260407_143626_00_219`,
+`IMG_20260407_143645_00_220`, `IMG_20260407_143704_00_221`,
+`IMG_20260407_143741_00_222`, `IMG_20260407_143804_00_223`,
+`IMG_20260407_143841_00_224`, `IMG_20260407_143903_00_225`,
+`IMG_20260407_143920_00_226`, `IMG_20260407_143948_00_227`,
+`IMG_20260407_144007_00_228`
+
+Memasuki Ruang Kolonial dan Kemerdekaan, pengunjung diajak melihat perubahan Makassar ketika berada dalam pengaruh pemerintahan kolonial hingga memasuki masa perjuangan kemerdekaan. Ruang ini menjadi jembatan sejarah yang memperlihatkan bagaimana kota, masyarakat, dan identitas Makassar terus bergerak di tengah perubahan zaman.
+
+## Titik 15 - Ruang Revolusi dan Orde Baru
+File 360 yang dipakai: `IMG_20260407_144030_00_229`, `IMG_20260407_144050_00_230`,
+`IMG_20260407_144109_00_231`, `IMG_20260407_144125_00_232`,
+`IMG_20260407_144144_00_233`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Ruagan Revolusi dan Orde Baru`,
+`IMG_20260407_144030_00_229`, `IMG_20260407_144050_00_230`,
+`IMG_20260407_144109_00_231`, `IMG_20260407_144125_00_232`,
+`IMG_20260407_144144_00_233`
+
+Ruang ini mengantar kita pada periode ketika Makassar menjadi bagian dari perjalanan Indonesia sebagai negara merdeka. Melalui narasi revolusi dan Orde Baru, pengunjung dapat melihat bagaimana kota ini ikut mengalami perubahan sosial, pemerintahan, pembangunan, dan arah kehidupan masyarakat pada masa modern.
+
+## Titik 16 - Ruang PSM dan PON IV Makassar
+File 360 yang dipakai: `IMG_20260407_144205_00_234`, `IMG_20260407_144227_00_235`,
+`IMG_20260407_144303_00_237`, `IMG_20260407_144322_00_238`,
+`IMG_20260407_144339_00_239`, `IMG_20260407_144355_00_240`,
+`IMG_20260407_144410_00_241`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Ruangan PSM dan PON Makassar`,
+`IMG_20260407_144205_00_234`, `IMG_20260407_144227_00_235`,
+`IMG_20260407_144303_00_237`, `IMG_20260407_144322_00_238`,
+`IMG_20260407_144339_00_239`, `IMG_20260407_144355_00_240`,
+`IMG_20260407_144410_00_241`
+
+Di ruang olahraga ini, sejarah kota hadir melalui dunia olahraga. PSM dan PON IV Makassar menjadi bagian dari kebanggaan masyarakat, karena olahraga bukan hanya tentang
+pertandingan, tetapi juga tentang identitas, persatuan, dan semangat kolektif warga kota. Ruang ini memperlihatkan sisi Makassar yang hidup, kompetitif, dan penuh energi.
+
+## Titik 17 - Ruang Musik Tradisional
+File 360 yang dipakai: `IMG_20260407_144514_00_243`, `IMG_20260407_144543_00_244`,
+`IMG_20260407_144600_00_245`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Ruang Musik Tradisional`,
+`IMG_20260407_144514_00_243`, `IMG_20260407_144543_00_244`,
+`IMG_20260407_144600_00_245`
+
+Suasana berubah ketika kita memasuki Ruang Musik Tradisional. Di sini, pengunjung diperkenalkan pada alat musik khas Makassar yang menjadi bagian dari upacara adat, pertunjukan, dan ekspresi budaya masyarakat. Melalui bunyi dan bentuknya, setiap alat
+
+musik menyimpan nilai kebersamaan, spiritualitas, serta warisan keterampilan para pembuatnya.
+
+## Titik 18 - Kacaping
+File 360 yang dipakai: `IMG_20260407_144514_00_243`, `IMG_20260407_144543_00_244`,
+`IMG_20260407_144600_00_245`, `IMG_20260407_150854_00_258`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `KACAPING`,
+`IMG_20260407_144514_00_243`, `IMG_20260407_144543_00_244`,
+`IMG_20260407_144600_00_245`, `IMG_20260407_150854_00_258`
+
+Kacaping atau kecapi adalah alat musik tradisional Makassar yang dimainkan dengan cara dipetik. Alat musik sejenis dikenal dengan nama berbeda di berbagai daerah Nusantara, seperti Kabuki di wilayah Tolaki dan Sape di Kalimantan. Kacaping umumnya dibuat dari kayu pilihan seperti nangka, agatis, atau ajubitti, yaitu kayu yang juga dikenal dalam pembuatan kapal Pinisi.
+
+## Titik 19 - Keso-Keso
+File 360 yang dipakai: `IMG_20260407_144619_00_246`, `IMG_20260407_144635_00_247`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `KESO - KESO`,
+`IMG_20260407_144619_00_246`, `IMG_20260407_144635_00_247`
+
+Keso-keso adalah alat musik tradisional yang dimainkan dengan cara digesek menggunakan busur, biasanya dijepit pada bagian kaki pemain. Alat musik ini kerap mengiringi pertunjukan Sinrilik dalam acara pernikahan, sunatan, maupun peresmian. Cerita yang dibawakan dalam Sinrilik memuat nilai tolong-menolong, saling menghargai, tanggung jawab, spiritualitas, dan kepahlawanan.
+
+## Titik 20 - Gandrang
+File 360 yang dipakai: `IMG_20260407_144655_00_248`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `GANDRANG (GENDANG)`,
+`IMG_20260407_144655_00_248`
+
+Gandrang, atau gendang dalam bahasa Indonesia, merupakan alat musik tradisional suku Makassar yang ditabuh dalam berbagai kegiatan adat. Salah satu fungsinya hadir pada upacara penyucian dan pemberkatan benda pusaka kerajaan, seperti Kalompoang atau Gaukang. Gandrang dibuat dari kayu nangka atau cempaka yang dilubangi dan dihaluskan untuk menghasilkan bunyi yang jernih.
+
+## Titik 21 - Lobby Tangga
+File 360 yang dipakai: `IMG_20260407_145517_00_252`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Lobby Tangga`,
+`IMG_20260407_145517_00_252`
+
+Area tangga menjadi ruang transisi menuju bagian-bagian berikutnya. Dari sini, pengunjung melanjutkan perjalanan ke lantai dua dan sayap museum yang menampilkan potret wali kota, ruang sidang, memorabilia tokoh, bioskop mini, multikultural Makassar, hingga
+Australia Corner. Susunan ruang ini membantu kita memahami alur museum sebagai perjalanan yang tersusun dari masa lalu menuju wajah kota modern.
+
+## Titik 22 - Ruang Potret Wali Kota
+File 360 yang dipakai: `IMG_20260407_151928_00_276`, `IMG_20260407_151959_00_277`,
+`IMG_20260407_152020_00_278`, `IMG_20260407_152051_00_279`,
+`IMG_20260407_152116_00_280`, `IMG_20260407_152150_00_281`,
+`IMG_20260407_152209_00_282`, `IMG_20260407_152228_00_283`,
+`IMG_20260407_152251_00_284`, `IMG_20260407_152317_00_285`,
+`IMG_20260407_152342_00_286`, `IMG_20260407_152401_00_287`,
+`IMG_20260407_152424_00_288`, `IMG_20260407_152447_00_289`,
+`IMG_20260407_152516_00_290`, `IMG_20260407_152542_00_291`,
+`IMG_20260407_152606_00_292`, `IMG_20260407_152629_00_293`,
+`IMG_20260407_152649_00_294`, `IMG_20260407_152709_00_295`,
+`IMG_20260407_152728_00_296`, `IMG_20260407_152752_00_297`,
+`IMG_20260407_152813_00_298`, `IMG_20260407_152842_00_299`,
+`IMG_20260407_152903_00_300`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Ruang Potret Wali Kota`,
+`IMG_20260407_151928_00_276` sampai `IMG_20260407_152903_00_300`
+
+Ruang Potret Wali Kota memperkenalkan para pemimpin yang pernah mewarnai perjalanan pemerintahan Makassar. Melalui deretan potret, pengunjung dapat membaca kesinambungan kepemimpinan kota dari masa ke masa. Ruang ini menjadi pengingat bahwa sejarah kota juga dibentuk oleh keputusan, visi, dan arah pembangunan para pemimpinnya.
+
+## Titik 23 - Ruang Sidang dan Auditorium
+File 360 yang dipakai: `IMG_20260407_151306_00_263`, `IMG_20260407_151338_00_264`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Ruang Sidang`,
+`IMG_20260407_151306_00_263`, `IMG_20260407_151338_00_264`
+
+Ruang Sidang dan Auditorium menghadirkan suasana formal yang berkaitan dengan kegiatan pertemuan, diskusi, dan pengambilan keputusan. Dalam konteks museum, ruang ini dapat dibaca sebagai simbol kehidupan sipil kota, tempat gagasan dibicarakan dan arah pembangunan dibayangkan bersama. Di sini, sejarah terasa dekat dengan kehidupan
+pemerintahan dan masyarakat.
+
+## Titik 24 - Ruang Memorabilia H. M. Dg. Patompo
+File 360 yang dipakai: `IMG_20260407_151441_00_265`, `IMG_20260407_151531_00_266`,
+`IMG_20260407_151554_00_267`, `IMG_20260407_151616_00_268`,
+`IMG_20260407_151639_00_269`, `IMG_20260407_151656_00_270`,
+`IMG_20260407_151719_00_271`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Ruang MEMORABILIA H. M. DG. PATOMPO`, `IMG_20260407_151441_00_265`, `IMG_20260407_151531_00_266`,
+`IMG_20260407_151554_00_267`, `IMG_20260407_151616_00_268`,
+`IMG_20260407_151639_00_269`, `IMG_20260407_151656_00_270`,
+`IMG_20260407_151719_00_271`
+
+Ruang Memorabilia H. M. Dg. Patompo didedikasikan untuk mengenang salah satu tokoh penting dalam sejarah pemerintahan Kota Makassar. Melalui koleksi dan memori yang ditampilkan, pengunjung diajak melihat jejak kepemimpinan, gagasan pembangunan, serta peran tokoh dalam membentuk wajah kota pada masanya.
+
+## Titik 25 - Muhammad Daeng Patompo
+File 360 yang dipakai: `IMG_20260407_151739_00_272`, `IMG_20260407_151801_00_273`,
+`IMG_20260407_151820_00_274`, `IMG_20260407_151843_00_275`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `MUHAMMAD DAENG PATOMPO`,
+`IMG_20260407_151739_00_272`, `IMG_20260407_151801_00_273`,
+`IMG_20260407_151820_00_274`, `IMG_20260407_151843_00_275`
+
+Muhammad Daeng Patompo dikenal sebagai Wali Kota Makassar periode 1965-1978. Beliau memiliki latar belakang perwira TNI Angkatan Darat dan dikenang sebagai pemimpin yang visioner, tegas, serta disiplin. Pada masa kepemimpinannya, wilayah Makassar diperluas
+melalui penggabungan sebagian wilayah Kabupaten Maros, yang kemudian berdampak besar pada perencanaan tata ruang dan pembangunan infrastruktur kota.
+
+## Titik 26 - Bioskop Mini
+File 360 yang dipakai: `IMG_20260407_151024_00_259`, `IMG_20260407_151049_00_260`,
+`IMG_20260407_151116_00_261`, `IMG_20260407_151156_00_262`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Bioskop`,
+`IMG_20260407_151024_00_259`, `IMG_20260407_151049_00_260`,
+`IMG_20260407_151116_00_261`, `IMG_20260407_151156_00_262`
+
+Bioskop Mini menjadi ruang yang memberi pengalaman berbeda dalam tur museum. Di ruang kecil ini, pengunjung dapat menikmati sejarah melalui pendekatan visual dan audiovisual, sehingga cerita kota tidak hanya dibaca, tetapi juga dirasakan melalui suasana tayangan. Ruang ini memperkaya cara museum menyampaikan informasi kepada pengunjung modern.
+
+## Titik 27 - Ruang Makassar Multikultur
+File 360 yang dipakai: `IMG_20260407_145609_00_253`, `IMG_20260407_145630_00_254`,
+`IMG_20260407_145652_00_255`, `IMG_20260407_145712_00_256`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Ruangan Multikultural Makassar`,
+`IMG_20260407_145609_00_253`, `IMG_20260407_145630_00_254`,
+`IMG_20260407_145652_00_255`, `IMG_20260407_145712_00_256`
+
+Ruang Makassar Multikultur memperlihatkan Makassar sebagai kota perjumpaan. Sejak lama, kota ini dihuni oleh beragam kelompok masyarakat, termasuk Makassar, Bugis,
+Melayu, Cina, Jawa, Belanda, dan komunitas lainnya. Keberagaman tersebut membentuk karakter kota yang terbuka, dinamis, dan kaya akan pertukaran budaya.
+
+## Titik 28 - Pangngurangi
+File 360 yang dipakai: `IMG_20260407_145732_00_257`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `PANGNGURANGI`,
+`IMG_20260407_145732_00_257`
+
+Melalui narasi Pangngurangi, pengunjung diajak mengingat perkembangan Makassar sebagai kota kolonial yang tumbuh di sekitar Benteng Rotterdam sejak akhir abad ke-17.
+Permukiman seperti Vlaardingen dan Kampung Baru berkembang bersama masyarakat yang beragam. Pada awal abad ke-20, kota ini semakin modern dengan pembangunan jalan,
+perkantoran, hotel, pusat bisnis, transportasi, penyediaan air bersih, dan sarana pendidikan.
+
+## Titik 29 - Australia Corner
+File 360 yang dipakai: `IMG_20260407_153153_00_303`, `IMG_20260407_153222_00_305`,
+`IMG_20260407_153241_00_306`, `IMG_20260407_153300_00_307`,
+`IMG_20260407_153317_00_308`, `IMG_20260407_153336_00_309`,
+`IMG_20260407_153355_00_310`
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Ruang Australia Corner`,
+`IMG_20260407_153153_00_303` sampai `IMG_20260407_153355_00_310`
+
+Australia Corner menjadi ruang tematik yang membuka pandangan pengunjung pada hubungan Makassar dengan dunia luar. Setelah menelusuri sejarah lokal, ruang ini
+memperlihatkan bahwa identitas kota juga terbentuk melalui jejaring, kerja sama, dan pertukaran pengetahuan lintas wilayah. Bagian ini menutup perjalanan dengan nuansa internasional yang tetap berpijak pada konteks Makassar.
+
+## Titik 30 - Pameran Temporer
+File 360 yang dipakai: belum dicantumkan sebagai kode foto pada dokumen sumber
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Pameran Temporer`
+
+Ruang Pameran Temporer memberi kesempatan bagi museum untuk menghadirkan tema yang berubah dari waktu ke waktu. Melalui ruang ini, pengunjung dapat melihat bahwa museum bukan hanya tempat menyimpan masa lalu, tetapi juga ruang yang terus hidup, merespons isu, kreativitas, dan cerita baru yang berkembang di masyarakat.
+
+## Titik 31 - Perpustakaan
+File 360 yang dipakai: belum dicantumkan sebagai kode foto pada dokumen sumber
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Perpustakaan`
+
+Perpustakaan menjadi ruang pendalaman bagi pengunjung yang ingin mengenal sejarah dan budaya Makassar lebih jauh. Setelah menikmati koleksi secara visual, ruang ini memberi
+peluang untuk membaca, menelusuri referensi, dan memperluas pemahaman tentang kota.
+Di sinilah pengalaman wisata edukasi dapat berlanjut menjadi proses belajar yang lebih personal.
+
+## Titik 32 - Penutup dan Jalur Keluar
+File 360 yang dipakai: belum dicantumkan sebagai kode foto pada dokumen sumber
+
+Referensi dokumen: `MUSEUM KOTA MAKASSAR.docx`, `Penutup dan Jalur Keluar`
+
+Terima kasih telah mengikuti virtual tour Museum Kota Makassar. Dari kerajaan maritim,
+perdagangan dunia, perang, kolonialisme, kemerdekaan, olahraga, musik, hingga wajah kota multikultural, perjalanan ini memperlihatkan Makassar sebagai kota yang terus bergerak tanpa melupakan akarnya. Sampai jumpa pada kunjungan berikutnya, baik secara virtual maupun langsung di Museum Kota Makassar.

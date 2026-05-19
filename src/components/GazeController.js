@@ -60,21 +60,18 @@ export class GazeController {
     }
 
     update(scene, interactables, delta) {
-        // Use world position/direction for robust VR gaze
-        const origin = new THREE.Vector3();
-        const direction = new THREE.Vector3();
-
         // In WebXR mode, use the XR camera
         let currentCamera = this.camera;
         if (this.renderer && this.renderer.xr && this.renderer.xr.isPresenting) {
-            const xrCamera = this.renderer.xr.getCamera();
-            xrCamera.getWorldPosition(origin);
-            xrCamera.getWorldDirection(direction);
-            currentCamera = xrCamera;
-        } else {
-            this.camera.getWorldPosition(origin);
-            this.camera.getWorldDirection(direction);
+            currentCamera = this.renderer.xr.getCamera();
         }
+
+        // Use center screen coordinate for the gaze dot
+        const screenPos = new THREE.Vector2(0, 0);
+        this.raycaster.setFromCamera(screenPos, currentCamera);
+        
+        const origin = this.raycaster.ray.origin.clone();
+        const direction = this.raycaster.ray.direction.clone();
 
         // Always update reticle position
         this.mesh.position.copy(origin).add(direction.multiplyScalar(this.reticleDistance));

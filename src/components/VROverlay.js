@@ -72,6 +72,14 @@ export class VROverlay {
 
     // Step 1: VR Mode Permission
     renderStep1() {
+        // If no gyroscope API at all, skip sensor permission and go to orientation check
+        const hasGyroAPI = 'DeviceOrientationEvent' in window || 'DeviceMotionEvent' in window;
+        if (!hasGyroAPI) {
+            console.log('No gyroscope API detected, skipping sensor permission step');
+            this.goToStep2();
+            return;
+        }
+
         this.overlay.innerHTML = `
             <div class="vr-overlay-content">
                 <div class="vr-overlay-logo">
@@ -137,11 +145,20 @@ export class VROverlay {
         this.checkOrientation();
 
         if (this.isLandscape) {
-            // Android: Enter VR directly (skip swipe)
-            if (this.isAndroid()) {
-                console.log('Android detected + Landscape: Auto-entering VR...');
+            // Android with native WebXR: Enter VR directly (skip swipe)
+            // Android without WebXR: go through fullscreen flow (cardboard fallback)
+            const hasWebXR = 'xr' in navigator;
+            if (this.isAndroid() && hasWebXR) {
+                console.log('Android + WebXR + Landscape: Auto-entering VR...');
                 this.hide();
                 if (this.onEnterVR) this.onEnterVR();
+                return;
+            }
+            // Android without WebXR or iOS/Others: Show fullscreen instruction
+            if (this.isAndroid() && !hasWebXR) {
+                // Android fallback: use requestFullscreen API directly
+                console.log('Android fallback + Landscape: Requesting fullscreen...');
+                this._androidFullscreenAndEnter();
                 return;
             }
             // iOS/Others: Show swipe instruction (needed for fullscreen)
@@ -149,6 +166,29 @@ export class VROverlay {
         } else {
             this.renderPortraitInstruction();
         }
+    }
+
+    async _androidFullscreenAndEnter() {
+        try {
+            const el = document.documentElement;
+            if (el.requestFullscreen) {
+                await el.requestFullscreen();
+            } else if (el.webkitRequestFullscreen) {
+                await el.webkitRequestFullscreen();
+            }
+        } catch (e) {
+            console.log('Fullscreen not available:', e);
+        }
+        // Lock landscape
+        try {
+            if (screen.orientation && screen.orientation.lock) {
+                await screen.orientation.lock('landscape');
+            }
+        } catch (e) {
+            console.log('Orientation lock not available:', e);
+        }
+        this.hide();
+        if (this.onEnterVR) this.onEnterVR();
     }
 
     renderPortraitInstruction() {

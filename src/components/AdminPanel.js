@@ -1,6 +1,5 @@
 import { SCENE_MAP } from '../data/sceneMap.js';
 import { API_BASE } from '../config.js';
-import SCENE_LIST from '../data/scene_list.json';
 
 export class AdminPanel {
     constructor(viewer) {
@@ -9,11 +8,24 @@ export class AdminPanel {
         this.selectedHotspot = null;
         this.unsavedChanges = false;
         this.sceneId = null;
-        this.availableScenes = SCENE_LIST || [];
+        
+        // Dynamically build available scenes from SCENE_MAP to include ALL museums
+        this.availableScenes = Object.entries(SCENE_MAP).map(([id, scene]) => {
+            const parts = scene.path.split('/');
+            return {
+                id: id,
+                path: scene.path,
+                filename: parts[parts.length - 1],
+                museum: parts.length > 1 ? parts[1].replace('Museum ', '') : 'Unknown'
+            };
+        });
+
+        
         this.filteredScenes = this.availableScenes;
         this.useCustomPath = false;
         this.undoStack = [];
         this.clipboard = null; // For Ctrl+C/V hotspot copy
+
 
         // Preset colors
         this.colorPresets = [
@@ -733,16 +745,17 @@ export class AdminPanel {
             select.appendChild(noTargetOpt);
 
             const filtered = this.availableScenes.filter(s =>
-                s.filename.toLowerCase().includes(filter.toLowerCase())
+                s.filename.toLowerCase().includes(filter.toLowerCase()) || 
+                s.museum.toLowerCase().includes(filter.toLowerCase())
             );
 
             filtered.forEach(scene => {
                 const opt = document.createElement('option');
-                opt.value = scene.path;
-                opt.textContent = scene.filename;
+                opt.value = scene.id;
+                opt.textContent = `[${scene.museum}] ${scene.filename}`;
                 opt.style.padding = '8px 10px';
                 opt.style.background = '#ffffff';
-                if (scene.path === hotspot.target) opt.selected = true;
+                if (scene.id === hotspot.target) opt.selected = true;
                 select.appendChild(opt);
             });
         };

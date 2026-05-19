@@ -30,7 +30,7 @@ export const CONFIG = {
 
     // Gaze Controller
     gaze: {
-        activationTime: 1.5,
+        activationTime: 0.8,  // Mobile-friendly (was 1.5 — too fatiguing on neck)
         reticleDistance: 1.0,
         reticleSize: 0.008
     },

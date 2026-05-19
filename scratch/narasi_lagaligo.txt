@@ -1,0 +1,461 @@
+# Narasi Virtual Tour Museum La Galigo
+
+Disusun dari dokumen `Deskripsi Museum La Galigo (1).docx` dengan gaya bahasa pariwisata Indonesia.
+
+Catatan penyusunan:
+Foto ganda atau foto dengan isi narasi yang sama digabung menjadi satu narasi.
+Narasi transisi seperti pintu masuk, pintu keluar, dan perpindahan ruang dibuat singkat agar nyaman dipakai dalam virtual tour.
+Untuk `Gedung P`, dokumen sumber hanya memuat deskripsi umum bangunan dan belum memberi uraian rinci per foto, sehingga narasi disusun pada level bangunan.
+
+## Gedung M - Pembuka
+
+### 1. Pintu Masuk
+File 360 yang dipakai: belum dicantumkan sebagai kode foto pada dokumen sumber
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`, `Pintu masuk`
+
+Selamat datang di Museum La Galigo, salah satu ruang pamer utama di kawasan Benteng Rotterdam. Dari area pintu masuk ini, Anda akan memasuki Gedung M, bangunan
+terpanjang di dalam benteng yang pada masa kolonial pernah berfungsi sebagai gudang sekaligus pusat perdagangan Belanda. Kini, bangunan berarsitektur perpaduan Renaisans dan Belanda ini mengantar kita menelusuri sejarah panjang Sulawesi Selatan.
+
+### 2. Lobby
+File 360 yang dipakai: belum dicantumkan sebagai kode foto pada dokumen sumber
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`, `lobby`
+
+Area lobi menjadi pengantar sebelum perjalanan dimulai. Di sini, pengunjung dapat merasakan karakter arsitektur Gedung M yang memanjang, berjendela lengkung, dan
+ditopang deretan pilar yang memberi kesan megah namun tetap fungsional. Dari ruang inilah kisah tentang peradaban, tradisi, dan identitas Sulawesi Selatan dibuka satu per satu.
+
+## Gedung M - Lantai 2 Ruang Sejarah Kebudayaan dan Lintas Peradaban
+
+### 3. Sejarah Kebudayaan dan Lintas Peradaban
+File 360 yang dipakai: belum dicantumkan sebagai kode foto pada dokumen sumber
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`, `lantai 2`, `Sejarah Kebudayaan dan Lintas Peradaban`
+
+Di ruang ini, kita diajak melihat Sulawesi Selatan sebagai wilayah yang dibentuk oleh
+perjalanan manusia sejak prasejarah hingga hadirnya budaya tulis dan pengaruh dunia luar. Jejak-jejak itu memperlihatkan bagaimana manusia beradaptasi, mencipta teknologi,
+membangun kepercayaan, dan akhirnya melahirkan peradaban yang terus berkembang. Ruang ini menjadi pintu masuk penting untuk memahami akar budaya masyarakat Sulawesi Selatan hari ini.
+
+### 4. Zaman Berburu dan Mengumpulkan Makanan Tingkat Awal
+File 360 yang dipakai: belum dicantumkan sebagai kode foto pada dokumen sumber
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`, `Zaman Berburu dan Mengumpulkan makanan tingkat awal (Paleolitik)`
+
+Bagian ini membawa kita ke masa paling awal ketika manusia hidup nomaden dan sepenuhnya bergantung pada alam. Temuan dari Cabbenge, Soppeng, memperlihatkan alat-alat batu sederhana seperti kapak genggam, kapak perimbas, dan kapak penetak yang dipakai untuk berburu, menggali, dan mengolah bahan alam. Dari koleksi ini, kita dapat
+membayangkan betapa tangguhnya manusia prasejarah dalam bertahan hidup dengan teknologi yang masih sangat sederhana.
+
+### 5. Zaman Berburu dan Mengumpulkan Makanan Tingkat Lanjut
+File 360 yang dipakai: belum dicantumkan sebagai kode foto pada dokumen sumber
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`, `Zaman Berburu dan Mengumpulkan makanan tingkat lanjut ( Mezolitik)`
+
+Memasuki masa Mezolitik, cara hidup manusia mulai berubah. Mereka tidak lagi semata-mata berpindah tanpa arah, tetapi mulai memanfaatkan gua dan ceruk batu sebagai tempat berlindung sementara. Di Sulawesi Selatan, jejak budaya Toala, lukisan dinding gua, alat
+serpih, dan mata panah bergerigi menunjukkan bahwa kehidupan prasejarah di wilayah ini telah berkembang semakin terampil dan kaya makna spiritual.
+
+### 6. Zaman Bercocok Tanam
+File 360 yang dipakai: belum dicantumkan sebagai kode foto pada dokumen sumber
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`, `Zaman Bercocok Tanam (Neolitik)`
+
+Ruang bercocok tanam ini menandai revolusi besar dalam sejarah manusia, ketika masyarakat mulai hidup menetap dan memproduksi makanan sendiri. Pertanian,
+peternakan, tembikar, pakaian dari kulit kayu, hingga alat batu yang diupam halus menjadi penanda penting masa Neolitik. Dari sini, kita melihat lahirnya komunitas-komunitas awal yang lebih teratur, yang kelak menjadi fondasi perkembangan budaya di Sulawesi Selatan.
+
+### 7. Tradisi Megalitik
+File 360 yang dipakai: belum dicantumkan sebagai kode foto pada dokumen sumber
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`, `Zaman Batu ( Megalitik)`
+
+Di hadapan Anda adalah kisah tentang penghormatan kepada leluhur yang begitu kuat dalam masyarakat Sulawesi Selatan. Tradisi megalitik menghadirkan menhir, arca, lumpang batu, hingga peti kubur sebagai simbol hubungan antara yang hidup dan yang telah tiada.
+
+Nilai ini tidak hanya menjadi jejak masa lampau, tetapi juga masih terasa dalam berbagai tradisi adat yang bertahan hingga sekarang.
+
+### 8. Zaman Perundagian
+File 360 yang dipakai: belum dicantumkan sebagai kode foto pada dokumen sumber
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`, `Zaman Perundingan`
+
+Pada masa inilah kemampuan mengolah logam mulai membawa perubahan besar dalam kehidupan masyarakat. Perunggu dan besi digunakan untuk membuat alat, perhiasan, dan perlengkapan yang mendukung pertanian, pertukangan, serta pelayaran. Ruang ini
+memperlihatkan bagaimana kemajuan teknologi ikut membuka jalan bagi tumbuhnya perdagangan dan mobilitas antarpulau.
+
+### 9. Arca Tipe Polinesia
+File 360 yang dipakai: `IMG_20260407_120418_00_125`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_120418_00_125`
+
+Arca-arca sederhana ini bukan sekadar patung, melainkan simbol sakral yang mewakili kehadiran arwah leluhur. Dibuat dari batu, kayu, atau tanah liat, bentuknya mungkin tampak sederhana, tetapi maknanya sangat dalam bagi masyarakat pendukungnya. Melalui koleksi ini, kita diajak memahami bahwa seni tradisional sering kali lahir dari kebutuhan spiritual dan penghormatan terhadap alam semesta.
+
+### 10. Kerajaan Luwu
+File 360 yang dipakai: `IMG_20260407_120448_00_126`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_120448_00_126`
+
+Kerajaan Luwu dikenal sebagai salah satu kerajaan tertua di Sulawesi Selatan dan sangat erat kaitannya dengan dunia I La Galigo. Di ruang ini, pengunjung diajak mengenal kebesaran Luwu, tokoh legendaris Sawerigading, serta perannya sebagai kerajaan pertama di kawasan ini yang menerima Islam. Koleksi pusaka dan naskahnya memperlihatkan betapa erat hubungan antara kekuasaan, sastra, dan identitas budaya Luwu.
+
+### 11. Zaman Budaya Islam
+File 360 yang dipakai: `IMG_20260407_120536_00_127`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_120536_00_127`
+
+Masuknya Islam di Sulawesi Selatan berlangsung melalui jalur perdagangan, persahabatan antarkerajaan, dan dakwah para ulama. Dari Gowa-Tallo hingga Luwu, agama Islam
+berkembang menjadi kekuatan budaya yang membentuk tatanan sosial, keagamaan, dan politik masyarakat. Bagian ini mengajak kita melihat tinggalan seperti tasbih, naskah keagamaan, dan jejak masjid tua sebagai bagian penting dari perjalanan peradaban daerah ini.
+
+### 12. Zaman Kolonial
+File 360 yang dipakai: `IMG_20260407_120611_00_128`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_120611_00_128`
+
+Bagian ini merekam babak ketika Sulawesi Selatan bersentuhan langsung dengan kekuatan kolonial Eropa dan Jepang. Benteng, bangunan bergaya Barat, senjata, serta peluru meriam menjadi saksi dari masa yang penuh perubahan dan konflik. Di sini, pengunjung dapat
+merasakan bagaimana pengaruh luar masuk, berhadapan dengan kekuatan lokal, lalu meninggalkan jejak yang masih dapat dibaca hingga kini.
+
+### 13. Kerajaan Gowa-Tallo
+
+File 360 yang dipakai: `IMG_20260407_120646_00_129`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_120646_00_129`
+
+Di ruang Kerajaan Gowa-Tallo, kita melihat kebesaran salah satu pusat kekuatan politik dan maritim di Sulawesi Selatan. Pusaka seperti mahkota Salokoa, sudanga, dan ponto janga-janga bukan hanya lambang kebesaran raja, tetapi juga simbol legitimasi, keberanian, dan kewibawaan kerajaan. Dari ruang ini, kita dapat menangkap aura kejayaan Bandar Makassar pada masa lalu.
+
+### 14. Kerajaan Bone
+File 360 yang dipakai: `IMG_20260407_120717_00_130`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_120717_00_130`
+
+Kerajaan Bone hadir sebagai salah satu kekuatan besar dalam sejarah Sulawesi Selatan. Melalui koleksi pusaka seperti selempang emas, alameng, dan keris La Makkawa, kita mengenal tradisi kepemimpinan, kehormatan, dan simbol-simbol kebesaran yang melekat pada kerajaan. Nuansa heroik Bone terasa kuat, terutama ketika dikaitkan dengan tokoh penting seperti Arung Palakka.
+
+## Gedung M - Lantai 2 Ruang Budaya Pedalaman Perkampungan
+
+### 15. Ruangan Budaya Pedalaman Perkampungan
+File 360 yang dipakai: `IMG_20260407_113648_00_101`, `IMG_20260407_113819_00_102`,
+`IMG_20260407_113935_00_103`, `IMG_20260407_114435_00_105`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`, `Ruangan Budaya Pedalaman Perkampungan ( Lantai 2)`, `IMG_20260407_113648_00_101`,
+
+`IMG_20260407_113819_00_102`, `IMG_20260407_113935_00_103`,
+`IMG_20260407_114435_00_105`
+
+Ruang ini mengajak pengunjung memasuki kehidupan masyarakat pedalaman yang
+membangun budayanya dari ritme kampung, keluarga, dan tradisi keseharian. Di sinilah kita melihat bagaimana hubungan sosial, ekonomi, dan adat istiadat saling terjalin membentuk kehidupan yang utuh. Setiap koleksi di ruangan ini menjadi jendela untuk memahami cara hidup yang sederhana, tetapi kaya makna.
+
+### 16. Perdagangan
+File 360 yang dipakai: `IMG_20260407_114507_00_106`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_114507_00_106`
+
+Perdagangan menjadi salah satu penanda keterbukaan Sulawesi Selatan terhadap dunia luar. Kehadiran mata uang, keramik asing, serta jejak hubungan dagang dengan Cina, Thailand,
+Vietnam, Jepang, dan Eropa menunjukkan bahwa wilayah ini sejak lama terhubung dengan jaringan niaga yang luas. Bagian perdagangan ini memperlihatkan bahwa kampung dan
+pelabuhan di Sulawesi Selatan pernah menjadi bagian penting dari jalur pertukaran regional.
+
+### 17. Dapur Tradisional Sulawesi Selatan dan Peralatannya
+File 360 yang dipakai: `IMG_20260407_114545_00_107`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_114545_00_107`
+
+Dapur tradisional bukan sekadar tempat memasak, melainkan ruang yang menyimpan filosofi hidup. Pada masyarakat Bugis, bentuk segi empat merefleksikan konsep Sulapa Eppa, sementara pada kelompok lain arah hadap dan bentuk dapur pun memiliki makna tersendiri.
+Melalui peralatan dari tanah liat, bambu, kayu, tempurung, hingga besi, ruang dapur ini memperlihatkan kedekatan masyarakat dengan alam sekaligus kecermatan mereka dalam mengatur ruang hidup.
+
+### 18. Kelahiran
+File 360 yang dipakai: `IMG_20260407_114906_00_110`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_114906_00_110`
+
+Pada bagian kelahiran ini, pengunjung diajak mengenal rangkaian adat yang mengiringi kehamilan dan kelahiran dalam masyarakat Sulawesi Selatan. Upacara seperti Maccera Wettang atau Mappauli memperlihatkan harapan akan keselamatan ibu dan bayi, sekaligus penghormatan terhadap fase awal kehidupan. Koleksi wadah ari-ari dan perlengkapan upacara menegaskan bahwa kelahiran dipandang sebagai peristiwa sakral yang dirawat dengan penuh perhatian.
+
+### 19. Upacara Khitanan atau Sunatan
+File 360 yang dipakai: `IMG_20260407_115025_00_112`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_115025_00_112`
+
+Ruang ini menampilkan salah satu fase penting dalam siklus hidup masyarakat Bugis-Makassar. Upacara khitanan tidak hanya menjadi penanda pertumbuhan anak, tetapi juga momen sosial yang sarat simbol, busana adat, dan status keluarga. Kehadiran baju bodo bersusun, karawi, jempang, dan perlengkapan adat lainnya memperlihatkan indahnya
+perpaduan antara nilai spiritual dan estetika tradisional.
+
+### 20. Alat Musik Tradisional
+File 360 yang dipakai: `IMG_20260407_115406_00_116`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_115406_00_116`
+
+Alunan alat musik tradisional selalu hadir mengiringi berbagai upacara adat, dari kelahiran hingga perkawinan. Suling, gendang, kecapi, dan instrumen lainnya bukan hanya pelengkap suasana, tetapi juga membawa nuansa sakral, gembira, dan kebersamaan. Ruang musik ini mengingatkan kita bahwa bunyi-bunyian tradisional adalah bagian penting dari ekspresi budaya Sulawesi Selatan.
+
+## Gedung M - Ruang Budaya Pedalaman Agraris
+
+### 21. Budaya Pedalaman Agraris
+File 360 yang dipakai: `IMG_20260407_120836_10_131_PureShot`,
+`IMG_20260407_120905_00_132`, `IMG_20260407_121009_00_133`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`, `Ruangan Budaya Pedalaman Agraris`, `IMG_20260407_120836_10_131_PureShot`, `IMG_20260407_120905_00_132`,
+`IMG_20260407_121009_00_133`
+
+Di ruang ini, kita menjumpai wajah Sulawesi Selatan sebagai wilayah agraris yang bertumpu pada sawah, ladang, dan kerja kolektif masyarakat tani. Pengetahuan bertani diwariskan turun-temurun, mulai dari mengolah tanah, mengatur air, memilih benih, hingga membaca musim. Lebih dari sekadar aktivitas ekonomi, pertanian di sini juga menyatu dengan
+mitologi, ritual, dan penghormatan pada alam.
+
+### 22. Peralatan Membajak
+File 360 yang dipakai: `IMG_20260407_121048_00_134`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_121048_00_134`
+
+Peralatan tradisional seperti rakkala dan salaga memperlihatkan bagaimana masyarakat mengolah lahan dengan cara yang sederhana namun efektif. Setiap alat dirancang untuk kebutuhan tertentu, mulai dari membongkar tanah hingga meratakannya sebelum ditanami. Melalui peralatan ini, pengunjung dapat merasakan kedekatan antara teknologi tradisional dan ketekunan kerja para petani Sulawesi Selatan.
+
+### 23. Peralatan Pemeliharaan Padi
+File 360 yang dipakai: `IMG_20260407_121136_00_135`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_121136_00_135`
+
+Merawat padi membutuhkan ketelitian yang sama besarnya dengan saat menanam. Cangkul, parang panjang, pisau kecil, hingga alat pengusir hama menunjukkan bahwa proses pemeliharaan adalah tahapan penting untuk menjaga hasil panen tetap optimal. Peralatan pemeliharaan ini memperlihatkan kecerdasan lokal yang tumbuh dari pengalaman panjang masyarakat tani.
+
+### 24. Kepercayaan Tradisional
+File 360 yang dipakai: `IMG_20260407_121229_00_136`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_121229_00_136`
+
+Di balik kegiatan bercocok tanam, masyarakat petani juga memegang nilai-nilai kepercayaan yang diwariskan dari generasi ke generasi. Hari baik, naskah kutika, kisah Meong Palo, dan upacara Maddoja Bine memperlihatkan bahwa bertani tidak hanya soal teknik, tetapi juga soal harmoni dengan waktu, alam, dan keyakinan. Inilah salah satu wujud kearifan lokal yang masih dikenang hingga kini.
+
+### 25. Lapi' Patteke
+File 360 yang dipakai: `IMG_20260407_121340_00_137`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_121340_00_137`
+
+Benda ini mungkin tampak sederhana, namun perannya sangat penting dalam mobilitas hasil panen. Lapi' Patteke digunakan sebagai alas punggung hewan angkut untuk membawa padi, jagung, dan hasil kebun menuju tempat penyimpanan. Dari benda ini, kita melihat
+bagaimana masyarakat tradisional mengatur sistem angkut hasil pertanian secara praktis dan efisien.
+
+### 26. Peralatan Panen
+File 360 yang dipakai: `IMG_20260407_121427_00_138`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_121427_00_138`
+
+Panen adalah saat yang paling ditunggu dalam siklus pertanian. Alat seperti ani-ani, sabit, passampa, dan penutup kepala tradisional menunjukkan bahwa proses memanen dilakukan dengan teliti, serasi, dan penuh pengalaman. Dari bagian panen ini, kita dapat membayangkan suasana ladang yang sibuk sekaligus penuh rasa syukur ketika musim panen tiba.
+
+### 27. Jenis-Jenis Lesung
+File 360 yang dipakai: `IMG_20260407_121502_00_139`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_121502_00_139`
+
+Lesung batu dan lesung kayu menjadi bagian penting dalam pengolahan padi menjadi beras atau tepung. Selain berfungsi praktis, alat ini juga dekat dengan kehidupan sosial masyarakat karena sering digunakan bersama-sama. Benda ini menghadirkan sisi domestik dunia agraris, ketika pekerjaan sehari-hari juga menjadi ruang pertemuan dan kebersamaan.
+
+### 28. Peralatan ke Ladang atau Kebun
+File 360 yang dipakai: `IMG_20260407_121641_00_140`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_121641_00_140`
+
+Berbagai alat dan wadah yang digunakan ke ladang memperlihatkan kesiapan masyarakat menghadapi pekerjaan yang berat namun akrab dengan alam. Ada tempat penyimpan hasil panen, wadah air minum, hingga parang panjang untuk membuka jalan atau menebas rumput. Peralatan ini menggambarkan kehidupan petani yang sederhana, tangguh, dan sangat fungsional.
+
+### 29. Peralatan Pembuatan Kopra
+File 360 yang dipakai: `IMG_20260407_121828_00_142`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_121828_00_142`
+
+Kopra pernah menjadi komoditas penting yang menghubungkan Sulawesi Selatan dengan
+perdagangan yang lebih luas. Melalui koleksi kopra ini, pengunjung dapat melihat bagaimana hasil kelapa diolah menjadi bahan bernilai ekonomi tinggi, terutama pada masa ketika kebutuhan industri dunia terhadap mentega dan sabun meningkat. Koleksi ini
+memperlihatkan bahwa hasil bumi lokal memiliki peran besar dalam sejarah perdagangan.
+
+### 30. Lesung Panjang
+File 360 yang dipakai: `IMG_20260407_121937_00_144`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_121937_00_144`
+
+Lesung panjang ini bukan hanya alat pengolahan padi, tetapi juga benda budaya yang terkait dengan pesta panen. Ragam hias pada sisinya mencerminkan hubungan manusia dengan alam, sementara penggunaannya dalam atraksi mappadendang menandakan rasa syukur atas hasil bumi. Di hadapan lesung ini, suasana panen terasa sebagai peristiwa sosial yang
+meriah dan penuh kebersamaan.
+
+### 31. Peralatan Pembuatan Sagu
+File 360 yang dipakai: `IMG_20260407_122030_00_145`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_122030_00_145`
+
+Bagian sagu ini mengingatkan kita bahwa sumber pangan masyarakat tidak selalu bertumpu pada beras. Di wilayah seperti Luwu, sagu menjadi bahan makanan penting yang diolah dengan pengetahuan lokal yang teruji. Melalui koleksi ini, pengunjung dapat memahami
+keragaman pangan Nusantara sekaligus kecerdasan masyarakat dalam memanfaatkan sumber daya alam.
+
+### 32. Miniatur Balla Assung
+File 360 yang dipakai: `IMG_20260407_122117_00_146`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_122117_00_146`
+
+Balla Assung adalah tempat penyimpanan hasil pertanian, khususnya padi dan jagung, yang biasanya dibangun di samping rumah induk. Kehadirannya menunjukkan pentingnya
+pengelolaan cadangan pangan dalam kehidupan masyarakat agraris. Melalui miniatur ini, kita dapat membayangkan tata ruang rumah tradisional yang menyatu dengan aktivitas bertani dan penyimpanan hasil panen.
+
+## Gedung M - Lantai 1 Ruang Budaya Pesisir Bahari
+
+### 33. Ruangan Budaya Pesisir Bahari
+File 360 yang dipakai: `IMG_20260407_122311_00_147`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`, `Ruangan Budaya Pesisir (Bahari) (lantai 1)`, `IMG_20260407_122311_00_147`
+
+Setelah menjelajahi dunia pedalaman, kini kita memasuki ruang budaya pesisir yang
+memperlihatkan kuatnya identitas maritim Sulawesi Selatan. Laut bukan sekadar ruang
+ekonomi, tetapi juga ruang hidup yang membentuk watak, keberanian, dan keterampilan masyarakat Bugis-Makassar. Di ruangan ini, pengunjung akan menemukan kisah tentang perahu, pelayaran, penangkapan ikan, dan teknologi bahari tradisional.
+
+### 34. Perahu Pinisi
+File 360 yang dipakai: `IMG_20260407_122408_00_148`, `IMG_20260407_122504_00_149`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_122408_00_148`, `IMG_20260407_122504_00_149`
+
+Pinisi adalah salah satu ikon kebaharian Sulawesi Selatan yang lahir dari keterampilan, keberanian, dan imajinasi maritim yang luar biasa. Tradisi lisan mengaitkannya dengan Sawerigading, sementara bentuknya yang kokoh dengan dua tiang utama dan tujuh layar melambangkan kemampuan pelaut Nusantara menjelajah samudra. Di hadapan pinisi, kita merasakan kebanggaan besar atas warisan pelayaran Bugis-Makassar.
+
+### 35. Lepa-Lepa
+File 360 yang dipakai: `IMG_20260407_122635_00_151`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_122635_00_151`
+
+Lepa-lepa adalah perahu sederhana yang digunakan di sungai, danau, laut dangkal, hingga jalur antarpulau terdekat. Meski ukurannya lebih kecil, perahu ini memiliki peran penting dalam aktivitas menangkap ikan dan mobilitas masyarakat pesisir. Narasi di bagian ini juga mengingatkan kita pada tradisi menangkap ikan yang kerap didahului oleh upacara adat sebagai bentuk penghormatan kepada alam.
+
+### 36. Peralatan Berlayar
+
+File 360 yang dipakai: `IMG_20260407_122720_00_152`, `IMG_20260407_122936_00_155`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_122720_00_152`, `IMG_20260407_122936_00_155`
+
+Kompas, jangkar, dan lampu penerang menjadi perlengkapan dasar yang membantu nelayan menaklukkan perairan. Peralatan ini memperlihatkan bagaimana teknologi pelayaran
+tradisional terus berkembang mengikuti kebutuhan, terutama sejak penggunaan kompas semakin dikenal. Di sini, kita memahami bahwa keberanian di laut selalu didampingi
+keterampilan membaca arah dan mengelola perjalanan.
+
+### 37. Bahan Pembuatan Perahu
+File 360 yang dipakai: `IMG_20260407_122826_00_153`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_122826_00_153`
+
+Membangun perahu bagi masyarakat Sulawesi Selatan bukan hanya pekerjaan teknis, tetapi juga proses yang sarat pengetahuan dan pertimbangan budaya. Pemilihan hari baik, peran panrita lopi, serta penggunaan kayu seperti ulin, kayu besi, kayu pude, dan jati menunjukkan betapa telitinya tradisi ini dijaga. Ruang pembuatan perahu ini memperlihatkan bahwa sebuah perahu lahir dari perpaduan kearifan, keterampilan, dan rasa hormat pada alam.
+
+### 38. Bagang Perahu
+File 360 yang dipakai: `IMG_20260407_122907_00_154`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_122907_00_154`
+
+Bagang perahu merupakan sarana tangkap yang memungkinkan nelayan memasang dan menunggu jaring di tengah perairan. Selain memperlihatkan kecanggihan adaptasi terhadap lingkungan laut, sarana ini juga menyimpan sisi ritual melalui tradisi maccera tasik atau
+
+maccera tappareng sebelum melaut. Dari sinilah kita melihat bahwa mencari nafkah di laut selalu diiringi harapan akan keselamatan dan rezeki.
+
+### 39. Peralatan Menangkap Ikan
+File 360 yang dipakai: `IMG_20260407_123019_00_156`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_123019_00_156`
+
+Berbagai alat tangkap tradisional seperti kalulu, tagalak, jala buang, dan bubu
+memperlihatkan betapa kaya pengetahuan nelayan Sulawesi Selatan. Setiap alat digunakan sesuai medan perairan, mulai dari sungai, rawa, danau, hingga laut dangkal. Peralatan ini menggambarkan kecermatan masyarakat pesisir dalam menyesuaikan teknik menangkap ikan dengan karakter alam.
+
+### 40. Bagan Tancap
+File 360 yang dipakai: `IMG_20260407_123151_00_159`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_123151_00_159`
+
+Berbeda dengan bagang perahu yang bergerak, bagan tancap dipasang menetap di perairan dangkal, muara, atau sungai. Fungsinya sebagai tempat memasang dan menunggu jaring menjadikannya bagian penting dari strategi tangkap tradisional. Melalui bagan tancap ini, pengunjung dapat melihat bagaimana masyarakat pesisir memanfaatkan ruang air secara cermat dan berkelanjutan.
+
+## Gedung M - Lantai 1 Ruang Pertumbuhan dan Perkembangan Kota
+
+### 41. Pertumbuhan dan Perkembangan Kota Makassar
+File 360 yang dipakai: `IMG_20260407_123237_00_160`, `IMG_20260407_123322_00_161`,
+`IMG_20260407_123401_00_162`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`, `Ruangan Pertumbuhan dan Perkembangan Kota (Multukulturalisme) (lantai 1)`, `IMG_20260407_123237_00_160`,
+`IMG_20260407_123322_00_161`, `IMG_20260407_123401_00_162`
+
+Ruang ini membawa kita menelusuri perubahan Makassar dari pelabuhan kecil menjadi kota besar yang multikultural. Sejak masa kerajaan hingga perdagangan internasional, Makassar tumbuh sebagai tempat bertemunya berbagai bangsa, komoditas, dan gagasan. Di ruang
+pertumbuhan kota ini, kita melihat bahwa identitas Makassar lahir dari perpaduan sejarah maritim, mobilitas manusia, dan keterbukaan budaya.
+
+### 42. Bendi atau Hansom
+File 360 yang dipakai: `IMG_20260407_123432_00_163`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_123432_00_163`
+
+Bendi adalah alat transportasi tradisional yang dulu sangat akrab dengan keseharian masyarakat. Dengan tenaga kuda, kendaraan ini mengangkut barang dagangan pada dini hari dan kemudian melayani penumpang menuju pasar. Di hadapan bendi, kita membayangkan suasana kota dan desa tempo dulu, ketika perjalanan masih berlangsung pelan, akrab, dan penuh interaksi manusia.
+
+### 43. Etnis Pendatang di Makassar
+File 360 yang dipakai: `IMG_20260407_123524_00_164`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_123524_00_164`
+
+Sejak dahulu, Makassar tumbuh sebagai kota pelabuhan yang terbuka bagi para pendatang dari berbagai daerah dan bangsa. Jejak komunitas Melayu, Arab, Pakistan, dan kelompok lainnya masih dapat dibaca melalui kampung-kampung tua serta rumah ibadah yang mereka
+
+bangun. Ruang etnis pendatang ini menegaskan bahwa kemajemukan adalah bagian penting dari watak Kota Makassar.
+
+### 44. Wattapone
+File 360 yang dipakai: `IMG_20260407_123608_00_165`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_123608_00_165`
+
+Pada bagian Wattampone, pengunjung diajak mengenal Bone sebagai wilayah yang tumbuh dari sejarah kerajaan, tata kota, dan inovasi sosial. Kisah tentang Lalebbata serta peran Kajao Laliddong memperlihatkan kecerdasan lokal dalam membangun pusat kekuasaan. Pada saat yang sama, hadirnya sepeda dalam kehidupan masyarakat menunjukkan bagaimana
+modernitas diterima dan diolah sesuai kebutuhan lokal.
+
+### 45. Kota Palopo
+File 360 yang dipakai: `IMG_20260407_123652_00_166`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_123652_00_166`
+
+Palopo diperkenalkan sebagai kota penting di kawasan utara Sulawesi Selatan yang berkembang dari pusat pemerintahan Luwu menjadi daerah otonom. Letaknya yang strategis pada jalur Trans Sulawesi menjadikan kota ini berperan dalam perdagangan,
+pendidikan, dan pelayanan kawasan sekitar. Bagian Palopo ini menampilkan kota yang tumbuh dari sejarah kerajaan menuju dinamika perkotaan modern.
+
+### 46. Etnis Melayu
+File 360 yang dipakai: `IMG_20260407_123800_00_168`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_123800_00_168`
+
+Narasi tentang etnis Melayu memperlihatkan kuatnya jejak masyarakat Melayu dalam sejarah Makassar. Hubungan dagang, perlindungan komunitas, dinamika pascaperang, hingga lahirnya Kampung Melayu dan Masjid Makmur Melayu menunjukkan bahwa identitas kota dibangun melalui perjumpaan budaya. Kehadiran etnis Melayu memperkaya wajah Makassar sebagai bandar kosmopolitan di kawasan timur Nusantara.
+
+### 47. Peta Sulawesi Selatan
+File 360 yang dipakai: `IMG_20260407_123847_00_169`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_123847_00_169`
+
+Peta ini membantu pengunjung menempatkan seluruh kisah yang telah dilihat ke dalam bentang geografis Sulawesi Selatan. Dari Luwu, Bone, Makassar, Palopo, hingga wilayah pesisir dan pedalaman lainnya, semuanya terhubung dalam satu lanskap budaya yang luas dan beragam. Peta ini sangat berguna untuk membaca hubungan antara ruang, sejarah, dan persebaran tradisi.
+
+### 48. Pintu Keluar Gedung M
+File 360 yang dipakai: `IMG_20260407_123917_00_170`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`,
+`IMG_20260407_123917_00_170`
+
+Di area pintu keluar ini, perjalanan di Gedung M mendekati akhir. Semoga rangkaian koleksi yang baru Anda jelajahi memberikan gambaran utuh tentang kekayaan sejarah, tradisi, dan identitas Sulawesi Selatan. Silakan melanjutkan kunjungan ke ruang berikutnya untuk menemukan sisi lain dari kompleks Museum La Galigo.
+
+## Gedung P
+
+### 49. Gedung P
+File 360 yang dipakai: `IMG_20260408_145952_00_033`, `IMG_20260408_150048_00_034`,
+`IMG_20260408_150140_00_035`, `IMG_20260408_150207_00_036`,
+`IMG_20260408_150238_00_037`, `IMG_20260408_150313_00_038`,
+`IMG_20260408_150346_00_039`, `IMG_20260408_150415_00_040`,
+`IMG_20260408_150459_00_041`, `IMG_20260408_150535_00_042`,
+`IMG_20260408_150610_00_043`, `IMG_20260408_150646_00_044`,
+`IMG_20260408_150709_00_045`, `IMG_20260408_150733_00_046`,
+`IMG_20260408_150754_00_047`, `IMG_20260408_150832_00_048`,
+`IMG_20260408_150905_00_049`, `IMG_20260408_150929_00_050`
+
+Referensi dokumen: `Deskripsi Museum La Galigo (1).docx`, `Gedung P`,
+`IMG_20260408_145952_00_033` sampai `IMG_20260408_150929_00_050`
+
+Selamat datang di Gedung P, bangunan dua lantai di tengah kompleks Benteng Ujung Pandang yang dahulu difungsikan sebagai gereja pada masa kolonial Belanda. Kini, bangunan ini digunakan sebagai aula dan ruang pamer, sambil tetap mempertahankan karakter
+arsitekturnya yang khas, seperti tangga depan simetris, bukaan berbentuk tapal kuda, dan detail jendela bergaya gotik. Di Gedung P, pengunjung diajak menikmati perubahan fungsi bangunan kolonial menjadi ruang budaya yang hidup.
+
+Catatan:
+Jika Anda ingin, naskah ini masih bisa saya lanjutkan menjadi versi yang lebih singkat untuk audio 20-30 detik per bagian narasi.
+Saya juga bisa pecah lagi narasinya mengikuti nama file panorama atau urutan akhir pada platform virtual tour yang Anda gunakan.

@@ -143,6 +143,10 @@ export class InputHandler {
         // Ignore clicks if in WebXR presenting mode
         if (this.app.renderer.xr.enabled && this.app.renderer.xr.isPresenting) return;
 
+        // Ignore clicks if landing screen is active or if click is on an HTML UI element
+        if (this.app.currentState === 'landing') return;
+        if (event.target !== this.app.renderer.domElement) return;
+
         // Admin interaction takes priority
         if (this._handleAdminInteraction(event.clientX, event.clientY)) return;
 
@@ -173,6 +177,10 @@ export class InputHandler {
 
         // Skip if in VR
         if (this.app.renderer.xr.enabled && this.app.renderer.xr.isPresenting) return;
+
+        // Ignore touches if landing screen is active or if touch is on an HTML UI element
+        if (this.app.currentState === 'landing') return;
+        if (e.target !== this.app.renderer.domElement) return;
 
         // Admin interaction takes priority
         if (this._handleAdminInteraction(touch.clientX, touch.clientY)) return;

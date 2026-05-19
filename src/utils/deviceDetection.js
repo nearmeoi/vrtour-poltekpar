@@ -13,6 +13,14 @@ export function isIOS() {
 }
 
 /**
+ * Detects if the current device is running Android
+ */
+export function isAndroid() {
+    return /Android/i.test(navigator.userAgent);
+}
+
+
+/**
  * Detects if the browser supports WebXR API
  */
 export function isWebXRSupported() {

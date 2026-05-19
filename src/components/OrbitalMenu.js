@@ -13,8 +13,8 @@ export class OrbitalMenu {
         this.scene.add(this.group);
 
         this.thumbnails = [];
-        this.radius = CONFIG.menu?.radius || 2.5;
-        // Use CONFIG or default. 2.5m is good for "Arc" layout.
+        this.radius = CONFIG.menu?.radius || 3.5;
+        // Use CONFIG or default. 3.5m is better for large items.
 
         this.itemCount = TOUR_DATA.length;
         this.textureLoader = new THREE.TextureLoader();
@@ -23,268 +23,242 @@ export class OrbitalMenu {
     }
 
     initMenu() {
-        // Use shared roundRect from CanvasUI
         const roundRect = CanvasUI.roundRect;
 
-        // Create thumbnail card with image
-        const createThumbnailTexture = (location, img) => {
+        // 1. Create Image Box Texture (No Text)
+        const createImageTexture = (location, img) => {
             const canvas = document.createElement('canvas');
-            canvas.width = 512;
-            canvas.height = 340;
+            canvas.width = 750;
+            canvas.height = 500;
             const ctx = canvas.getContext('2d');
 
-            // Clear canvas
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-            // Glass Background - Premium Dark
-            roundRect(ctx, 10, 10, 492, 320, 30);
+            const offsetX = (750 - 492) / 2; // 129
+            const offsetY = (500 - 320) / 2; // 90
+            ctx.translate(offsetX, offsetY);
+
+            // Intense Glow
+            ctx.shadowColor = 'rgba(255, 255, 255, 1.0)';
+            ctx.shadowBlur = 60;
+
+            roundRect(ctx, 0, 0, 492, 320, 30);
+            
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.2)';
+            ctx.fill(); ctx.fill();
+
+            // Glass Background
+            ctx.shadowBlur = 0;
             ctx.fillStyle = 'rgba(20, 20, 35, 0.6)';
             ctx.fill();
 
-            // Subtle Gradient Overlay
-            const gradient = ctx.createLinearGradient(0, 0, 0, 340);
-            gradient.addColorStop(0, 'rgba(60, 60, 80, 0.2)');
-            gradient.addColorStop(1, 'rgba(10, 10, 20, 0.8)');
+            // Gradient
+            const gradient = ctx.createLinearGradient(0, 0, 0, 320);
+            gradient.addColorStop(0, 'rgba(60, 60, 80, 0.3)');
+            gradient.addColorStop(1, 'rgba(10, 10, 20, 0.9)');
             ctx.fillStyle = gradient;
             ctx.fill();
 
-            // Border (Glass edge)
-            ctx.lineWidth = 4;
-            ctx.strokeStyle = 'rgba(255, 255, 255, 0.5)';
-            ctx.stroke();
+        // Draw image filling the box completely
+        if (img) {
+            ctx.save();
+            roundRect(ctx, 0, 0, 492, 320, 30);
+            ctx.clip();
+            ctx.drawImage(img, 0, 0, 492, 320); 
+            ctx.restore();
+        } else {
+            ctx.save();
+            roundRect(ctx, 0, 0, 492, 320, 30);
+            ctx.clip();
+            const hue = (location.id * 60) % 360;
+            ctx.fillStyle = `hsl(${hue}, 40%, 40%)`;
+            ctx.fillRect(0, 0, 492, 320);
+            ctx.restore();
+        }
 
-            // Draw thumbnail image
-            if (img) {
-                ctx.save();
-                roundRect(ctx, 30, 30, 452, 220, 20);
-                // Reduce height for Subtitle space?
-                // Request said: "Masa Lalu" -> "Heroik" (Titles).
-                // Let's keep layout similar but ensure Title is Prominent.
-                ctx.clip();
-                ctx.drawImage(img, 30, 30, 452, 220); // Maintain size
-                ctx.restore();
-            } else {
-                // Fallback gradient
-                ctx.save();
-                roundRect(ctx, 30, 30, 452, 220, 20);
-                ctx.clip();
-                const hue = (location.id * 60) % 360;
-                ctx.fillStyle = `hsl(${hue}, 40%, 40%)`;
-                ctx.fillRect(30, 30, 452, 220);
-                ctx.restore();
-            }
+        // Draw Border ON TOP of the image so there is no gap
+        roundRect(ctx, 0, 0, 492, 320, 30);
+        ctx.lineWidth = 2; // Reduced from 4
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.9)';
+        ctx.shadowColor = 'rgba(255, 255, 255, 0.9)'; 
+        ctx.shadowBlur = 15; // Reduced glow
+        ctx.stroke(); 
+        
+        ctx.shadowBlur = 0;
+        ctx.lineWidth = 1; // Reduced from 2
+        ctx.strokeStyle = '#ffffff';
+        ctx.stroke();
+            return new THREE.CanvasTexture(canvas);
+        };
 
-            // Title Label (e.g. "HEROIK")
+        // 2. Create Text Texture
+        const createTextTexture = (location) => {
+            const canvas = document.createElement('canvas');
+            canvas.width = 750;
+            canvas.height = 200;
+            const ctx = canvas.getContext('2d');
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Title Label
             ctx.fillStyle = '#ffffff';
-            ctx.font = 'bold 36px Roboto, sans-serif';
+            ctx.font = 'bold 42px Roboto, sans-serif';
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
-            ctx.shadowColor = 'rgba(0,0,0,0.7)';
-            ctx.shadowBlur = 6;
-            ctx.fillText((location.title || location.name).toUpperCase(), 256, 275);
+            ctx.shadowColor = 'rgba(0,0,0,0.9)';
+            ctx.shadowBlur = 10;
+            ctx.fillText((location.title || location.name).toUpperCase(), 375, 70);
 
-            // Subtitle (e.g. "Semangat Maritim")
+            // Subtitle
             if (location.subtitle) {
-                ctx.font = 'italic 20px Roboto, sans-serif';
+                ctx.font = 'italic 26px Roboto, sans-serif';
                 ctx.fillStyle = '#cccccc';
-                ctx.fillText(location.subtitle, 256, 305);
+                ctx.fillText(location.subtitle, 375, 115);
             }
-
             return new THREE.CanvasTexture(canvas);
+        };
+
+        const curveGeometry = (geometry, curveRadius) => {
+            const position = geometry.attributes.position;
+            for (let i = 0; i < position.count; i++) {
+                const x = position.getX(i);
+                const theta = x / curveRadius;
+                const newX = Math.sin(theta) * curveRadius;
+                const newZ = curveRadius - Math.cos(theta) * curveRadius;
+                position.setX(i, newX);
+                position.setZ(i, newZ);
+            }
+            position.needsUpdate = true;
+            geometry.computeVertexNormals();
         };
 
         for (let i = 0; i < this.itemCount; i++) {
             const location = TOUR_DATA[i];
-            const geometry = new THREE.PlaneGeometry(0.9, 0.6); // Larger size for better visibility
+            const itemGroup = new THREE.Group();
 
-            // Initial placeholder material
-            const material = new THREE.MeshBasicMaterial({
-                color: 0x333333,
-                side: THREE.DoubleSide,
-                transparent: true,
-                opacity: 0.95
-            });
-            const mesh = new THREE.Mesh(geometry, material);
+            // --- Image Mesh ---
+            const imgGeo = new THREE.PlaneGeometry(1.8, 1.2, 32, 1);
+            curveGeometry(imgGeo, 2.5);
+            const imgMat = new THREE.MeshBasicMaterial({ color: 0x333333, side: THREE.DoubleSide, transparent: true, opacity: 0.95 });
+            const imgMesh = new THREE.Mesh(imgGeo, imgMat);
+            
+            // --- Text Mesh ---
+            const textGeo = new THREE.PlaneGeometry(1.8, 0.48, 32, 1);
+            curveGeometry(textGeo, 2.5);
+            const textMat = new THREE.MeshBasicMaterial({ map: createTextTexture(location), transparent: true, side: THREE.DoubleSide, depthTest: false });
+            const textMesh = new THREE.Mesh(textGeo, textMat);
+            textMesh.position.y = -0.7; // Place text below the box
 
-            // Load thumbnail image
+            itemGroup.add(imgMesh);
+            itemGroup.add(textMesh);
+
+            // Load thumbnail image asynchronously
             const img = new Image();
             img.crossOrigin = 'anonymous';
             img.onload = () => {
-                const texture = createThumbnailTexture(location, img);
-                mesh.material.map = texture;
-                mesh.material.color.set(0xffffff);
-                mesh.material.needsUpdate = true;
+                imgMat.map = createImageTexture(location, img);
+                imgMat.color.set(0xffffff);
+                imgMat.needsUpdate = true;
             };
             img.onerror = () => {
-                // Use fallback
-                const texture = createThumbnailTexture(location, null);
-                mesh.material.map = texture;
-                mesh.material.color.set(0xffffff);
-                mesh.material.needsUpdate = true;
+                imgMat.map = createImageTexture(location, null);
+                imgMat.color.set(0xffffff);
+                imgMat.needsUpdate = true;
             };
             img.src = location.thumbnail;
 
-            // Position in arc
-            const totalAngle = Math.PI * 0.5; // Balanced spacing
+            // Position Group in arc
+            const totalAngle = Math.PI * 0.45; 
             const startAngle = Math.PI - totalAngle / 2;
             const step = this.itemCount > 1 ? totalAngle / (this.itemCount - 1) : 0;
             const theta = startAngle + i * step;
 
-            mesh.position.set(
+            itemGroup.position.set(
                 Math.sin(theta) * this.radius,
                 1.6,
                 Math.cos(theta) * this.radius
             );
+            itemGroup.lookAt(0, 1.6, 0);
 
-            mesh.lookAt(0, 1.6, 0);
+            // Animation data on Group
+            itemGroup.userData.originalScale = new THREE.Vector3(1, 1, 1);
+            itemGroup.userData.targetScale = new THREE.Vector3(1, 1, 1);
 
-            // User Data for interaction
-            mesh.userData.id = i;
-            mesh.userData.locationData = location;
-            mesh.userData.isInteractable = true;
-            mesh.userData.originalScale = new THREE.Vector3(1, 1, 1);
-            mesh.userData.targetScale = new THREE.Vector3(1, 1, 1); // Target for smooth lerping
-
-            // Callbacks - now set targetScale instead of direct scale change
-            mesh.onHoverIn = () => {
-                mesh.userData.targetScale.set(1.15, 1.15, 1.15);
+            // Interaction handlers (attach ONLY to image mesh to keep hit area tight and precise)
+            const setupInteraction = (mesh) => {
+                mesh.userData.id = i;
+                mesh.userData.locationData = location;
+                mesh.userData.isInteractable = true;
+                mesh.onHoverIn = () => { itemGroup.userData.targetScale.set(1.15, 1.15, 1.15); };
+                mesh.onHoverOut = () => { itemGroup.userData.targetScale.copy(itemGroup.userData.originalScale); };
+                mesh.onClick = () => { this.onSelect(i); };
             };
-            mesh.onHoverOut = () => {
-                mesh.userData.targetScale.copy(mesh.userData.originalScale);
-            };
-            mesh.onClick = () => {
-                this.onSelect(i);
-            };
+            setupInteraction(imgMesh);
+            // textMesh is intentionally NOT interactable to reduce accidental large-area hits
 
-            this.group.add(mesh);
-            this.thumbnails.push(mesh);
+            this.group.add(itemGroup);
+            this.thumbnails.push(itemGroup);
         }
     }
 
     update(delta) {
         // Smooth scale animation with ease-in-out
-        const animSpeed = 5; // Animation speed multiplier
+        const animSpeed = 5;
 
         this.thumbnails.forEach(mesh => {
             if (mesh.userData.targetScale) {
-                // Initialize animation progress if not set
                 if (mesh.userData.animProgress === undefined) {
                     mesh.userData.animProgress = 1;
                 }
-
-                // Detect target change - start new animation
                 const diff = mesh.scale.distanceTo(mesh.userData.targetScale);
                 if (diff > 0.01 && mesh.userData.animProgress >= 1) {
                     mesh.userData.animProgress = 0;
                     mesh.userData.startScale = mesh.scale.clone();
                 }
-
                 if (mesh.userData.animProgress < 1 && mesh.userData.startScale) {
-                    // Increment progress
                     mesh.userData.animProgress = Math.min(1, mesh.userData.animProgress + delta * animSpeed);
-
-                    // Ease-in-out (smoothstep)
                     const t = mesh.userData.animProgress;
                     const easeInOut = t * t * (3 - 2 * t);
-
-                    // Interpolate using eased value
-                    mesh.scale.lerpVectors(
-                        mesh.userData.startScale,
-                        mesh.userData.targetScale,
-                        easeInOut
-                    );
+                    mesh.scale.lerpVectors(mesh.userData.startScale, mesh.userData.targetScale, easeInOut);
                 }
             }
         });
 
-        // Smart Rotation Follow (HUD-like behavior)
+        // ── Snap-to-View ──────────────────────────────────────────────────────
+        // Menu stays in place while user is looking at it.
+        // If the user looks more than 90° away horizontally, the menu snaps
+        // (with a fast ease) to the front of the user’s new view direction.
+        // This prevents the drifting/floating feel of the old lerp-follow.
         if (this.camera && this.group.visible) {
-            // Get camera direction projected on XZ plane
-            const vector = new THREE.Vector3();
-            this.camera.getWorldDirection(vector);
+            const dir = new THREE.Vector3();
+            this.camera.getWorldDirection(dir);
 
-            // Calculate target angle (facing the user)
-            // Menu center should be "behind" the camera view projected forward
-            // So if camera looks at A, menu center is at A + PI (behind it? No wait.)
-            // The items are arranged in a circle. If I want item 0 (at angle ~PI) to be in front,
-            // Group rotation needs to align.
-            // Let's rely on show() logic: rotation.y = angle - PI
-            const targetAngle = Math.atan2(vector.x, vector.z) - Math.PI;
+            const cameraAngle = Math.atan2(dir.x, dir.z);
+            const menuAngle   = this.group.rotation.y + Math.PI; // Group centre faces +PI offset
 
-            // Calculate difference
-            let currentAngle = this.group.rotation.y;
-            let diff = targetAngle - currentAngle;
+            let angularDiff = cameraAngle - menuAngle;
+            while (angularDiff >  Math.PI) angularDiff -= Math.PI * 2;
+            while (angularDiff < -Math.PI) angularDiff += Math.PI * 2;
 
-            // Normalize difference to [-PI, PI]
-            while (diff > Math.PI) diff -= Math.PI * 2;
-            while (diff < -Math.PI) diff += Math.PI * 2;
+            const SNAP_THRESHOLD = Math.PI * 0.65; // ~117° — wide enough not to snap mid-browse
 
-            // Check if looking down (at the menu)
-            // If pitch is negative, user is looking,down.
-            // Menu items are usually around y=1.6 (eye level) but placed lower relative to view?
-            // Actually OrbitalMenu items are at y=1.6 which is eye level.
-            // Wait, OrbitalMenu items are at y=1.6, camera is at y=1.6. They are AT eye level.
-            // BUT usually users look around.
-            // Let's check config.js line 23: radius = 2.5
-            // If the user is looking at the horizon (pitch ~0), the menu should follow.
-            // If the user wants to select, they might just stare at it.
-            // The "moving away" issue happens because the user turns their head to look at an item at the edge,
-            // and the menu rotates to recenter, making the item move away.
+            if (Math.abs(angularDiff) > SNAP_THRESHOLD) {
+                // User looked far away — snap target to new view direction
+                if (!this._snapTarget) this._snapTarget = this.group.rotation.y;
+                this._snapTarget = cameraAngle - Math.PI;
+            }
 
-            // Fix: Increase deadzone or add a "hover lock".
-            // Since we don't track hover state easily here without coupling, let's use the requested "row" logic.
-            // "kalau berada di barisnya menu" -> if looking at the vertical band of the menu?
-            // Since menu is at eye level, "barisnya menu" means roughly horizon level (+- 10 degrees).
-            // But if it follows when at horizon, it's annoying.
+            if (this._snapTarget !== undefined) {
+                let d = this._snapTarget - this.group.rotation.y;
+                while (d >  Math.PI) d -= Math.PI * 2;
+                while (d < -Math.PI) d += Math.PI * 2;
 
-            // User said: "kalau berada di barisnya menu" implies a vertical zone.
-            // Let's assume standard VR usage: You look at it to select.
+                // Fast ease-out snap
+                this.group.rotation.y += d * Math.min(1, 12.0 * delta);
 
-            // BETTER APPROACH: Only move if user looks WAY away (e.g. > 30 degrees)
-            // OR check pitch: if looking up/down/at menu?
-
-            // Re-reading user request: "kalau berada di barisnya menu"
-            // Maybe they mean if the user's view pitch is within the menu's vertical area.
-            // Let's simply PAUSE rotation if the angular difference is small (user is looking AT the menu set)
-            // AND check pitch.
-
-            // Actually, best interpretation: If I am looking at the menu items (pitch roughly 0 since they are at eye level 1.6),
-            // disable rotation. If I look UP or DOWN explicitly away, or turn around, then move.
-
-            // Let's implement a simple "Lock" if the cursor is hovering? 
-            // We can't easily access hover state here.
-
-            // Let's use the pitch. orbitalMenu items are at y=1.6. Camera at 1.6.
-            // So pitch is ~0. 
-            // If user looks vertically away (up/down), we can rotate.
-            // But user said "if at the row of menu".
-
-            // Let's interpret "follow" as "Recenter only when I look far away".
-            // Increase threshold to 30 degrees (0.5 rad).
-            // This allows looking at side items without rotation triggering.
-
-            const pitch = Math.asin(vector.y);
-
-            // If user is looking at the menu "band" (within +- 20 degrees pitch)
-            // AND the horizontal difference is within the menu width (say +- 45 degrees)
-            // THEN lock the menu (don't rotate).
-
-            // Wait, if it's locked, how does it follow?
-            // It follows only when you look OUTSIDE the menu area.
-
-            const MENU_vertical_band = 0.15; // ~8.5 degrees (Tightened)
-            const MENU_horizontal_width = 1.3; // ~75 degrees (Widened significantly)
-
-            const isLookingAtMenuBand = Math.abs(pitch) < MENU_vertical_band;
-            const isLookingInsideMenuWidth = Math.abs(diff) < MENU_horizontal_width;
-
-            // Only follow if we are NOT looking at the menu area
-            if (isLookingAtMenuBand && isLookingInsideMenuWidth) {
-                // User is likely trying to select something, DO NOT MOVE
-            } else {
-                if (Math.abs(diff) > 0.1) { // Small deadzone for jitter
-                    const followSpeed = 2.0 * delta;
-                    this.group.rotation.y += diff * followSpeed;
+                // Clear snap target once close enough
+                if (Math.abs(d) < 0.005) {
+                    this.group.rotation.y = this._snapTarget;
+                    this._snapTarget = undefined;
                 }
             }
         }

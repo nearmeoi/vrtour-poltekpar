@@ -15,11 +15,9 @@ export class LandingScreen {
 
     _init() {
         const landingScreen = document.getElementById('landing-screen');
-        const enterBtn = document.getElementById('enter-vr-btn');
+        const btnStart = document.getElementById('btn-start-tour');
 
-        if (!enterBtn) return;
-
-        enterBtn.addEventListener('click', async () => {
+        const enterTour = async () => {
             // Request fullscreen
             await this.app.requestFullscreen();
 
@@ -45,6 +43,7 @@ export class LandingScreen {
                 const gyroGranted = await requestGyroscopePermission();
                 if (gyroGranted) {
                     const hasRealGyro = await this._testGyroscope();
+                    this.app.hasRealGyroscope = hasRealGyro;
                     if (hasRealGyro) {
                         this.app.isGyroEnabled = true;
                         console.log('Gyroscope enabled for Magic Window mode');
@@ -62,10 +61,17 @@ export class LandingScreen {
                 landingScreen.style.display = 'none';
             }, 500);
 
-            // Load Lobby Panorama directly (normal mode, not VR)
-            console.log('Loading Museum Lobby...');
-            this.app.currentState = 'panorama';
-            this.app.panoramaViewer.navigateToScene('assets/Museum Kota Makassar/lobby_C12D6770.jpg');
+            // Show Orbital Menu
+            this.app.currentState = 'menu';
+            console.log('Opening Orbital Menu...');
+            if (this.app.orbitalMenu) {
+                this.app.orbitalMenu.show();
+            }
+
+            if (this.app.gazeController) {
+                this.app.gazeController.triggerLockTime = 1.0; // 1 second lock to prevent instant gaze selection
+            }
+
             this.app.panoramaViewer.setBackButtonVisibility(false);
             this.app.panoramaViewer.setAudioButtonsPosition('standalone');
 
@@ -74,7 +80,14 @@ export class LandingScreen {
                 this.app.vrButton.style.display =
                     (this.app.vrButton.id === 'vr-goggle-button') ? 'flex' : '';
             }
-        });
+        };
+
+        if (btnStart) {
+            btnStart.addEventListener('click', (e) => {
+                e.stopPropagation();
+                enterTour();
+            });
+        }
     }
 
     /**

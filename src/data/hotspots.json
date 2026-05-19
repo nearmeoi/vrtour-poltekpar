@@ -670,5 +670,6791 @@
       "type": "arrow",
       "label": "Masa Perjuangan"
     }
+  ],
+  "lagaligo_001": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_002",
+      "target_name": "Halaman Depan",
+      "type": "arrow",
+      "label": "Lanjut: Halaman Depan"
+    }
+  ],
+  "lagaligo_002": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_003",
+      "target_name": "Lobby Utama",
+      "type": "arrow",
+      "label": "Lanjut: Lobby Utama"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_001",
+      "target_name": "Pintu Masuk",
+      "type": "arrow",
+      "label": "Kembali: Pintu Masuk"
+    }
+  ],
+  "lagaligo_003": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_004",
+      "target_name": "Area Resepsi",
+      "type": "arrow",
+      "label": "Lanjut: Area Resepsi"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_002",
+      "target_name": "Halaman Depan",
+      "type": "arrow",
+      "label": "Kembali: Halaman Depan"
+    }
+  ],
+  "lagaligo_004": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_005",
+      "target_name": "Galeri Prasejarah",
+      "type": "arrow",
+      "label": "Lanjut: Galeri Prasejarah"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_003",
+      "target_name": "Lobby Utama",
+      "type": "arrow",
+      "label": "Kembali: Lobby Utama"
+    }
+  ],
+  "lagaligo_005": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_006",
+      "target_name": "Budaya Pedalaman Perkampungan 1",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 1"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_004",
+      "target_name": "Area Resepsi",
+      "type": "arrow",
+      "label": "Kembali: Area Resepsi"
+    }
+  ],
+  "lagaligo_006": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_007",
+      "target_name": "Budaya Pedalaman Perkampungan 2",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 2"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_005",
+      "target_name": "Galeri Prasejarah",
+      "type": "arrow",
+      "label": "Kembali: Galeri Prasejarah"
+    }
+  ],
+  "lagaligo_007": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_008",
+      "target_name": "Budaya Pedalaman Perkampungan 3",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 3"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_006",
+      "target_name": "Budaya Pedalaman Perkampungan 1",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 1"
+    }
+  ],
+  "lagaligo_008": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_009",
+      "target_name": "Budaya Pedalaman Perkampungan 4",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 4"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_007",
+      "target_name": "Budaya Pedalaman Perkampungan 2",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 2"
+    }
+  ],
+  "lagaligo_009": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_010",
+      "target_name": "Budaya Pedalaman Perkampungan 5",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 5"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_008",
+      "target_name": "Budaya Pedalaman Perkampungan 3",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 3"
+    }
+  ],
+  "lagaligo_010": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_011",
+      "target_name": "Budaya Pedalaman Perkampungan 6",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 6"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_009",
+      "target_name": "Budaya Pedalaman Perkampungan 4",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 4"
+    }
+  ],
+  "lagaligo_011": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_012",
+      "target_name": "Budaya Pedalaman Perkampungan 7",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 7"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_010",
+      "target_name": "Budaya Pedalaman Perkampungan 5",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 5"
+    }
+  ],
+  "lagaligo_012": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_013",
+      "target_name": "Budaya Pedalaman Perkampungan 8",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 8"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_011",
+      "target_name": "Budaya Pedalaman Perkampungan 6",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 6"
+    }
+  ],
+  "lagaligo_013": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_014",
+      "target_name": "Budaya Pedalaman Perkampungan 9",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 9"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_012",
+      "target_name": "Budaya Pedalaman Perkampungan 7",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 7"
+    }
+  ],
+  "lagaligo_014": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_015",
+      "target_name": "Budaya Pedalaman Perkampungan 10",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 10"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_013",
+      "target_name": "Budaya Pedalaman Perkampungan 8",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 8"
+    }
+  ],
+  "lagaligo_015": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_016",
+      "target_name": "Budaya Pedalaman Perkampungan 11",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 11"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_014",
+      "target_name": "Budaya Pedalaman Perkampungan 9",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 9"
+    }
+  ],
+  "lagaligo_016": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_017",
+      "target_name": "Budaya Pedalaman Perkampungan 12",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 12"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_015",
+      "target_name": "Budaya Pedalaman Perkampungan 10",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 10"
+    }
+  ],
+  "lagaligo_017": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_018",
+      "target_name": "Budaya Pedalaman Perkampungan 13",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 13"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_016",
+      "target_name": "Budaya Pedalaman Perkampungan 11",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 11"
+    }
+  ],
+  "lagaligo_018": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_019",
+      "target_name": "Budaya Pedalaman Perkampungan 14",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 14"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_017",
+      "target_name": "Budaya Pedalaman Perkampungan 12",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 12"
+    }
+  ],
+  "lagaligo_019": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_020",
+      "target_name": "Budaya Pedalaman Perkampungan 15",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 15"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_018",
+      "target_name": "Budaya Pedalaman Perkampungan 13",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 13"
+    }
+  ],
+  "lagaligo_020": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_021",
+      "target_name": "Budaya Pedalaman Perkampungan 16",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 16"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_019",
+      "target_name": "Budaya Pedalaman Perkampungan 14",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 14"
+    }
+  ],
+  "lagaligo_021": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_022",
+      "target_name": "Budaya Pedalaman Perkampungan 17",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Perkampungan 17"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_020",
+      "target_name": "Budaya Pedalaman Perkampungan 15",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 15"
+    }
+  ],
+  "lagaligo_022": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_023",
+      "target_name": "Budaya Pedalaman Agraris 1",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 1"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_021",
+      "target_name": "Budaya Pedalaman Perkampungan 16",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 16"
+    }
+  ],
+  "lagaligo_023": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_024",
+      "target_name": "Budaya Pedalaman Agraris 2",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 2"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_022",
+      "target_name": "Budaya Pedalaman Perkampungan 17",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Perkampungan 17"
+    }
+  ],
+  "lagaligo_024": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_025",
+      "target_name": "Budaya Pedalaman Agraris 3",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 3"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_023",
+      "target_name": "Budaya Pedalaman Agraris 1",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 1"
+    }
+  ],
+  "lagaligo_025": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_026",
+      "target_name": "Budaya Pedalaman Agraris 4",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 4"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_024",
+      "target_name": "Budaya Pedalaman Agraris 2",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 2"
+    }
+  ],
+  "lagaligo_026": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_027",
+      "target_name": "Budaya Pedalaman Agraris 5",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 5"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_025",
+      "target_name": "Budaya Pedalaman Agraris 3",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 3"
+    }
+  ],
+  "lagaligo_027": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_028",
+      "target_name": "Budaya Pedalaman Agraris 6",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 6"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_026",
+      "target_name": "Budaya Pedalaman Agraris 4",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 4"
+    }
+  ],
+  "lagaligo_028": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_029",
+      "target_name": "Budaya Pedalaman Agraris 7",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 7"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_027",
+      "target_name": "Budaya Pedalaman Agraris 5",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 5"
+    }
+  ],
+  "lagaligo_029": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_030",
+      "target_name": "Budaya Pedalaman Agraris 8",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 8"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_028",
+      "target_name": "Budaya Pedalaman Agraris 6",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 6"
+    }
+  ],
+  "lagaligo_030": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_031",
+      "target_name": "Budaya Pedalaman Agraris 9",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 9"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_029",
+      "target_name": "Budaya Pedalaman Agraris 7",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 7"
+    }
+  ],
+  "lagaligo_031": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_032",
+      "target_name": "Budaya Pedalaman Agraris 10",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 10"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_030",
+      "target_name": "Budaya Pedalaman Agraris 8",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 8"
+    }
+  ],
+  "lagaligo_032": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_033",
+      "target_name": "Budaya Pedalaman Agraris 11",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 11"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_031",
+      "target_name": "Budaya Pedalaman Agraris 9",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 9"
+    }
+  ],
+  "lagaligo_033": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_034",
+      "target_name": "Budaya Pedalaman Agraris 12",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 12"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_032",
+      "target_name": "Budaya Pedalaman Agraris 10",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 10"
+    }
+  ],
+  "lagaligo_034": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_035",
+      "target_name": "Budaya Pedalaman Agraris 13",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 13"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_033",
+      "target_name": "Budaya Pedalaman Agraris 11",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 11"
+    }
+  ],
+  "lagaligo_035": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_036",
+      "target_name": "Budaya Pedalaman Agraris 14",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 14"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_034",
+      "target_name": "Budaya Pedalaman Agraris 12",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 12"
+    }
+  ],
+  "lagaligo_036": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_037",
+      "target_name": "Budaya Pedalaman Agraris 15",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 15"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_035",
+      "target_name": "Budaya Pedalaman Agraris 13",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 13"
+    }
+  ],
+  "lagaligo_037": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_038",
+      "target_name": "Budaya Pedalaman Agraris 16",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pedalaman Agraris 16"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_036",
+      "target_name": "Budaya Pedalaman Agraris 14",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 14"
+    }
+  ],
+  "lagaligo_038": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_039",
+      "target_name": "Budaya Pesisir (Bahari) 1",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pesisir (Bahari) 1"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_037",
+      "target_name": "Budaya Pedalaman Agraris 15",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 15"
+    }
+  ],
+  "lagaligo_039": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_040",
+      "target_name": "Budaya Pesisir (Bahari) 2",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pesisir (Bahari) 2"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_038",
+      "target_name": "Budaya Pedalaman Agraris 16",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pedalaman Agraris 16"
+    }
+  ],
+  "lagaligo_040": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_041",
+      "target_name": "Budaya Pesisir (Bahari) 3",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pesisir (Bahari) 3"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_039",
+      "target_name": "Budaya Pesisir (Bahari) 1",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pesisir (Bahari) 1"
+    }
+  ],
+  "lagaligo_041": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_042",
+      "target_name": "Budaya Pesisir (Bahari) 4",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pesisir (Bahari) 4"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_040",
+      "target_name": "Budaya Pesisir (Bahari) 2",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pesisir (Bahari) 2"
+    }
+  ],
+  "lagaligo_042": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_043",
+      "target_name": "Budaya Pesisir (Bahari) 5",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pesisir (Bahari) 5"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_041",
+      "target_name": "Budaya Pesisir (Bahari) 3",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pesisir (Bahari) 3"
+    }
+  ],
+  "lagaligo_043": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_044",
+      "target_name": "Budaya Pesisir (Bahari) 6",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pesisir (Bahari) 6"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_042",
+      "target_name": "Budaya Pesisir (Bahari) 4",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pesisir (Bahari) 4"
+    }
+  ],
+  "lagaligo_044": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_045",
+      "target_name": "Budaya Pesisir (Bahari) 7",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pesisir (Bahari) 7"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_043",
+      "target_name": "Budaya Pesisir (Bahari) 5",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pesisir (Bahari) 5"
+    }
+  ],
+  "lagaligo_045": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_046",
+      "target_name": "Budaya Pesisir (Bahari) 8",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pesisir (Bahari) 8"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_044",
+      "target_name": "Budaya Pesisir (Bahari) 6",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pesisir (Bahari) 6"
+    }
+  ],
+  "lagaligo_046": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_047",
+      "target_name": "Budaya Pesisir (Bahari) 9",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pesisir (Bahari) 9"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_045",
+      "target_name": "Budaya Pesisir (Bahari) 7",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pesisir (Bahari) 7"
+    }
+  ],
+  "lagaligo_047": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_048",
+      "target_name": "Budaya Pesisir (Bahari) 10",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pesisir (Bahari) 10"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_046",
+      "target_name": "Budaya Pesisir (Bahari) 8",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pesisir (Bahari) 8"
+    }
+  ],
+  "lagaligo_048": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_049",
+      "target_name": "Budaya Pesisir (Bahari) 11",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pesisir (Bahari) 11"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_047",
+      "target_name": "Budaya Pesisir (Bahari) 9",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pesisir (Bahari) 9"
+    }
+  ],
+  "lagaligo_049": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_050",
+      "target_name": "Budaya Pesisir (Bahari) 12",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pesisir (Bahari) 12"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_048",
+      "target_name": "Budaya Pesisir (Bahari) 10",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pesisir (Bahari) 10"
+    }
+  ],
+  "lagaligo_050": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_051",
+      "target_name": "Budaya Pesisir (Bahari) 13",
+      "type": "arrow",
+      "label": "Lanjut: Budaya Pesisir (Bahari) 13"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_049",
+      "target_name": "Budaya Pesisir (Bahari) 11",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pesisir (Bahari) 11"
+    }
+  ],
+  "lagaligo_051": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_052",
+      "target_name": "Perkembangan Kota 1",
+      "type": "arrow",
+      "label": "Lanjut: Perkembangan Kota 1"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_050",
+      "target_name": "Budaya Pesisir (Bahari) 12",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pesisir (Bahari) 12"
+    }
+  ],
+  "lagaligo_052": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_053",
+      "target_name": "Perkembangan Kota 2",
+      "type": "arrow",
+      "label": "Lanjut: Perkembangan Kota 2"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_051",
+      "target_name": "Budaya Pesisir (Bahari) 13",
+      "type": "arrow",
+      "label": "Kembali: Budaya Pesisir (Bahari) 13"
+    }
+  ],
+  "lagaligo_053": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_054",
+      "target_name": "Perkembangan Kota 3",
+      "type": "arrow",
+      "label": "Lanjut: Perkembangan Kota 3"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_052",
+      "target_name": "Perkembangan Kota 1",
+      "type": "arrow",
+      "label": "Kembali: Perkembangan Kota 1"
+    }
+  ],
+  "lagaligo_054": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_055",
+      "target_name": "Perkembangan Kota 4",
+      "type": "arrow",
+      "label": "Lanjut: Perkembangan Kota 4"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_053",
+      "target_name": "Perkembangan Kota 2",
+      "type": "arrow",
+      "label": "Kembali: Perkembangan Kota 2"
+    }
+  ],
+  "lagaligo_055": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_056",
+      "target_name": "Perkembangan Kota 5",
+      "type": "arrow",
+      "label": "Lanjut: Perkembangan Kota 5"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_054",
+      "target_name": "Perkembangan Kota 3",
+      "type": "arrow",
+      "label": "Kembali: Perkembangan Kota 3"
+    }
+  ],
+  "lagaligo_056": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_057",
+      "target_name": "Perkembangan Kota 6",
+      "type": "arrow",
+      "label": "Lanjut: Perkembangan Kota 6"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_055",
+      "target_name": "Perkembangan Kota 4",
+      "type": "arrow",
+      "label": "Kembali: Perkembangan Kota 4"
+    }
+  ],
+  "lagaligo_057": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_058",
+      "target_name": "Perkembangan Kota 7",
+      "type": "arrow",
+      "label": "Lanjut: Perkembangan Kota 7"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_056",
+      "target_name": "Perkembangan Kota 5",
+      "type": "arrow",
+      "label": "Kembali: Perkembangan Kota 5"
+    }
+  ],
+  "lagaligo_058": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_059",
+      "target_name": "Perkembangan Kota 8",
+      "type": "arrow",
+      "label": "Lanjut: Perkembangan Kota 8"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_057",
+      "target_name": "Perkembangan Kota 6",
+      "type": "arrow",
+      "label": "Kembali: Perkembangan Kota 6"
+    }
+  ],
+  "lagaligo_059": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_060",
+      "target_name": "Perkembangan Kota 9",
+      "type": "arrow",
+      "label": "Lanjut: Perkembangan Kota 9"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_058",
+      "target_name": "Perkembangan Kota 7",
+      "type": "arrow",
+      "label": "Kembali: Perkembangan Kota 7"
+    }
+  ],
+  "lagaligo_060": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_061",
+      "target_name": "Perkembangan Kota 10",
+      "type": "arrow",
+      "label": "Lanjut: Perkembangan Kota 10"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_059",
+      "target_name": "Perkembangan Kota 8",
+      "type": "arrow",
+      "label": "Kembali: Perkembangan Kota 8"
+    }
+  ],
+  "lagaligo_061": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_062",
+      "target_name": "Perkembangan Kota 11",
+      "type": "arrow",
+      "label": "Lanjut: Perkembangan Kota 11"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_060",
+      "target_name": "Perkembangan Kota 9",
+      "type": "arrow",
+      "label": "Kembali: Perkembangan Kota 9"
+    }
+  ],
+  "lagaligo_062": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_063",
+      "target_name": "Gedung P (Gereja Kuno) 1",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 1"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_061",
+      "target_name": "Perkembangan Kota 10",
+      "type": "arrow",
+      "label": "Kembali: Perkembangan Kota 10"
+    }
+  ],
+  "lagaligo_063": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_064",
+      "target_name": "Gedung P (Gereja Kuno) 2",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 2"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_062",
+      "target_name": "Perkembangan Kota 11",
+      "type": "arrow",
+      "label": "Kembali: Perkembangan Kota 11"
+    }
+  ],
+  "lagaligo_064": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_065",
+      "target_name": "Gedung P (Gereja Kuno) 3",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 3"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_063",
+      "target_name": "Gedung P (Gereja Kuno) 1",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 1"
+    }
+  ],
+  "lagaligo_065": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_066",
+      "target_name": "Gedung P (Gereja Kuno) 4",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 4"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_064",
+      "target_name": "Gedung P (Gereja Kuno) 2",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 2"
+    }
+  ],
+  "lagaligo_066": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_067",
+      "target_name": "Gedung P (Gereja Kuno) 5",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 5"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_065",
+      "target_name": "Gedung P (Gereja Kuno) 3",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 3"
+    }
+  ],
+  "lagaligo_067": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_068",
+      "target_name": "Gedung P (Gereja Kuno) 6",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 6"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_066",
+      "target_name": "Gedung P (Gereja Kuno) 4",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 4"
+    }
+  ],
+  "lagaligo_068": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_069",
+      "target_name": "Gedung P (Gereja Kuno) 7",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 7"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_067",
+      "target_name": "Gedung P (Gereja Kuno) 5",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 5"
+    }
+  ],
+  "lagaligo_069": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_070",
+      "target_name": "Gedung P (Gereja Kuno) 8",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 8"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_068",
+      "target_name": "Gedung P (Gereja Kuno) 6",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 6"
+    }
+  ],
+  "lagaligo_070": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_071",
+      "target_name": "Gedung P (Gereja Kuno) 9",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 9"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_069",
+      "target_name": "Gedung P (Gereja Kuno) 7",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 7"
+    }
+  ],
+  "lagaligo_071": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_072",
+      "target_name": "Gedung P (Gereja Kuno) 10",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 10"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_070",
+      "target_name": "Gedung P (Gereja Kuno) 8",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 8"
+    }
+  ],
+  "lagaligo_072": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_073",
+      "target_name": "Gedung P (Gereja Kuno) 11",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 11"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_071",
+      "target_name": "Gedung P (Gereja Kuno) 9",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 9"
+    }
+  ],
+  "lagaligo_073": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_074",
+      "target_name": "Gedung P (Gereja Kuno) 12",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 12"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_072",
+      "target_name": "Gedung P (Gereja Kuno) 10",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 10"
+    }
+  ],
+  "lagaligo_074": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_075",
+      "target_name": "Gedung P (Gereja Kuno) 13",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 13"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_073",
+      "target_name": "Gedung P (Gereja Kuno) 11",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 11"
+    }
+  ],
+  "lagaligo_075": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_076",
+      "target_name": "Gedung P (Gereja Kuno) 14",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 14"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_074",
+      "target_name": "Gedung P (Gereja Kuno) 12",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 12"
+    }
+  ],
+  "lagaligo_076": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_077",
+      "target_name": "Gedung P (Gereja Kuno) 15",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 15"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_075",
+      "target_name": "Gedung P (Gereja Kuno) 13",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 13"
+    }
+  ],
+  "lagaligo_077": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_078",
+      "target_name": "Gedung P (Gereja Kuno) 16",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 16"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_076",
+      "target_name": "Gedung P (Gereja Kuno) 14",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 14"
+    }
+  ],
+  "lagaligo_078": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_079",
+      "target_name": "Gedung P (Gereja Kuno) 17",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 17"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_077",
+      "target_name": "Gedung P (Gereja Kuno) 15",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 15"
+    }
+  ],
+  "lagaligo_079": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_080",
+      "target_name": "Gedung P (Gereja Kuno) 18",
+      "type": "arrow",
+      "label": "Lanjut: Gedung P (Gereja Kuno) 18"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_078",
+      "target_name": "Gedung P (Gereja Kuno) 16",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 16"
+    }
+  ],
+  "lagaligo_080": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_081",
+      "target_name": "Galeri Naskah Kuno",
+      "type": "arrow",
+      "label": "Lanjut: Galeri Naskah Kuno"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_079",
+      "target_name": "Gedung P (Gereja Kuno) 17",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 17"
+    }
+  ],
+  "lagaligo_081": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_082",
+      "target_name": "Galeri Keramik",
+      "type": "arrow",
+      "label": "Lanjut: Galeri Keramik"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_080",
+      "target_name": "Gedung P (Gereja Kuno) 18",
+      "type": "arrow",
+      "label": "Kembali: Gedung P (Gereja Kuno) 18"
+    }
+  ],
+  "lagaligo_082": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_083",
+      "target_name": "Galeri Perunggu",
+      "type": "arrow",
+      "label": "Lanjut: Galeri Perunggu"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_081",
+      "target_name": "Galeri Naskah Kuno",
+      "type": "arrow",
+      "label": "Kembali: Galeri Naskah Kuno"
+    }
+  ],
+  "lagaligo_083": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_084",
+      "target_name": "Koridor Lantai 1",
+      "type": "arrow",
+      "label": "Lanjut: Koridor Lantai 1"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_082",
+      "target_name": "Galeri Keramik",
+      "type": "arrow",
+      "label": "Kembali: Galeri Keramik"
+    }
+  ],
+  "lagaligo_084": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_085",
+      "target_name": "Area Pameran Khusus",
+      "type": "arrow",
+      "label": "Lanjut: Area Pameran Khusus"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_083",
+      "target_name": "Galeri Perunggu",
+      "type": "arrow",
+      "label": "Kembali: Galeri Perunggu"
+    }
+  ],
+  "lagaligo_085": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_086",
+      "target_name": "Ruang Spesial",
+      "type": "arrow",
+      "label": "Lanjut: Ruang Spesial"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_084",
+      "target_name": "Koridor Lantai 1",
+      "type": "arrow",
+      "label": "Kembali: Koridor Lantai 1"
+    }
+  ],
+  "lagaligo_086": [
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_085",
+      "target_name": "Area Pameran Khusus",
+      "type": "arrow",
+      "label": "Kembali: Area Pameran Khusus"
+    }
+  ],
+  "lagaligo_087": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_088",
+      "target_name": "Scene 88",
+      "type": "arrow",
+      "label": "Lanjut: Scene 88"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_086",
+      "target_name": "Scene 86",
+      "type": "arrow",
+      "label": "Kembali: Scene 86"
+    }
+  ],
+  "lagaligo_088": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_089",
+      "target_name": "Scene 89",
+      "type": "arrow",
+      "label": "Lanjut: Scene 89"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_087",
+      "target_name": "Scene 87",
+      "type": "arrow",
+      "label": "Kembali: Scene 87"
+    }
+  ],
+  "lagaligo_089": [
+    {
+      "yaw": 10,
+      "pitch": -15,
+      "target": "lagaligo_090",
+      "target_name": "Scene 90",
+      "type": "arrow",
+      "label": "Lanjut: Scene 90"
+    },
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_088",
+      "target_name": "Scene 88",
+      "type": "arrow",
+      "label": "Kembali: Scene 88"
+    }
+  ],
+  "lagaligo_090": [
+    {
+      "yaw": 170,
+      "pitch": -15,
+      "target": "lagaligo_089",
+      "target_name": "Scene 89",
+      "type": "arrow",
+      "label": "Kembali: Scene 89"
+    }
+  ],
+  "museumkota_001": [
+    {
+      "id": "museumkota_001_to_museumkota_002",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_002",
+      "label": "[Museum Kota] Scene 2"
+    }
+  ],
+  "museumkota_002": [
+    {
+      "id": "museumkota_002_to_museumkota_003",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_003",
+      "label": "[Museum Kota] Scene 3"
+    },
+    {
+      "id": "museumkota_002_to_museumkota_001",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_001",
+      "label": "[Museum Kota] Pintu Masuk"
+    }
+  ],
+  "museumkota_003": [
+    {
+      "id": "museumkota_003_to_museumkota_004",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_004",
+      "label": "[Museum Kota] Scene 4"
+    },
+    {
+      "id": "museumkota_003_to_museumkota_002",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_002",
+      "label": "[Museum Kota] Scene 2"
+    }
+  ],
+  "museumkota_004": [
+    {
+      "id": "museumkota_004_to_museumkota_005",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_005",
+      "label": "[Museum Kota] Scene 5"
+    },
+    {
+      "id": "museumkota_004_to_museumkota_003",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_003",
+      "label": "[Museum Kota] Scene 3"
+    }
+  ],
+  "museumkota_005": [
+    {
+      "id": "museumkota_005_to_museumkota_006",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_006",
+      "label": "[Museum Kota] Scene 6"
+    },
+    {
+      "id": "museumkota_005_to_museumkota_004",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_004",
+      "label": "[Museum Kota] Scene 4"
+    }
+  ],
+  "museumkota_006": [
+    {
+      "id": "museumkota_006_to_museumkota_007",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_007",
+      "label": "[Museum Kota] Scene 7"
+    },
+    {
+      "id": "museumkota_006_to_museumkota_005",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_005",
+      "label": "[Museum Kota] Scene 5"
+    }
+  ],
+  "museumkota_007": [
+    {
+      "id": "museumkota_007_to_museumkota_008",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_008",
+      "label": "[Museum Kota] Scene 8"
+    },
+    {
+      "id": "museumkota_007_to_museumkota_006",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_006",
+      "label": "[Museum Kota] Scene 6"
+    }
+  ],
+  "museumkota_008": [
+    {
+      "id": "museumkota_008_to_museumkota_009",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_009",
+      "label": "[Museum Kota] Scene 9"
+    },
+    {
+      "id": "museumkota_008_to_museumkota_007",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_007",
+      "label": "[Museum Kota] Scene 7"
+    }
+  ],
+  "museumkota_009": [
+    {
+      "id": "museumkota_009_to_museumkota_010",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_010",
+      "label": "[Museum Kota] Scene 10"
+    },
+    {
+      "id": "museumkota_009_to_museumkota_008",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_008",
+      "label": "[Museum Kota] Scene 8"
+    }
+  ],
+  "museumkota_010": [
+    {
+      "id": "museumkota_010_to_museumkota_011",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_011",
+      "label": "[Museum Kota] Scene 11"
+    },
+    {
+      "id": "museumkota_010_to_museumkota_009",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_009",
+      "label": "[Museum Kota] Scene 9"
+    }
+  ],
+  "museumkota_011": [
+    {
+      "id": "museumkota_011_to_museumkota_012",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_012",
+      "label": "[Museum Kota] Scene 12"
+    },
+    {
+      "id": "museumkota_011_to_museumkota_010",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_010",
+      "label": "[Museum Kota] Scene 10"
+    }
+  ],
+  "museumkota_012": [
+    {
+      "id": "museumkota_012_to_museumkota_013",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_013",
+      "label": "[Museum Kota] Scene 13"
+    },
+    {
+      "id": "museumkota_012_to_museumkota_011",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_011",
+      "label": "[Museum Kota] Scene 11"
+    }
+  ],
+  "museumkota_013": [
+    {
+      "id": "museumkota_013_to_museumkota_014",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_014",
+      "label": "[Museum Kota] Scene 14"
+    },
+    {
+      "id": "museumkota_013_to_museumkota_012",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_012",
+      "label": "[Museum Kota] Scene 12"
+    }
+  ],
+  "museumkota_014": [
+    {
+      "id": "museumkota_014_to_museumkota_015",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_015",
+      "label": "[Museum Kota] Scene 15"
+    },
+    {
+      "id": "museumkota_014_to_museumkota_013",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_013",
+      "label": "[Museum Kota] Scene 13"
+    }
+  ],
+  "museumkota_015": [
+    {
+      "id": "museumkota_015_to_museumkota_016",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_016",
+      "label": "[Museum Kota] Scene 16"
+    },
+    {
+      "id": "museumkota_015_to_museumkota_014",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_014",
+      "label": "[Museum Kota] Scene 14"
+    }
+  ],
+  "museumkota_016": [
+    {
+      "id": "museumkota_016_to_museumkota_017",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_017",
+      "label": "[Museum Kota] Scene 17"
+    },
+    {
+      "id": "museumkota_016_to_museumkota_015",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_015",
+      "label": "[Museum Kota] Scene 15"
+    }
+  ],
+  "museumkota_017": [
+    {
+      "id": "museumkota_017_to_museumkota_018",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_018",
+      "label": "[Museum Kota] Scene 18"
+    },
+    {
+      "id": "museumkota_017_to_museumkota_016",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_016",
+      "label": "[Museum Kota] Scene 16"
+    }
+  ],
+  "museumkota_018": [
+    {
+      "id": "museumkota_018_to_museumkota_019",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_019",
+      "label": "[Museum Kota] Scene 19"
+    },
+    {
+      "id": "museumkota_018_to_museumkota_017",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_017",
+      "label": "[Museum Kota] Scene 17"
+    }
+  ],
+  "museumkota_019": [
+    {
+      "id": "museumkota_019_to_museumkota_020",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_020",
+      "label": "[Museum Kota] Scene 20"
+    },
+    {
+      "id": "museumkota_019_to_museumkota_018",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_018",
+      "label": "[Museum Kota] Scene 18"
+    }
+  ],
+  "museumkota_020": [
+    {
+      "id": "museumkota_020_to_museumkota_021",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_021",
+      "label": "[Museum Kota] Scene 21"
+    },
+    {
+      "id": "museumkota_020_to_museumkota_019",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_019",
+      "label": "[Museum Kota] Scene 19"
+    }
+  ],
+  "museumkota_021": [
+    {
+      "id": "museumkota_021_to_museumkota_022",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_022",
+      "label": "[Museum Kota] Scene 22"
+    },
+    {
+      "id": "museumkota_021_to_museumkota_020",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_020",
+      "label": "[Museum Kota] Scene 20"
+    }
+  ],
+  "museumkota_022": [
+    {
+      "id": "museumkota_022_to_museumkota_023",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_023",
+      "label": "[Museum Kota] Scene 23"
+    },
+    {
+      "id": "museumkota_022_to_museumkota_021",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_021",
+      "label": "[Museum Kota] Scene 21"
+    }
+  ],
+  "museumkota_023": [
+    {
+      "id": "museumkota_023_to_museumkota_024",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_024",
+      "label": "[Museum Kota] Scene 24"
+    },
+    {
+      "id": "museumkota_023_to_museumkota_022",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_022",
+      "label": "[Museum Kota] Scene 22"
+    }
+  ],
+  "museumkota_024": [
+    {
+      "id": "museumkota_024_to_museumkota_025",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_025",
+      "label": "[Museum Kota] Scene 25"
+    },
+    {
+      "id": "museumkota_024_to_museumkota_023",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_023",
+      "label": "[Museum Kota] Scene 23"
+    }
+  ],
+  "museumkota_025": [
+    {
+      "id": "museumkota_025_to_museumkota_026",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_026",
+      "label": "[Museum Kota] Scene 26"
+    },
+    {
+      "id": "museumkota_025_to_museumkota_024",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_024",
+      "label": "[Museum Kota] Scene 24"
+    }
+  ],
+  "museumkota_026": [
+    {
+      "id": "museumkota_026_to_museumkota_027",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_027",
+      "label": "[Museum Kota] Scene 27"
+    },
+    {
+      "id": "museumkota_026_to_museumkota_025",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_025",
+      "label": "[Museum Kota] Scene 25"
+    }
+  ],
+  "museumkota_027": [
+    {
+      "id": "museumkota_027_to_museumkota_028",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_028",
+      "label": "[Museum Kota] Scene 28"
+    },
+    {
+      "id": "museumkota_027_to_museumkota_026",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_026",
+      "label": "[Museum Kota] Scene 26"
+    }
+  ],
+  "museumkota_028": [
+    {
+      "id": "museumkota_028_to_museumkota_029",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_029",
+      "label": "[Museum Kota] Scene 29"
+    },
+    {
+      "id": "museumkota_028_to_museumkota_027",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_027",
+      "label": "[Museum Kota] Scene 27"
+    }
+  ],
+  "museumkota_029": [
+    {
+      "id": "museumkota_029_to_museumkota_030",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_030",
+      "label": "[Museum Kota] Scene 30"
+    },
+    {
+      "id": "museumkota_029_to_museumkota_028",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_028",
+      "label": "[Museum Kota] Scene 28"
+    }
+  ],
+  "museumkota_030": [
+    {
+      "id": "museumkota_030_to_museumkota_031",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_031",
+      "label": "[Museum Kota] Scene 31"
+    },
+    {
+      "id": "museumkota_030_to_museumkota_029",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_029",
+      "label": "[Museum Kota] Scene 29"
+    }
+  ],
+  "museumkota_031": [
+    {
+      "id": "museumkota_031_to_museumkota_032",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_032",
+      "label": "[Museum Kota] Scene 32"
+    },
+    {
+      "id": "museumkota_031_to_museumkota_030",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_030",
+      "label": "[Museum Kota] Scene 30"
+    }
+  ],
+  "museumkota_032": [
+    {
+      "id": "museumkota_032_to_museumkota_033",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_033",
+      "label": "[Museum Kota] Scene 33"
+    },
+    {
+      "id": "museumkota_032_to_museumkota_031",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_031",
+      "label": "[Museum Kota] Scene 31"
+    }
+  ],
+  "museumkota_033": [
+    {
+      "id": "museumkota_033_to_museumkota_034",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_034",
+      "label": "[Museum Kota] Scene 34"
+    },
+    {
+      "id": "museumkota_033_to_museumkota_032",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_032",
+      "label": "[Museum Kota] Scene 32"
+    }
+  ],
+  "museumkota_034": [
+    {
+      "id": "museumkota_034_to_museumkota_035",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_035",
+      "label": "[Museum Kota] Scene 35"
+    },
+    {
+      "id": "museumkota_034_to_museumkota_033",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_033",
+      "label": "[Museum Kota] Scene 33"
+    }
+  ],
+  "museumkota_035": [
+    {
+      "id": "museumkota_035_to_museumkota_036",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_036",
+      "label": "[Museum Kota] Scene 36"
+    },
+    {
+      "id": "museumkota_035_to_museumkota_034",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_034",
+      "label": "[Museum Kota] Scene 34"
+    }
+  ],
+  "museumkota_036": [
+    {
+      "id": "museumkota_036_to_museumkota_037",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_037",
+      "label": "[Museum Kota] Scene 37"
+    },
+    {
+      "id": "museumkota_036_to_museumkota_035",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_035",
+      "label": "[Museum Kota] Scene 35"
+    }
+  ],
+  "museumkota_037": [
+    {
+      "id": "museumkota_037_to_museumkota_038",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_038",
+      "label": "[Museum Kota] Scene 38"
+    },
+    {
+      "id": "museumkota_037_to_museumkota_036",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_036",
+      "label": "[Museum Kota] Scene 36"
+    }
+  ],
+  "museumkota_038": [
+    {
+      "id": "museumkota_038_to_museumkota_039",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_039",
+      "label": "[Museum Kota] Scene 39"
+    },
+    {
+      "id": "museumkota_038_to_museumkota_037",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_037",
+      "label": "[Museum Kota] Scene 37"
+    }
+  ],
+  "museumkota_039": [
+    {
+      "id": "museumkota_039_to_museumkota_040",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_040",
+      "label": "[Museum Kota] Scene 40"
+    },
+    {
+      "id": "museumkota_039_to_museumkota_038",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_038",
+      "label": "[Museum Kota] Scene 38"
+    }
+  ],
+  "museumkota_040": [
+    {
+      "id": "museumkota_040_to_museumkota_041",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_041",
+      "label": "[Museum Kota] Scene 41"
+    },
+    {
+      "id": "museumkota_040_to_museumkota_039",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_039",
+      "label": "[Museum Kota] Scene 39"
+    }
+  ],
+  "museumkota_041": [
+    {
+      "id": "museumkota_041_to_museumkota_042",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_042",
+      "label": "[Museum Kota] Scene 42"
+    },
+    {
+      "id": "museumkota_041_to_museumkota_040",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_040",
+      "label": "[Museum Kota] Scene 40"
+    }
+  ],
+  "museumkota_042": [
+    {
+      "id": "museumkota_042_to_museumkota_043",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_043",
+      "label": "[Museum Kota] Scene 43"
+    },
+    {
+      "id": "museumkota_042_to_museumkota_041",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_041",
+      "label": "[Museum Kota] Scene 41"
+    }
+  ],
+  "museumkota_043": [
+    {
+      "id": "museumkota_043_to_museumkota_044",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_044",
+      "label": "[Museum Kota] Scene 44"
+    },
+    {
+      "id": "museumkota_043_to_museumkota_042",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_042",
+      "label": "[Museum Kota] Scene 42"
+    }
+  ],
+  "museumkota_044": [
+    {
+      "id": "museumkota_044_to_museumkota_045",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_045",
+      "label": "[Museum Kota] Scene 45"
+    },
+    {
+      "id": "museumkota_044_to_museumkota_043",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_043",
+      "label": "[Museum Kota] Scene 43"
+    }
+  ],
+  "museumkota_045": [
+    {
+      "id": "museumkota_045_to_museumkota_046",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_046",
+      "label": "[Museum Kota] Scene 46"
+    },
+    {
+      "id": "museumkota_045_to_museumkota_044",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_044",
+      "label": "[Museum Kota] Scene 44"
+    }
+  ],
+  "museumkota_046": [
+    {
+      "id": "museumkota_046_to_museumkota_047",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_047",
+      "label": "[Museum Kota] Scene 47"
+    },
+    {
+      "id": "museumkota_046_to_museumkota_045",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_045",
+      "label": "[Museum Kota] Scene 45"
+    }
+  ],
+  "museumkota_047": [
+    {
+      "id": "museumkota_047_to_museumkota_048",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_048",
+      "label": "[Museum Kota] Scene 48"
+    },
+    {
+      "id": "museumkota_047_to_museumkota_046",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_046",
+      "label": "[Museum Kota] Scene 46"
+    }
+  ],
+  "museumkota_048": [
+    {
+      "id": "museumkota_048_to_museumkota_049",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_049",
+      "label": "[Museum Kota] Scene 49"
+    },
+    {
+      "id": "museumkota_048_to_museumkota_047",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_047",
+      "label": "[Museum Kota] Scene 47"
+    }
+  ],
+  "museumkota_049": [
+    {
+      "id": "museumkota_049_to_museumkota_050",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_050",
+      "label": "[Museum Kota] Scene 50"
+    },
+    {
+      "id": "museumkota_049_to_museumkota_048",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_048",
+      "label": "[Museum Kota] Scene 48"
+    }
+  ],
+  "museumkota_050": [
+    {
+      "id": "museumkota_050_to_museumkota_051",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_051",
+      "label": "[Museum Kota] Scene 51"
+    },
+    {
+      "id": "museumkota_050_to_museumkota_049",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_049",
+      "label": "[Museum Kota] Scene 49"
+    }
+  ],
+  "museumkota_051": [
+    {
+      "id": "museumkota_051_to_museumkota_052",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_052",
+      "label": "[Museum Kota] Scene 52"
+    },
+    {
+      "id": "museumkota_051_to_museumkota_050",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_050",
+      "label": "[Museum Kota] Scene 50"
+    }
+  ],
+  "museumkota_052": [
+    {
+      "id": "museumkota_052_to_museumkota_053",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_053",
+      "label": "[Museum Kota] Scene 53"
+    },
+    {
+      "id": "museumkota_052_to_museumkota_051",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_051",
+      "label": "[Museum Kota] Scene 51"
+    }
+  ],
+  "museumkota_053": [
+    {
+      "id": "museumkota_053_to_museumkota_054",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_054",
+      "label": "[Museum Kota] Scene 54"
+    },
+    {
+      "id": "museumkota_053_to_museumkota_052",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_052",
+      "label": "[Museum Kota] Scene 52"
+    }
+  ],
+  "museumkota_054": [
+    {
+      "id": "museumkota_054_to_museumkota_055",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_055",
+      "label": "[Museum Kota] Scene 55"
+    },
+    {
+      "id": "museumkota_054_to_museumkota_053",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_053",
+      "label": "[Museum Kota] Scene 53"
+    }
+  ],
+  "museumkota_055": [
+    {
+      "id": "museumkota_055_to_museumkota_056",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_056",
+      "label": "[Museum Kota] Scene 56"
+    },
+    {
+      "id": "museumkota_055_to_museumkota_054",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_054",
+      "label": "[Museum Kota] Scene 54"
+    }
+  ],
+  "museumkota_056": [
+    {
+      "id": "museumkota_056_to_museumkota_057",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_057",
+      "label": "[Museum Kota] Scene 57"
+    },
+    {
+      "id": "museumkota_056_to_museumkota_055",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_055",
+      "label": "[Museum Kota] Scene 55"
+    }
+  ],
+  "museumkota_057": [
+    {
+      "id": "museumkota_057_to_museumkota_058",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_058",
+      "label": "[Museum Kota] Scene 58"
+    },
+    {
+      "id": "museumkota_057_to_museumkota_056",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_056",
+      "label": "[Museum Kota] Scene 56"
+    }
+  ],
+  "museumkota_058": [
+    {
+      "id": "museumkota_058_to_museumkota_059",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_059",
+      "label": "[Museum Kota] Scene 59"
+    },
+    {
+      "id": "museumkota_058_to_museumkota_057",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_057",
+      "label": "[Museum Kota] Scene 57"
+    }
+  ],
+  "museumkota_059": [
+    {
+      "id": "museumkota_059_to_museumkota_060",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_060",
+      "label": "[Museum Kota] Scene 60"
+    },
+    {
+      "id": "museumkota_059_to_museumkota_058",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_058",
+      "label": "[Museum Kota] Scene 58"
+    }
+  ],
+  "museumkota_060": [
+    {
+      "id": "museumkota_060_to_museumkota_061",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_061",
+      "label": "[Museum Kota] Scene 61"
+    },
+    {
+      "id": "museumkota_060_to_museumkota_059",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_059",
+      "label": "[Museum Kota] Scene 59"
+    }
+  ],
+  "museumkota_061": [
+    {
+      "id": "museumkota_061_to_museumkota_062",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_062",
+      "label": "[Museum Kota] Scene 62"
+    },
+    {
+      "id": "museumkota_061_to_museumkota_060",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_060",
+      "label": "[Museum Kota] Scene 60"
+    }
+  ],
+  "museumkota_062": [
+    {
+      "id": "museumkota_062_to_museumkota_063",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_063",
+      "label": "[Museum Kota] Scene 63"
+    },
+    {
+      "id": "museumkota_062_to_museumkota_061",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_061",
+      "label": "[Museum Kota] Scene 61"
+    }
+  ],
+  "museumkota_063": [
+    {
+      "id": "museumkota_063_to_museumkota_064",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_064",
+      "label": "[Museum Kota] Scene 64"
+    },
+    {
+      "id": "museumkota_063_to_museumkota_062",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_062",
+      "label": "[Museum Kota] Scene 62"
+    }
+  ],
+  "museumkota_064": [
+    {
+      "id": "museumkota_064_to_museumkota_065",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_065",
+      "label": "[Museum Kota] Scene 65"
+    },
+    {
+      "id": "museumkota_064_to_museumkota_063",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_063",
+      "label": "[Museum Kota] Scene 63"
+    }
+  ],
+  "museumkota_065": [
+    {
+      "id": "museumkota_065_to_museumkota_066",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_066",
+      "label": "[Museum Kota] Scene 66"
+    },
+    {
+      "id": "museumkota_065_to_museumkota_064",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_064",
+      "label": "[Museum Kota] Scene 64"
+    }
+  ],
+  "museumkota_066": [
+    {
+      "id": "museumkota_066_to_museumkota_067",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_067",
+      "label": "[Museum Kota] Scene 67"
+    },
+    {
+      "id": "museumkota_066_to_museumkota_065",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_065",
+      "label": "[Museum Kota] Scene 65"
+    }
+  ],
+  "museumkota_067": [
+    {
+      "id": "museumkota_067_to_museumkota_068",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_068",
+      "label": "[Museum Kota] Scene 68"
+    },
+    {
+      "id": "museumkota_067_to_museumkota_066",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_066",
+      "label": "[Museum Kota] Scene 66"
+    }
+  ],
+  "museumkota_068": [
+    {
+      "id": "museumkota_068_to_museumkota_069",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_069",
+      "label": "[Museum Kota] Scene 69"
+    },
+    {
+      "id": "museumkota_068_to_museumkota_067",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_067",
+      "label": "[Museum Kota] Scene 67"
+    }
+  ],
+  "museumkota_069": [
+    {
+      "id": "museumkota_069_to_museumkota_070",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_070",
+      "label": "[Museum Kota] Scene 70"
+    },
+    {
+      "id": "museumkota_069_to_museumkota_068",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_068",
+      "label": "[Museum Kota] Scene 68"
+    }
+  ],
+  "museumkota_070": [
+    {
+      "id": "museumkota_070_to_museumkota_071",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_071",
+      "label": "[Museum Kota] Scene 71"
+    },
+    {
+      "id": "museumkota_070_to_museumkota_069",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_069",
+      "label": "[Museum Kota] Scene 69"
+    }
+  ],
+  "museumkota_071": [
+    {
+      "id": "museumkota_071_to_museumkota_072",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_072",
+      "label": "[Museum Kota] Scene 72"
+    },
+    {
+      "id": "museumkota_071_to_museumkota_070",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_070",
+      "label": "[Museum Kota] Scene 70"
+    }
+  ],
+  "museumkota_072": [
+    {
+      "id": "museumkota_072_to_museumkota_073",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_073",
+      "label": "[Museum Kota] Scene 73"
+    },
+    {
+      "id": "museumkota_072_to_museumkota_071",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_071",
+      "label": "[Museum Kota] Scene 71"
+    }
+  ],
+  "museumkota_073": [
+    {
+      "id": "museumkota_073_to_museumkota_074",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_074",
+      "label": "[Museum Kota] Scene 74"
+    },
+    {
+      "id": "museumkota_073_to_museumkota_072",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_072",
+      "label": "[Museum Kota] Scene 72"
+    }
+  ],
+  "museumkota_074": [
+    {
+      "id": "museumkota_074_to_museumkota_075",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_075",
+      "label": "[Museum Kota] Scene 75"
+    },
+    {
+      "id": "museumkota_074_to_museumkota_073",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_073",
+      "label": "[Museum Kota] Scene 73"
+    }
+  ],
+  "museumkota_075": [
+    {
+      "id": "museumkota_075_to_museumkota_076",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_076",
+      "label": "[Museum Kota] Scene 76"
+    },
+    {
+      "id": "museumkota_075_to_museumkota_074",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_074",
+      "label": "[Museum Kota] Scene 74"
+    }
+  ],
+  "museumkota_076": [
+    {
+      "id": "museumkota_076_to_museumkota_077",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_077",
+      "label": "[Museum Kota] Scene 77"
+    },
+    {
+      "id": "museumkota_076_to_museumkota_075",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_075",
+      "label": "[Museum Kota] Scene 75"
+    }
+  ],
+  "museumkota_077": [
+    {
+      "id": "museumkota_077_to_museumkota_078",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_078",
+      "label": "[Museum Kota] Scene 78"
+    },
+    {
+      "id": "museumkota_077_to_museumkota_076",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_076",
+      "label": "[Museum Kota] Scene 76"
+    }
+  ],
+  "museumkota_078": [
+    {
+      "id": "museumkota_078_to_museumkota_079",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_079",
+      "label": "[Museum Kota] Scene 79"
+    },
+    {
+      "id": "museumkota_078_to_museumkota_077",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_077",
+      "label": "[Museum Kota] Scene 77"
+    }
+  ],
+  "museumkota_079": [
+    {
+      "id": "museumkota_079_to_museumkota_080",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_080",
+      "label": "[Museum Kota] Scene 80"
+    },
+    {
+      "id": "museumkota_079_to_museumkota_078",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_078",
+      "label": "[Museum Kota] Scene 78"
+    }
+  ],
+  "museumkota_080": [
+    {
+      "id": "museumkota_080_to_museumkota_081",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_081",
+      "label": "[Museum Kota] Scene 81"
+    },
+    {
+      "id": "museumkota_080_to_museumkota_079",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_079",
+      "label": "[Museum Kota] Scene 79"
+    }
+  ],
+  "museumkota_081": [
+    {
+      "id": "museumkota_081_to_museumkota_082",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_082",
+      "label": "[Museum Kota] Scene 82"
+    },
+    {
+      "id": "museumkota_081_to_museumkota_080",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_080",
+      "label": "[Museum Kota] Scene 80"
+    }
+  ],
+  "museumkota_082": [
+    {
+      "id": "museumkota_082_to_museumkota_083",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_083",
+      "label": "[Museum Kota] Scene 83"
+    },
+    {
+      "id": "museumkota_082_to_museumkota_081",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_081",
+      "label": "[Museum Kota] Scene 81"
+    }
+  ],
+  "museumkota_083": [
+    {
+      "id": "museumkota_083_to_museumkota_084",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_084",
+      "label": "[Museum Kota] Scene 84"
+    },
+    {
+      "id": "museumkota_083_to_museumkota_082",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_082",
+      "label": "[Museum Kota] Scene 82"
+    }
+  ],
+  "museumkota_084": [
+    {
+      "id": "museumkota_084_to_museumkota_085",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_085",
+      "label": "[Museum Kota] Scene 85"
+    },
+    {
+      "id": "museumkota_084_to_museumkota_083",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_083",
+      "label": "[Museum Kota] Scene 83"
+    }
+  ],
+  "museumkota_085": [
+    {
+      "id": "museumkota_085_to_museumkota_086",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_086",
+      "label": "[Museum Kota] Scene 86"
+    },
+    {
+      "id": "museumkota_085_to_museumkota_084",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_084",
+      "label": "[Museum Kota] Scene 84"
+    }
+  ],
+  "museumkota_086": [
+    {
+      "id": "museumkota_086_to_museumkota_087",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_087",
+      "label": "[Museum Kota] Scene 87"
+    },
+    {
+      "id": "museumkota_086_to_museumkota_085",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_085",
+      "label": "[Museum Kota] Scene 85"
+    }
+  ],
+  "museumkota_087": [
+    {
+      "id": "museumkota_087_to_museumkota_088",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_088",
+      "label": "[Museum Kota] Scene 88"
+    },
+    {
+      "id": "museumkota_087_to_museumkota_086",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_086",
+      "label": "[Museum Kota] Scene 86"
+    }
+  ],
+  "museumkota_088": [
+    {
+      "id": "museumkota_088_to_museumkota_089",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_089",
+      "label": "[Museum Kota] Scene 89"
+    },
+    {
+      "id": "museumkota_088_to_museumkota_087",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_087",
+      "label": "[Museum Kota] Scene 87"
+    }
+  ],
+  "museumkota_089": [
+    {
+      "id": "museumkota_089_to_museumkota_090",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_090",
+      "label": "[Museum Kota] Scene 90"
+    },
+    {
+      "id": "museumkota_089_to_museumkota_088",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_088",
+      "label": "[Museum Kota] Scene 88"
+    }
+  ],
+  "museumkota_090": [
+    {
+      "id": "museumkota_090_to_museumkota_091",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_091",
+      "label": "[Museum Kota] Scene 91"
+    },
+    {
+      "id": "museumkota_090_to_museumkota_089",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_089",
+      "label": "[Museum Kota] Scene 89"
+    }
+  ],
+  "museumkota_091": [
+    {
+      "id": "museumkota_091_to_museumkota_092",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_092",
+      "label": "[Museum Kota] Scene 92"
+    },
+    {
+      "id": "museumkota_091_to_museumkota_090",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_090",
+      "label": "[Museum Kota] Scene 90"
+    }
+  ],
+  "museumkota_092": [
+    {
+      "id": "museumkota_092_to_museumkota_093",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_093",
+      "label": "[Museum Kota] Scene 93"
+    },
+    {
+      "id": "museumkota_092_to_museumkota_091",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_091",
+      "label": "[Museum Kota] Scene 91"
+    }
+  ],
+  "museumkota_093": [
+    {
+      "id": "museumkota_093_to_museumkota_094",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_094",
+      "label": "[Museum Kota] Scene 94"
+    },
+    {
+      "id": "museumkota_093_to_museumkota_092",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_092",
+      "label": "[Museum Kota] Scene 92"
+    }
+  ],
+  "museumkota_094": [
+    {
+      "id": "museumkota_094_to_museumkota_095",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_095",
+      "label": "[Museum Kota] Scene 95"
+    },
+    {
+      "id": "museumkota_094_to_museumkota_093",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_093",
+      "label": "[Museum Kota] Scene 93"
+    }
+  ],
+  "museumkota_095": [
+    {
+      "id": "museumkota_095_to_museumkota_096",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_096",
+      "label": "[Museum Kota] Scene 96"
+    },
+    {
+      "id": "museumkota_095_to_museumkota_094",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_094",
+      "label": "[Museum Kota] Scene 94"
+    }
+  ],
+  "museumkota_096": [
+    {
+      "id": "museumkota_096_to_museumkota_097",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_097",
+      "label": "[Museum Kota] Scene 97"
+    },
+    {
+      "id": "museumkota_096_to_museumkota_095",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_095",
+      "label": "[Museum Kota] Scene 95"
+    }
+  ],
+  "museumkota_097": [
+    {
+      "id": "museumkota_097_to_museumkota_098",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_098",
+      "label": "[Museum Kota] Scene 98"
+    },
+    {
+      "id": "museumkota_097_to_museumkota_096",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_096",
+      "label": "[Museum Kota] Scene 96"
+    }
+  ],
+  "museumkota_098": [
+    {
+      "id": "museumkota_098_to_museumkota_099",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_099",
+      "label": "[Museum Kota] Scene 99"
+    },
+    {
+      "id": "museumkota_098_to_museumkota_097",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_097",
+      "label": "[Museum Kota] Scene 97"
+    }
+  ],
+  "museumkota_099": [
+    {
+      "id": "museumkota_099_to_museumkota_100",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_100",
+      "label": "[Museum Kota] Scene 100"
+    },
+    {
+      "id": "museumkota_099_to_museumkota_098",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_098",
+      "label": "[Museum Kota] Scene 98"
+    }
+  ],
+  "museumkota_100": [
+    {
+      "id": "museumkota_100_to_museumkota_101",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_101",
+      "label": "[Museum Kota] Scene 101"
+    },
+    {
+      "id": "museumkota_100_to_museumkota_099",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_099",
+      "label": "[Museum Kota] Scene 99"
+    }
+  ],
+  "museumkota_101": [
+    {
+      "id": "museumkota_101_to_museumkota_102",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_102",
+      "label": "[Museum Kota] Scene 102"
+    },
+    {
+      "id": "museumkota_101_to_museumkota_100",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_100",
+      "label": "[Museum Kota] Scene 100"
+    }
+  ],
+  "museumkota_102": [
+    {
+      "id": "museumkota_102_to_museumkota_103",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_103",
+      "label": "[Museum Kota] Scene 103"
+    },
+    {
+      "id": "museumkota_102_to_museumkota_101",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_101",
+      "label": "[Museum Kota] Scene 101"
+    }
+  ],
+  "museumkota_103": [
+    {
+      "id": "museumkota_103_to_museumkota_104",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_104",
+      "label": "[Museum Kota] Scene 104"
+    },
+    {
+      "id": "museumkota_103_to_museumkota_102",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_102",
+      "label": "[Museum Kota] Scene 102"
+    }
+  ],
+  "museumkota_104": [
+    {
+      "id": "museumkota_104_to_museumkota_105",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_105",
+      "label": "[Museum Kota] Scene 105"
+    },
+    {
+      "id": "museumkota_104_to_museumkota_103",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_103",
+      "label": "[Museum Kota] Scene 103"
+    }
+  ],
+  "museumkota_105": [
+    {
+      "id": "museumkota_105_to_museumkota_106",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_106",
+      "label": "[Museum Kota] Scene 106"
+    },
+    {
+      "id": "museumkota_105_to_museumkota_104",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_104",
+      "label": "[Museum Kota] Scene 104"
+    }
+  ],
+  "museumkota_106": [
+    {
+      "id": "museumkota_106_to_museumkota_107",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_107",
+      "label": "[Museum Kota] Scene 107"
+    },
+    {
+      "id": "museumkota_106_to_museumkota_105",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_105",
+      "label": "[Museum Kota] Scene 105"
+    }
+  ],
+  "museumkota_107": [
+    {
+      "id": "museumkota_107_to_museumkota_108",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_108",
+      "label": "[Museum Kota] Scene 108"
+    },
+    {
+      "id": "museumkota_107_to_museumkota_106",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_106",
+      "label": "[Museum Kota] Scene 106"
+    }
+  ],
+  "museumkota_108": [
+    {
+      "id": "museumkota_108_to_museumkota_109",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_109",
+      "label": "[Museum Kota] Scene 109"
+    },
+    {
+      "id": "museumkota_108_to_museumkota_107",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_107",
+      "label": "[Museum Kota] Scene 107"
+    }
+  ],
+  "museumkota_109": [
+    {
+      "id": "museumkota_109_to_museumkota_110",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_110",
+      "label": "[Museum Kota] Scene 110"
+    },
+    {
+      "id": "museumkota_109_to_museumkota_108",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_108",
+      "label": "[Museum Kota] Scene 108"
+    }
+  ],
+  "museumkota_110": [
+    {
+      "id": "museumkota_110_to_museumkota_111",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_111",
+      "label": "[Museum Kota] Scene 111"
+    },
+    {
+      "id": "museumkota_110_to_museumkota_109",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_109",
+      "label": "[Museum Kota] Scene 109"
+    }
+  ],
+  "museumkota_111": [
+    {
+      "id": "museumkota_111_to_museumkota_112",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_112",
+      "label": "[Museum Kota] Scene 112"
+    },
+    {
+      "id": "museumkota_111_to_museumkota_110",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_110",
+      "label": "[Museum Kota] Scene 110"
+    }
+  ],
+  "museumkota_112": [
+    {
+      "id": "museumkota_112_to_museumkota_113",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_113",
+      "label": "[Museum Kota] Scene 113"
+    },
+    {
+      "id": "museumkota_112_to_museumkota_111",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_111",
+      "label": "[Museum Kota] Scene 111"
+    }
+  ],
+  "museumkota_113": [
+    {
+      "id": "museumkota_113_to_museumkota_114",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_114",
+      "label": "[Museum Kota] Scene 114"
+    },
+    {
+      "id": "museumkota_113_to_museumkota_112",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_112",
+      "label": "[Museum Kota] Scene 112"
+    }
+  ],
+  "museumkota_114": [
+    {
+      "id": "museumkota_114_to_museumkota_115",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_115",
+      "label": "[Museum Kota] Scene 115"
+    },
+    {
+      "id": "museumkota_114_to_museumkota_113",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_113",
+      "label": "[Museum Kota] Scene 113"
+    }
+  ],
+  "museumkota_115": [
+    {
+      "id": "museumkota_115_to_museumkota_116",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_116",
+      "label": "[Museum Kota] Scene 116"
+    },
+    {
+      "id": "museumkota_115_to_museumkota_114",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_114",
+      "label": "[Museum Kota] Scene 114"
+    }
+  ],
+  "museumkota_116": [
+    {
+      "id": "museumkota_116_to_museumkota_117",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_117",
+      "label": "[Museum Kota] Scene 117"
+    },
+    {
+      "id": "museumkota_116_to_museumkota_115",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_115",
+      "label": "[Museum Kota] Scene 115"
+    }
+  ],
+  "museumkota_117": [
+    {
+      "id": "museumkota_117_to_museumkota_118",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_118",
+      "label": "[Museum Kota] Scene 118"
+    },
+    {
+      "id": "museumkota_117_to_museumkota_116",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_116",
+      "label": "[Museum Kota] Scene 116"
+    }
+  ],
+  "museumkota_118": [
+    {
+      "id": "museumkota_118_to_museumkota_119",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_119",
+      "label": "[Museum Kota] Scene 119"
+    },
+    {
+      "id": "museumkota_118_to_museumkota_117",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_117",
+      "label": "[Museum Kota] Scene 117"
+    }
+  ],
+  "museumkota_119": [
+    {
+      "id": "museumkota_119_to_museumkota_120",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_120",
+      "label": "[Museum Kota] Scene 120"
+    },
+    {
+      "id": "museumkota_119_to_museumkota_118",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_118",
+      "label": "[Museum Kota] Scene 118"
+    }
+  ],
+  "museumkota_120": [
+    {
+      "id": "museumkota_120_to_museumkota_121",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_121",
+      "label": "[Museum Kota] Scene 121"
+    },
+    {
+      "id": "museumkota_120_to_museumkota_119",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_119",
+      "label": "[Museum Kota] Scene 119"
+    }
+  ],
+  "museumkota_121": [
+    {
+      "id": "museumkota_121_to_museumkota_122",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_122",
+      "label": "[Museum Kota] Scene 122"
+    },
+    {
+      "id": "museumkota_121_to_museumkota_120",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_120",
+      "label": "[Museum Kota] Scene 120"
+    }
+  ],
+  "museumkota_122": [
+    {
+      "id": "museumkota_122_to_museumkota_123",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_123",
+      "label": "[Museum Kota] Scene 123"
+    },
+    {
+      "id": "museumkota_122_to_museumkota_121",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_121",
+      "label": "[Museum Kota] Scene 121"
+    }
+  ],
+  "museumkota_123": [
+    {
+      "id": "museumkota_123_to_museumkota_124",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_124",
+      "label": "[Museum Kota] Scene 124"
+    },
+    {
+      "id": "museumkota_123_to_museumkota_122",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_122",
+      "label": "[Museum Kota] Scene 122"
+    }
+  ],
+  "museumkota_124": [
+    {
+      "id": "museumkota_124_to_museumkota_125",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_125",
+      "label": "[Museum Kota] Scene 125"
+    },
+    {
+      "id": "museumkota_124_to_museumkota_123",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_123",
+      "label": "[Museum Kota] Scene 123"
+    }
+  ],
+  "museumkota_125": [
+    {
+      "id": "museumkota_125_to_museumkota_126",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_126",
+      "label": "[Museum Kota] Scene 126"
+    },
+    {
+      "id": "museumkota_125_to_museumkota_124",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_124",
+      "label": "[Museum Kota] Scene 124"
+    }
+  ],
+  "museumkota_126": [
+    {
+      "id": "museumkota_126_to_museumkota_127",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "museumkota_127",
+      "label": "[Museum Kota] Scene 127"
+    },
+    {
+      "id": "museumkota_126_to_museumkota_125",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_125",
+      "label": "[Museum Kota] Scene 125"
+    }
+  ],
+  "museumkota_127": [
+    {
+      "id": "museumkota_127_to_museumkota_126",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "museumkota_126",
+      "label": "[Museum Kota] Scene 126"
+    }
+  ],
+  "panlos_001": [
+    {
+      "id": "panlos_001_to_panlos_002",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_002",
+      "label": "[Pantai Losari] Scene 2"
+    }
+  ],
+  "panlos_002": [
+    {
+      "id": "panlos_002_to_panlos_003",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_003",
+      "label": "[Pantai Losari] Scene 3"
+    },
+    {
+      "id": "panlos_002_to_panlos_001",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_001",
+      "label": "[Pantai Losari] Pintu Masuk"
+    }
+  ],
+  "panlos_003": [
+    {
+      "id": "panlos_003_to_panlos_004",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_004",
+      "label": "[Pantai Losari] Scene 4"
+    },
+    {
+      "id": "panlos_003_to_panlos_002",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_002",
+      "label": "[Pantai Losari] Scene 2"
+    }
+  ],
+  "panlos_004": [
+    {
+      "id": "panlos_004_to_panlos_005",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_005",
+      "label": "[Pantai Losari] Scene 5"
+    },
+    {
+      "id": "panlos_004_to_panlos_003",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_003",
+      "label": "[Pantai Losari] Scene 3"
+    }
+  ],
+  "panlos_005": [
+    {
+      "id": "panlos_005_to_panlos_006",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_006",
+      "label": "[Pantai Losari] Scene 6"
+    },
+    {
+      "id": "panlos_005_to_panlos_004",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_004",
+      "label": "[Pantai Losari] Scene 4"
+    }
+  ],
+  "panlos_006": [
+    {
+      "id": "panlos_006_to_panlos_007",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_007",
+      "label": "[Pantai Losari] Scene 7"
+    },
+    {
+      "id": "panlos_006_to_panlos_005",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_005",
+      "label": "[Pantai Losari] Scene 5"
+    }
+  ],
+  "panlos_007": [
+    {
+      "id": "panlos_007_to_panlos_008",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_008",
+      "label": "[Pantai Losari] Scene 8"
+    },
+    {
+      "id": "panlos_007_to_panlos_006",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_006",
+      "label": "[Pantai Losari] Scene 6"
+    }
+  ],
+  "panlos_008": [
+    {
+      "id": "panlos_008_to_panlos_009",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_009",
+      "label": "[Pantai Losari] Scene 9"
+    },
+    {
+      "id": "panlos_008_to_panlos_007",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_007",
+      "label": "[Pantai Losari] Scene 7"
+    }
+  ],
+  "panlos_009": [
+    {
+      "id": "panlos_009_to_panlos_010",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_010",
+      "label": "[Pantai Losari] Scene 10"
+    },
+    {
+      "id": "panlos_009_to_panlos_008",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_008",
+      "label": "[Pantai Losari] Scene 8"
+    }
+  ],
+  "panlos_010": [
+    {
+      "id": "panlos_010_to_panlos_011",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_011",
+      "label": "[Pantai Losari] Scene 11"
+    },
+    {
+      "id": "panlos_010_to_panlos_009",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_009",
+      "label": "[Pantai Losari] Scene 9"
+    }
+  ],
+  "panlos_011": [
+    {
+      "id": "panlos_011_to_panlos_012",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_012",
+      "label": "[Pantai Losari] Scene 12"
+    },
+    {
+      "id": "panlos_011_to_panlos_010",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_010",
+      "label": "[Pantai Losari] Scene 10"
+    }
+  ],
+  "panlos_012": [
+    {
+      "id": "panlos_012_to_panlos_013",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_013",
+      "label": "[Pantai Losari] Scene 13"
+    },
+    {
+      "id": "panlos_012_to_panlos_011",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_011",
+      "label": "[Pantai Losari] Scene 11"
+    }
+  ],
+  "panlos_013": [
+    {
+      "id": "panlos_013_to_panlos_014",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_014",
+      "label": "[Pantai Losari] Scene 14"
+    },
+    {
+      "id": "panlos_013_to_panlos_012",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_012",
+      "label": "[Pantai Losari] Scene 12"
+    }
+  ],
+  "panlos_014": [
+    {
+      "id": "panlos_014_to_panlos_015",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_015",
+      "label": "[Pantai Losari] Scene 15"
+    },
+    {
+      "id": "panlos_014_to_panlos_013",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_013",
+      "label": "[Pantai Losari] Scene 13"
+    }
+  ],
+  "panlos_015": [
+    {
+      "id": "panlos_015_to_panlos_016",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_016",
+      "label": "[Pantai Losari] Scene 16"
+    },
+    {
+      "id": "panlos_015_to_panlos_014",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_014",
+      "label": "[Pantai Losari] Scene 14"
+    }
+  ],
+  "panlos_016": [
+    {
+      "id": "panlos_016_to_panlos_017",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_017",
+      "label": "[Pantai Losari] Scene 17"
+    },
+    {
+      "id": "panlos_016_to_panlos_015",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_015",
+      "label": "[Pantai Losari] Scene 15"
+    }
+  ],
+  "panlos_017": [
+    {
+      "id": "panlos_017_to_panlos_018",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_018",
+      "label": "[Pantai Losari] Scene 18"
+    },
+    {
+      "id": "panlos_017_to_panlos_016",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_016",
+      "label": "[Pantai Losari] Scene 16"
+    }
+  ],
+  "panlos_018": [
+    {
+      "id": "panlos_018_to_panlos_019",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_019",
+      "label": "[Pantai Losari] Scene 19"
+    },
+    {
+      "id": "panlos_018_to_panlos_017",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_017",
+      "label": "[Pantai Losari] Scene 17"
+    }
+  ],
+  "panlos_019": [
+    {
+      "id": "panlos_019_to_panlos_020",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_020",
+      "label": "[Pantai Losari] Scene 20"
+    },
+    {
+      "id": "panlos_019_to_panlos_018",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_018",
+      "label": "[Pantai Losari] Scene 18"
+    }
+  ],
+  "panlos_020": [
+    {
+      "id": "panlos_020_to_panlos_021",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_021",
+      "label": "[Pantai Losari] Scene 21"
+    },
+    {
+      "id": "panlos_020_to_panlos_019",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_019",
+      "label": "[Pantai Losari] Scene 19"
+    }
+  ],
+  "panlos_021": [
+    {
+      "id": "panlos_021_to_panlos_022",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_022",
+      "label": "[Pantai Losari] Scene 22"
+    },
+    {
+      "id": "panlos_021_to_panlos_020",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_020",
+      "label": "[Pantai Losari] Scene 20"
+    }
+  ],
+  "panlos_022": [
+    {
+      "id": "panlos_022_to_panlos_023",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_023",
+      "label": "[Pantai Losari] Scene 23"
+    },
+    {
+      "id": "panlos_022_to_panlos_021",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_021",
+      "label": "[Pantai Losari] Scene 21"
+    }
+  ],
+  "panlos_023": [
+    {
+      "id": "panlos_023_to_panlos_024",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_024",
+      "label": "[Pantai Losari] Scene 24"
+    },
+    {
+      "id": "panlos_023_to_panlos_022",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_022",
+      "label": "[Pantai Losari] Scene 22"
+    }
+  ],
+  "panlos_024": [
+    {
+      "id": "panlos_024_to_panlos_025",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_025",
+      "label": "[Pantai Losari] Scene 25"
+    },
+    {
+      "id": "panlos_024_to_panlos_023",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_023",
+      "label": "[Pantai Losari] Scene 23"
+    }
+  ],
+  "panlos_025": [
+    {
+      "id": "panlos_025_to_panlos_026",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_026",
+      "label": "[Pantai Losari] Scene 26"
+    },
+    {
+      "id": "panlos_025_to_panlos_024",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_024",
+      "label": "[Pantai Losari] Scene 24"
+    }
+  ],
+  "panlos_026": [
+    {
+      "id": "panlos_026_to_panlos_027",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_027",
+      "label": "[Pantai Losari] Scene 27"
+    },
+    {
+      "id": "panlos_026_to_panlos_025",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_025",
+      "label": "[Pantai Losari] Scene 25"
+    }
+  ],
+  "panlos_027": [
+    {
+      "id": "panlos_027_to_panlos_028",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_028",
+      "label": "[Pantai Losari] Scene 28"
+    },
+    {
+      "id": "panlos_027_to_panlos_026",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_026",
+      "label": "[Pantai Losari] Scene 26"
+    }
+  ],
+  "panlos_028": [
+    {
+      "id": "panlos_028_to_panlos_029",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_029",
+      "label": "[Pantai Losari] Scene 29"
+    },
+    {
+      "id": "panlos_028_to_panlos_027",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_027",
+      "label": "[Pantai Losari] Scene 27"
+    }
+  ],
+  "panlos_029": [
+    {
+      "id": "panlos_029_to_panlos_030",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_030",
+      "label": "[Pantai Losari] Scene 30"
+    },
+    {
+      "id": "panlos_029_to_panlos_028",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_028",
+      "label": "[Pantai Losari] Scene 28"
+    }
+  ],
+  "panlos_030": [
+    {
+      "id": "panlos_030_to_panlos_031",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_031",
+      "label": "[Pantai Losari] Scene 31"
+    },
+    {
+      "id": "panlos_030_to_panlos_029",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_029",
+      "label": "[Pantai Losari] Scene 29"
+    }
+  ],
+  "panlos_031": [
+    {
+      "id": "panlos_031_to_panlos_032",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_032",
+      "label": "[Pantai Losari] Scene 32"
+    },
+    {
+      "id": "panlos_031_to_panlos_030",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_030",
+      "label": "[Pantai Losari] Scene 30"
+    }
+  ],
+  "panlos_032": [
+    {
+      "id": "panlos_032_to_panlos_033",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_033",
+      "label": "[Pantai Losari] Scene 33"
+    },
+    {
+      "id": "panlos_032_to_panlos_031",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_031",
+      "label": "[Pantai Losari] Scene 31"
+    }
+  ],
+  "panlos_033": [
+    {
+      "id": "panlos_033_to_panlos_034",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_034",
+      "label": "[Pantai Losari] Scene 34"
+    },
+    {
+      "id": "panlos_033_to_panlos_032",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_032",
+      "label": "[Pantai Losari] Scene 32"
+    }
+  ],
+  "panlos_034": [
+    {
+      "id": "panlos_034_to_panlos_035",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_035",
+      "label": "[Pantai Losari] Scene 35"
+    },
+    {
+      "id": "panlos_034_to_panlos_033",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_033",
+      "label": "[Pantai Losari] Scene 33"
+    }
+  ],
+  "panlos_035": [
+    {
+      "id": "panlos_035_to_panlos_036",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_036",
+      "label": "[Pantai Losari] Scene 36"
+    },
+    {
+      "id": "panlos_035_to_panlos_034",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_034",
+      "label": "[Pantai Losari] Scene 34"
+    }
+  ],
+  "panlos_036": [
+    {
+      "id": "panlos_036_to_panlos_037",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_037",
+      "label": "[Pantai Losari] Scene 37"
+    },
+    {
+      "id": "panlos_036_to_panlos_035",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_035",
+      "label": "[Pantai Losari] Scene 35"
+    }
+  ],
+  "panlos_037": [
+    {
+      "id": "panlos_037_to_panlos_038",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_038",
+      "label": "[Pantai Losari] Scene 38"
+    },
+    {
+      "id": "panlos_037_to_panlos_036",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_036",
+      "label": "[Pantai Losari] Scene 36"
+    }
+  ],
+  "panlos_038": [
+    {
+      "id": "panlos_038_to_panlos_039",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_039",
+      "label": "[Pantai Losari] Scene 39"
+    },
+    {
+      "id": "panlos_038_to_panlos_037",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_037",
+      "label": "[Pantai Losari] Scene 37"
+    }
+  ],
+  "panlos_039": [
+    {
+      "id": "panlos_039_to_panlos_040",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_040",
+      "label": "[Pantai Losari] Scene 40"
+    },
+    {
+      "id": "panlos_039_to_panlos_038",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_038",
+      "label": "[Pantai Losari] Scene 38"
+    }
+  ],
+  "panlos_040": [
+    {
+      "id": "panlos_040_to_panlos_041",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_041",
+      "label": "[Pantai Losari] Scene 41"
+    },
+    {
+      "id": "panlos_040_to_panlos_039",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_039",
+      "label": "[Pantai Losari] Scene 39"
+    }
+  ],
+  "panlos_041": [
+    {
+      "id": "panlos_041_to_panlos_042",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_042",
+      "label": "[Pantai Losari] Scene 42"
+    },
+    {
+      "id": "panlos_041_to_panlos_040",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_040",
+      "label": "[Pantai Losari] Scene 40"
+    }
+  ],
+  "panlos_042": [
+    {
+      "id": "panlos_042_to_panlos_043",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_043",
+      "label": "[Pantai Losari] Scene 43"
+    },
+    {
+      "id": "panlos_042_to_panlos_041",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_041",
+      "label": "[Pantai Losari] Scene 41"
+    }
+  ],
+  "panlos_043": [
+    {
+      "id": "panlos_043_to_panlos_044",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_044",
+      "label": "[Pantai Losari] Scene 44"
+    },
+    {
+      "id": "panlos_043_to_panlos_042",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_042",
+      "label": "[Pantai Losari] Scene 42"
+    }
+  ],
+  "panlos_044": [
+    {
+      "id": "panlos_044_to_panlos_045",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_045",
+      "label": "[Pantai Losari] Scene 45"
+    },
+    {
+      "id": "panlos_044_to_panlos_043",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_043",
+      "label": "[Pantai Losari] Scene 43"
+    }
+  ],
+  "panlos_045": [
+    {
+      "id": "panlos_045_to_panlos_046",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_046",
+      "label": "[Pantai Losari] Scene 46"
+    },
+    {
+      "id": "panlos_045_to_panlos_044",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_044",
+      "label": "[Pantai Losari] Scene 44"
+    }
+  ],
+  "panlos_046": [
+    {
+      "id": "panlos_046_to_panlos_047",
+      "pitch": 0,
+      "yaw": 15,
+      "targetScene": "panlos_047",
+      "label": "[Pantai Losari] Scene 47"
+    },
+    {
+      "id": "panlos_046_to_panlos_045",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_045",
+      "label": "[Pantai Losari] Scene 45"
+    }
+  ],
+  "panlos_047": [
+    {
+      "id": "panlos_047_to_panlos_046",
+      "pitch": 0,
+      "yaw": -15,
+      "targetScene": "panlos_046",
+      "label": "[Pantai Losari] Scene 46"
+    }
+  ],
+  "assets/Pantai Losari/01_Scene 1.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/02_Scene 2.jpg",
+      "target_name": "Scene 2",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 2"
+    }
+  ],
+  "assets/Pantai Losari/02_Scene 2.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/03_Scene 3.jpg",
+      "target_name": "Scene 3",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 3"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/01_Scene 1.jpg",
+      "target_name": "Pintu Masuk",
+      "type": "arrow",
+      "label": "Kembali ke: Pintu Masuk"
+    }
+  ],
+  "assets/Pantai Losari/03_Scene 3.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/04_Scene 4.jpg",
+      "target_name": "Scene 4",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 4"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/02_Scene 2.jpg",
+      "target_name": "Scene 2",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 2"
+    }
+  ],
+  "assets/Pantai Losari/04_Scene 4.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/05_Scene 5.jpg",
+      "target_name": "Scene 5",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 5"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/03_Scene 3.jpg",
+      "target_name": "Scene 3",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 3"
+    }
+  ],
+  "assets/Pantai Losari/05_Scene 5.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/06_Scene 6.jpg",
+      "target_name": "Scene 6",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 6"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/04_Scene 4.jpg",
+      "target_name": "Scene 4",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 4"
+    }
+  ],
+  "assets/Pantai Losari/06_Scene 6.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/07_Scene 7.jpg",
+      "target_name": "Scene 7",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 7"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/05_Scene 5.jpg",
+      "target_name": "Scene 5",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 5"
+    }
+  ],
+  "assets/Pantai Losari/07_Scene 7.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/08_Scene 8.jpg",
+      "target_name": "Scene 8",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 8"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/06_Scene 6.jpg",
+      "target_name": "Scene 6",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 6"
+    }
+  ],
+  "assets/Pantai Losari/08_Scene 8.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/09_Scene 9.jpg",
+      "target_name": "Scene 9",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 9"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/07_Scene 7.jpg",
+      "target_name": "Scene 7",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 7"
+    }
+  ],
+  "assets/Pantai Losari/09_Scene 9.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/10_Scene 10.jpg",
+      "target_name": "Scene 10",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 10"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/08_Scene 8.jpg",
+      "target_name": "Scene 8",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 8"
+    }
+  ],
+  "assets/Pantai Losari/10_Scene 10.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/11_Scene 11.jpg",
+      "target_name": "Scene 11",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 11"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/09_Scene 9.jpg",
+      "target_name": "Scene 9",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 9"
+    }
+  ],
+  "assets/Pantai Losari/11_Scene 11.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/12_Scene 12.jpg",
+      "target_name": "Scene 12",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 12"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/10_Scene 10.jpg",
+      "target_name": "Scene 10",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 10"
+    }
+  ],
+  "assets/Pantai Losari/12_Scene 12.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/13_Scene 13.jpg",
+      "target_name": "Scene 13",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 13"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/11_Scene 11.jpg",
+      "target_name": "Scene 11",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 11"
+    }
+  ],
+  "assets/Pantai Losari/13_Scene 13.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/14_Scene 14.jpg",
+      "target_name": "Scene 14",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 14"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/12_Scene 12.jpg",
+      "target_name": "Scene 12",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 12"
+    }
+  ],
+  "assets/Pantai Losari/14_Scene 14.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/15_Scene 15.jpg",
+      "target_name": "Scene 15",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 15"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/13_Scene 13.jpg",
+      "target_name": "Scene 13",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 13"
+    }
+  ],
+  "assets/Pantai Losari/15_Scene 15.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/16_Scene 16.jpg",
+      "target_name": "Scene 16",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 16"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/14_Scene 14.jpg",
+      "target_name": "Scene 14",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 14"
+    }
+  ],
+  "assets/Pantai Losari/16_Scene 16.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/17_Scene 17.jpg",
+      "target_name": "Scene 17",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 17"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/15_Scene 15.jpg",
+      "target_name": "Scene 15",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 15"
+    }
+  ],
+  "assets/Pantai Losari/17_Scene 17.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/18_Scene 18.jpg",
+      "target_name": "Scene 18",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 18"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/16_Scene 16.jpg",
+      "target_name": "Scene 16",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 16"
+    }
+  ],
+  "assets/Pantai Losari/18_Scene 18.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/19_Scene 19.jpg",
+      "target_name": "Scene 19",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 19"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/17_Scene 17.jpg",
+      "target_name": "Scene 17",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 17"
+    }
+  ],
+  "assets/Pantai Losari/19_Scene 19.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/20_Scene 20.jpg",
+      "target_name": "Scene 20",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 20"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/18_Scene 18.jpg",
+      "target_name": "Scene 18",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 18"
+    }
+  ],
+  "assets/Pantai Losari/20_Scene 20.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/21_Scene 21.jpg",
+      "target_name": "Scene 21",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 21"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/19_Scene 19.jpg",
+      "target_name": "Scene 19",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 19"
+    }
+  ],
+  "assets/Pantai Losari/21_Scene 21.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/22_Scene 22.jpg",
+      "target_name": "Scene 22",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 22"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/20_Scene 20.jpg",
+      "target_name": "Scene 20",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 20"
+    }
+  ],
+  "assets/Pantai Losari/22_Scene 22.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/23_Scene 23.jpg",
+      "target_name": "Scene 23",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 23"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/21_Scene 21.jpg",
+      "target_name": "Scene 21",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 21"
+    }
+  ],
+  "assets/Pantai Losari/23_Scene 23.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/24_Scene 24.jpg",
+      "target_name": "Scene 24",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 24"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/22_Scene 22.jpg",
+      "target_name": "Scene 22",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 22"
+    }
+  ],
+  "assets/Pantai Losari/24_Scene 24.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/25_Scene 25.jpg",
+      "target_name": "Scene 25",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 25"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/23_Scene 23.jpg",
+      "target_name": "Scene 23",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 23"
+    }
+  ],
+  "assets/Pantai Losari/25_Scene 25.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/26_Scene 26.jpg",
+      "target_name": "Scene 26",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 26"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/24_Scene 24.jpg",
+      "target_name": "Scene 24",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 24"
+    }
+  ],
+  "assets/Pantai Losari/26_Scene 26.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/27_Scene 27.jpg",
+      "target_name": "Scene 27",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 27"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/25_Scene 25.jpg",
+      "target_name": "Scene 25",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 25"
+    }
+  ],
+  "assets/Pantai Losari/27_Scene 27.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/28_Scene 28.jpg",
+      "target_name": "Scene 28",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 28"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/26_Scene 26.jpg",
+      "target_name": "Scene 26",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 26"
+    }
+  ],
+  "assets/Pantai Losari/28_Scene 28.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/29_Scene 29.jpg",
+      "target_name": "Scene 29",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 29"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/27_Scene 27.jpg",
+      "target_name": "Scene 27",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 27"
+    }
+  ],
+  "assets/Pantai Losari/29_Scene 29.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/30_Scene 30.jpg",
+      "target_name": "Scene 30",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 30"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/28_Scene 28.jpg",
+      "target_name": "Scene 28",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 28"
+    }
+  ],
+  "assets/Pantai Losari/30_Scene 30.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/31_Scene 31.jpg",
+      "target_name": "Scene 31",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 31"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/29_Scene 29.jpg",
+      "target_name": "Scene 29",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 29"
+    }
+  ],
+  "assets/Pantai Losari/31_Scene 31.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/32_Scene 32.jpg",
+      "target_name": "Scene 32",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 32"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/30_Scene 30.jpg",
+      "target_name": "Scene 30",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 30"
+    }
+  ],
+  "assets/Pantai Losari/32_Scene 32.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/33_Scene 33.jpg",
+      "target_name": "Scene 33",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 33"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/31_Scene 31.jpg",
+      "target_name": "Scene 31",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 31"
+    }
+  ],
+  "assets/Pantai Losari/33_Scene 33.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/34_Scene 34.jpg",
+      "target_name": "Scene 34",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 34"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/32_Scene 32.jpg",
+      "target_name": "Scene 32",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 32"
+    }
+  ],
+  "assets/Pantai Losari/34_Scene 34.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/35_Scene 35.jpg",
+      "target_name": "Scene 35",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 35"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/33_Scene 33.jpg",
+      "target_name": "Scene 33",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 33"
+    }
+  ],
+  "assets/Pantai Losari/35_Scene 35.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/36_Scene 36.jpg",
+      "target_name": "Scene 36",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 36"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/34_Scene 34.jpg",
+      "target_name": "Scene 34",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 34"
+    }
+  ],
+  "assets/Pantai Losari/36_Scene 36.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/37_Scene 37.jpg",
+      "target_name": "Scene 37",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 37"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/35_Scene 35.jpg",
+      "target_name": "Scene 35",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 35"
+    }
+  ],
+  "assets/Pantai Losari/37_Scene 37.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/38_Scene 38.jpg",
+      "target_name": "Scene 38",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 38"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/36_Scene 36.jpg",
+      "target_name": "Scene 36",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 36"
+    }
+  ],
+  "assets/Pantai Losari/38_Scene 38.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/39_Scene 39.jpg",
+      "target_name": "Scene 39",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 39"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/37_Scene 37.jpg",
+      "target_name": "Scene 37",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 37"
+    }
+  ],
+  "assets/Pantai Losari/39_Scene 39.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/40_Scene 40.jpg",
+      "target_name": "Scene 40",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 40"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/38_Scene 38.jpg",
+      "target_name": "Scene 38",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 38"
+    }
+  ],
+  "assets/Pantai Losari/40_Scene 40.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/41_Scene 41.jpg",
+      "target_name": "Scene 41",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 41"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/39_Scene 39.jpg",
+      "target_name": "Scene 39",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 39"
+    }
+  ],
+  "assets/Pantai Losari/41_Scene 41.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/42_Scene 42.jpg",
+      "target_name": "Scene 42",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 42"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/40_Scene 40.jpg",
+      "target_name": "Scene 40",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 40"
+    }
+  ],
+  "assets/Pantai Losari/42_Scene 42.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/43_Scene 43.jpg",
+      "target_name": "Scene 43",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 43"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/41_Scene 41.jpg",
+      "target_name": "Scene 41",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 41"
+    }
+  ],
+  "assets/Pantai Losari/43_Scene 43.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/44_Scene 44.jpg",
+      "target_name": "Scene 44",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 44"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/42_Scene 42.jpg",
+      "target_name": "Scene 42",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 42"
+    }
+  ],
+  "assets/Pantai Losari/44_Scene 44.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/45_Scene 45.jpg",
+      "target_name": "Scene 45",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 45"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/43_Scene 43.jpg",
+      "target_name": "Scene 43",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 43"
+    }
+  ],
+  "assets/Pantai Losari/45_Scene 45.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/46_Scene 46.jpg",
+      "target_name": "Scene 46",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 46"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/44_Scene 44.jpg",
+      "target_name": "Scene 44",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 44"
+    }
+  ],
+  "assets/Pantai Losari/46_Scene 46.jpg": [
+    {
+      "yaw": 0,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/47_Scene 47.jpg",
+      "target_name": "Scene 47",
+      "type": "arrow",
+      "label": "Lanjut ke: Scene 47"
+    },
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/45_Scene 45.jpg",
+      "target_name": "Scene 45",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 45"
+    }
+  ],
+  "assets/Pantai Losari/47_Scene 47.jpg": [
+    {
+      "yaw": 180,
+      "pitch": -10,
+      "target": "assets/Pantai Losari/46_Scene 46.jpg",
+      "target_name": "Scene 46",
+      "type": "arrow",
+      "label": "Kembali ke: Scene 46"
+    }
+  ],
+  "assets/Museum La Galigo/01_Pintu Masuk.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/02_Halaman Depan.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    }
+  ],
+  "assets/Museum La Galigo/02_Halaman Depan.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/03_Lobby Utama.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/01_Pintu Masuk.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/03_Lobby Utama.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/04_Area Resepsi.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/02_Halaman Depan.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/04_Area Resepsi.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/05_Galeri Prasejarah.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/03_Lobby Utama.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/05_Galeri Prasejarah.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/06_Budaya Pedalaman Perkampungan 1.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/04_Area Resepsi.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/06_Budaya Pedalaman Perkampungan 1.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/07_Budaya Pedalaman Perkampungan 2.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/05_Galeri Prasejarah.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/07_Budaya Pedalaman Perkampungan 2.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/08_Budaya Pedalaman Perkampungan 3.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/06_Budaya Pedalaman Perkampungan 1.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/08_Budaya Pedalaman Perkampungan 3.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/09_Budaya Pedalaman Perkampungan 4.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/07_Budaya Pedalaman Perkampungan 2.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/09_Budaya Pedalaman Perkampungan 4.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/10_Budaya Pedalaman Perkampungan 5.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/08_Budaya Pedalaman Perkampungan 3.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/10_Budaya Pedalaman Perkampungan 5.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/11_Budaya Pedalaman Perkampungan 6.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/09_Budaya Pedalaman Perkampungan 4.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/11_Budaya Pedalaman Perkampungan 6.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/12_Budaya Pedalaman Perkampungan 7.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/10_Budaya Pedalaman Perkampungan 5.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/12_Budaya Pedalaman Perkampungan 7.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/13_Budaya Pedalaman Perkampungan 8.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/11_Budaya Pedalaman Perkampungan 6.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/13_Budaya Pedalaman Perkampungan 8.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/14_Budaya Pedalaman Perkampungan 9.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/12_Budaya Pedalaman Perkampungan 7.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/14_Budaya Pedalaman Perkampungan 9.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/15_Budaya Pedalaman Perkampungan 10.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/13_Budaya Pedalaman Perkampungan 8.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/15_Budaya Pedalaman Perkampungan 10.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/16_Budaya Pedalaman Perkampungan 11.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/14_Budaya Pedalaman Perkampungan 9.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/16_Budaya Pedalaman Perkampungan 11.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/17_Budaya Pedalaman Perkampungan 12.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/15_Budaya Pedalaman Perkampungan 10.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/17_Budaya Pedalaman Perkampungan 12.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/18_Budaya Pedalaman Perkampungan 13.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/16_Budaya Pedalaman Perkampungan 11.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/18_Budaya Pedalaman Perkampungan 13.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/19_Budaya Pedalaman Perkampungan 14.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/17_Budaya Pedalaman Perkampungan 12.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/19_Budaya Pedalaman Perkampungan 14.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/20_Budaya Pedalaman Perkampungan 15.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/18_Budaya Pedalaman Perkampungan 13.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/20_Budaya Pedalaman Perkampungan 15.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/21_Budaya Pedalaman Perkampungan 16.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/19_Budaya Pedalaman Perkampungan 14.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/21_Budaya Pedalaman Perkampungan 16.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/22_Budaya Pedalaman Perkampungan 17.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/20_Budaya Pedalaman Perkampungan 15.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/22_Budaya Pedalaman Perkampungan 17.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/23_Budaya Pedalaman Agraris 1.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/21_Budaya Pedalaman Perkampungan 16.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/23_Budaya Pedalaman Agraris 1.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/24_Budaya Pedalaman Agraris 2.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/22_Budaya Pedalaman Perkampungan 17.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/24_Budaya Pedalaman Agraris 2.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/25_Budaya Pedalaman Agraris 3.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/23_Budaya Pedalaman Agraris 1.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/25_Budaya Pedalaman Agraris 3.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/26_Budaya Pedalaman Agraris 4.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/24_Budaya Pedalaman Agraris 2.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/26_Budaya Pedalaman Agraris 4.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/27_Budaya Pedalaman Agraris 5.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/25_Budaya Pedalaman Agraris 3.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/27_Budaya Pedalaman Agraris 5.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/28_Budaya Pedalaman Agraris 6.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/26_Budaya Pedalaman Agraris 4.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/28_Budaya Pedalaman Agraris 6.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/29_Budaya Pedalaman Agraris 7.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/27_Budaya Pedalaman Agraris 5.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/29_Budaya Pedalaman Agraris 7.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/30_Budaya Pedalaman Agraris 8.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/28_Budaya Pedalaman Agraris 6.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/30_Budaya Pedalaman Agraris 8.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/31_Budaya Pedalaman Agraris 9.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/29_Budaya Pedalaman Agraris 7.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/31_Budaya Pedalaman Agraris 9.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/32_Budaya Pedalaman Agraris 10.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/30_Budaya Pedalaman Agraris 8.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/32_Budaya Pedalaman Agraris 10.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/33_Budaya Pedalaman Agraris 11.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/31_Budaya Pedalaman Agraris 9.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/33_Budaya Pedalaman Agraris 11.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/34_Budaya Pedalaman Agraris 12.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/32_Budaya Pedalaman Agraris 10.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/34_Budaya Pedalaman Agraris 12.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/35_Budaya Pedalaman Agraris 13.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/33_Budaya Pedalaman Agraris 11.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/35_Budaya Pedalaman Agraris 13.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/36_Budaya Pedalaman Agraris 14.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/34_Budaya Pedalaman Agraris 12.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/36_Budaya Pedalaman Agraris 14.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/37_Budaya Pedalaman Agraris 15.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/35_Budaya Pedalaman Agraris 13.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/37_Budaya Pedalaman Agraris 15.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/38_Budaya Pedalaman Agraris 16.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/36_Budaya Pedalaman Agraris 14.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/38_Budaya Pedalaman Agraris 16.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/39_Budaya Pesisir (Bahari) 1.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/37_Budaya Pedalaman Agraris 15.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/39_Budaya Pesisir (Bahari) 1.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/40_Budaya Pesisir (Bahari) 2.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/38_Budaya Pedalaman Agraris 16.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/40_Budaya Pesisir (Bahari) 2.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/41_Budaya Pesisir (Bahari) 3.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/39_Budaya Pesisir (Bahari) 1.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/41_Budaya Pesisir (Bahari) 3.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/42_Budaya Pesisir (Bahari) 4.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/40_Budaya Pesisir (Bahari) 2.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/42_Budaya Pesisir (Bahari) 4.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/43_Budaya Pesisir (Bahari) 5.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/41_Budaya Pesisir (Bahari) 3.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/43_Budaya Pesisir (Bahari) 5.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/44_Budaya Pesisir (Bahari) 6.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/42_Budaya Pesisir (Bahari) 4.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/44_Budaya Pesisir (Bahari) 6.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/45_Budaya Pesisir (Bahari) 7.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/43_Budaya Pesisir (Bahari) 5.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/45_Budaya Pesisir (Bahari) 7.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/46_Budaya Pesisir (Bahari) 8.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/44_Budaya Pesisir (Bahari) 6.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/46_Budaya Pesisir (Bahari) 8.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/47_Budaya Pesisir (Bahari) 9.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/45_Budaya Pesisir (Bahari) 7.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/47_Budaya Pesisir (Bahari) 9.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/48_Budaya Pesisir (Bahari) 10.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/46_Budaya Pesisir (Bahari) 8.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/48_Budaya Pesisir (Bahari) 10.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/49_Budaya Pesisir (Bahari) 11.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/47_Budaya Pesisir (Bahari) 9.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/49_Budaya Pesisir (Bahari) 11.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/50_Budaya Pesisir (Bahari) 12.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/48_Budaya Pesisir (Bahari) 10.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/50_Budaya Pesisir (Bahari) 12.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/51_Budaya Pesisir (Bahari) 13.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/49_Budaya Pesisir (Bahari) 11.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/51_Budaya Pesisir (Bahari) 13.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/52_Perkembangan Kota 1.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/50_Budaya Pesisir (Bahari) 12.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/52_Perkembangan Kota 1.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/53_Perkembangan Kota 2.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/51_Budaya Pesisir (Bahari) 13.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/53_Perkembangan Kota 2.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/54_Perkembangan Kota 3.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/52_Perkembangan Kota 1.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/54_Perkembangan Kota 3.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/55_Perkembangan Kota 4.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/53_Perkembangan Kota 2.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/55_Perkembangan Kota 4.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/56_Perkembangan Kota 5.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/54_Perkembangan Kota 3.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/56_Perkembangan Kota 5.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/57_Perkembangan Kota 6.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/55_Perkembangan Kota 4.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/57_Perkembangan Kota 6.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/58_Perkembangan Kota 7.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/56_Perkembangan Kota 5.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/58_Perkembangan Kota 7.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/59_Perkembangan Kota 8.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/57_Perkembangan Kota 6.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/59_Perkembangan Kota 8.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/60_Perkembangan Kota 9.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/58_Perkembangan Kota 7.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/60_Perkembangan Kota 9.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/61_Perkembangan Kota 10.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/59_Perkembangan Kota 8.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/61_Perkembangan Kota 10.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/62_Perkembangan Kota 11.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/60_Perkembangan Kota 9.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/62_Perkembangan Kota 11.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/63_Gedung P (Gereja Kuno) 1.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/61_Perkembangan Kota 10.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/63_Gedung P (Gereja Kuno) 1.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/64_Gedung P (Gereja Kuno) 2.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/62_Perkembangan Kota 11.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/64_Gedung P (Gereja Kuno) 2.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/65_Gedung P (Gereja Kuno) 3.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/63_Gedung P (Gereja Kuno) 1.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/65_Gedung P (Gereja Kuno) 3.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/66_Gedung P (Gereja Kuno) 4.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/64_Gedung P (Gereja Kuno) 2.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/66_Gedung P (Gereja Kuno) 4.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/67_Gedung P (Gereja Kuno) 5.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/65_Gedung P (Gereja Kuno) 3.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/67_Gedung P (Gereja Kuno) 5.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/68_Gedung P (Gereja Kuno) 6.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/66_Gedung P (Gereja Kuno) 4.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/68_Gedung P (Gereja Kuno) 6.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/69_Gedung P (Gereja Kuno) 7.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/67_Gedung P (Gereja Kuno) 5.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/69_Gedung P (Gereja Kuno) 7.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/70_Gedung P (Gereja Kuno) 8.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/68_Gedung P (Gereja Kuno) 6.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/70_Gedung P (Gereja Kuno) 8.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/71_Gedung P (Gereja Kuno) 9.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/69_Gedung P (Gereja Kuno) 7.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/71_Gedung P (Gereja Kuno) 9.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/72_Gedung P (Gereja Kuno) 10.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/70_Gedung P (Gereja Kuno) 8.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/72_Gedung P (Gereja Kuno) 10.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/73_Gedung P (Gereja Kuno) 11.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/71_Gedung P (Gereja Kuno) 9.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/73_Gedung P (Gereja Kuno) 11.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/74_Gedung P (Gereja Kuno) 12.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/72_Gedung P (Gereja Kuno) 10.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/74_Gedung P (Gereja Kuno) 12.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/75_Gedung P (Gereja Kuno) 13.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/73_Gedung P (Gereja Kuno) 11.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/75_Gedung P (Gereja Kuno) 13.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/76_Gedung P (Gereja Kuno) 14.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/74_Gedung P (Gereja Kuno) 12.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/76_Gedung P (Gereja Kuno) 14.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/77_Gedung P (Gereja Kuno) 15.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/75_Gedung P (Gereja Kuno) 13.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/77_Gedung P (Gereja Kuno) 15.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/78_Gedung P (Gereja Kuno) 16.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/76_Gedung P (Gereja Kuno) 14.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/78_Gedung P (Gereja Kuno) 16.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/79_Gedung P (Gereja Kuno) 17.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/77_Gedung P (Gereja Kuno) 15.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/79_Gedung P (Gereja Kuno) 17.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/80_Gedung P (Gereja Kuno) 18.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/78_Gedung P (Gereja Kuno) 16.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/80_Gedung P (Gereja Kuno) 18.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/81_Galeri Naskah Kuno.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/79_Gedung P (Gereja Kuno) 17.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/81_Galeri Naskah Kuno.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/82_Galeri Keramik.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/80_Gedung P (Gereja Kuno) 18.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/82_Galeri Keramik.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/83_Galeri Perunggu.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/81_Galeri Naskah Kuno.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/83_Galeri Perunggu.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/84_Koridor Lantai 1.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/82_Galeri Keramik.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/84_Koridor Lantai 1.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/85_Area Pameran Khusus.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/83_Galeri Perunggu.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/85_Area Pameran Khusus.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/86_Ruang Spesial.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/84_Koridor Lantai 1.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/86_Ruang Spesial.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/87_Scene 87.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/85_Area Pameran Khusus.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/87_Scene 87.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/88_Scene 88.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/86_Ruang Spesial.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/88_Scene 88.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/89_Scene 89.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/87_Scene 87.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/89_Scene 89.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/90_Scene 90.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/88_Scene 88.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/90_Scene 90.jpg": [
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/89_Scene 89.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
   ]
 }

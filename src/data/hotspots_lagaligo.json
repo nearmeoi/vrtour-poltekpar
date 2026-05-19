@@ -1,0 +1,1606 @@
+{
+  "assets/Museum La Galigo/01_Pintu Masuk.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/02_Halaman Depan.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    }
+  ],
+  "assets/Museum La Galigo/02_Halaman Depan.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/03_Lobby Utama.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/01_Pintu Masuk.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/03_Lobby Utama.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/04_Area Resepsi.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/02_Halaman Depan.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/04_Area Resepsi.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/05_Galeri Prasejarah.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/03_Lobby Utama.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/05_Galeri Prasejarah.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/06_Budaya Pedalaman Perkampungan 1.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/04_Area Resepsi.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/06_Budaya Pedalaman Perkampungan 1.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/07_Budaya Pedalaman Perkampungan 2.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/05_Galeri Prasejarah.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/07_Budaya Pedalaman Perkampungan 2.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/08_Budaya Pedalaman Perkampungan 3.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/06_Budaya Pedalaman Perkampungan 1.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/08_Budaya Pedalaman Perkampungan 3.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/09_Budaya Pedalaman Perkampungan 4.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/07_Budaya Pedalaman Perkampungan 2.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/09_Budaya Pedalaman Perkampungan 4.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/10_Budaya Pedalaman Perkampungan 5.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/08_Budaya Pedalaman Perkampungan 3.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/10_Budaya Pedalaman Perkampungan 5.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/11_Budaya Pedalaman Perkampungan 6.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/09_Budaya Pedalaman Perkampungan 4.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/11_Budaya Pedalaman Perkampungan 6.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/12_Budaya Pedalaman Perkampungan 7.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/10_Budaya Pedalaman Perkampungan 5.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/12_Budaya Pedalaman Perkampungan 7.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/13_Budaya Pedalaman Perkampungan 8.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/11_Budaya Pedalaman Perkampungan 6.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/13_Budaya Pedalaman Perkampungan 8.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/14_Budaya Pedalaman Perkampungan 9.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/12_Budaya Pedalaman Perkampungan 7.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/14_Budaya Pedalaman Perkampungan 9.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/15_Budaya Pedalaman Perkampungan 10.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/13_Budaya Pedalaman Perkampungan 8.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/15_Budaya Pedalaman Perkampungan 10.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/16_Budaya Pedalaman Perkampungan 11.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/14_Budaya Pedalaman Perkampungan 9.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/16_Budaya Pedalaman Perkampungan 11.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/17_Budaya Pedalaman Perkampungan 12.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/15_Budaya Pedalaman Perkampungan 10.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/17_Budaya Pedalaman Perkampungan 12.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/18_Budaya Pedalaman Perkampungan 13.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/16_Budaya Pedalaman Perkampungan 11.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/18_Budaya Pedalaman Perkampungan 13.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/19_Budaya Pedalaman Perkampungan 14.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/17_Budaya Pedalaman Perkampungan 12.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/19_Budaya Pedalaman Perkampungan 14.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/20_Budaya Pedalaman Perkampungan 15.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/18_Budaya Pedalaman Perkampungan 13.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/20_Budaya Pedalaman Perkampungan 15.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/21_Budaya Pedalaman Perkampungan 16.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/19_Budaya Pedalaman Perkampungan 14.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/21_Budaya Pedalaman Perkampungan 16.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/22_Budaya Pedalaman Perkampungan 17.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/20_Budaya Pedalaman Perkampungan 15.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/22_Budaya Pedalaman Perkampungan 17.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/23_Budaya Pedalaman Agraris 1.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/21_Budaya Pedalaman Perkampungan 16.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/23_Budaya Pedalaman Agraris 1.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/24_Budaya Pedalaman Agraris 2.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/22_Budaya Pedalaman Perkampungan 17.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/24_Budaya Pedalaman Agraris 2.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/25_Budaya Pedalaman Agraris 3.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/23_Budaya Pedalaman Agraris 1.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/25_Budaya Pedalaman Agraris 3.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/26_Budaya Pedalaman Agraris 4.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/24_Budaya Pedalaman Agraris 2.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/26_Budaya Pedalaman Agraris 4.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/27_Budaya Pedalaman Agraris 5.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/25_Budaya Pedalaman Agraris 3.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/27_Budaya Pedalaman Agraris 5.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/28_Budaya Pedalaman Agraris 6.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/26_Budaya Pedalaman Agraris 4.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/28_Budaya Pedalaman Agraris 6.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/29_Budaya Pedalaman Agraris 7.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/27_Budaya Pedalaman Agraris 5.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/29_Budaya Pedalaman Agraris 7.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/30_Budaya Pedalaman Agraris 8.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/28_Budaya Pedalaman Agraris 6.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/30_Budaya Pedalaman Agraris 8.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/31_Budaya Pedalaman Agraris 9.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/29_Budaya Pedalaman Agraris 7.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/31_Budaya Pedalaman Agraris 9.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/32_Budaya Pedalaman Agraris 10.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/30_Budaya Pedalaman Agraris 8.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/32_Budaya Pedalaman Agraris 10.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/33_Budaya Pedalaman Agraris 11.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/31_Budaya Pedalaman Agraris 9.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/33_Budaya Pedalaman Agraris 11.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/34_Budaya Pedalaman Agraris 12.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/32_Budaya Pedalaman Agraris 10.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/34_Budaya Pedalaman Agraris 12.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/35_Budaya Pedalaman Agraris 13.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/33_Budaya Pedalaman Agraris 11.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/35_Budaya Pedalaman Agraris 13.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/36_Budaya Pedalaman Agraris 14.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/34_Budaya Pedalaman Agraris 12.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/36_Budaya Pedalaman Agraris 14.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/37_Budaya Pedalaman Agraris 15.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/35_Budaya Pedalaman Agraris 13.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/37_Budaya Pedalaman Agraris 15.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/38_Budaya Pedalaman Agraris 16.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/36_Budaya Pedalaman Agraris 14.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/38_Budaya Pedalaman Agraris 16.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/39_Budaya Pesisir (Bahari) 1.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/37_Budaya Pedalaman Agraris 15.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/39_Budaya Pesisir (Bahari) 1.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/40_Budaya Pesisir (Bahari) 2.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/38_Budaya Pedalaman Agraris 16.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/40_Budaya Pesisir (Bahari) 2.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/41_Budaya Pesisir (Bahari) 3.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/39_Budaya Pesisir (Bahari) 1.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/41_Budaya Pesisir (Bahari) 3.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/42_Budaya Pesisir (Bahari) 4.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/40_Budaya Pesisir (Bahari) 2.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/42_Budaya Pesisir (Bahari) 4.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/43_Budaya Pesisir (Bahari) 5.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/41_Budaya Pesisir (Bahari) 3.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/43_Budaya Pesisir (Bahari) 5.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/44_Budaya Pesisir (Bahari) 6.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/42_Budaya Pesisir (Bahari) 4.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/44_Budaya Pesisir (Bahari) 6.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/45_Budaya Pesisir (Bahari) 7.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/43_Budaya Pesisir (Bahari) 5.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/45_Budaya Pesisir (Bahari) 7.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/46_Budaya Pesisir (Bahari) 8.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/44_Budaya Pesisir (Bahari) 6.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/46_Budaya Pesisir (Bahari) 8.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/47_Budaya Pesisir (Bahari) 9.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/45_Budaya Pesisir (Bahari) 7.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/47_Budaya Pesisir (Bahari) 9.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/48_Budaya Pesisir (Bahari) 10.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/46_Budaya Pesisir (Bahari) 8.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/48_Budaya Pesisir (Bahari) 10.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/49_Budaya Pesisir (Bahari) 11.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/47_Budaya Pesisir (Bahari) 9.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/49_Budaya Pesisir (Bahari) 11.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/50_Budaya Pesisir (Bahari) 12.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/48_Budaya Pesisir (Bahari) 10.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/50_Budaya Pesisir (Bahari) 12.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/51_Budaya Pesisir (Bahari) 13.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/49_Budaya Pesisir (Bahari) 11.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/51_Budaya Pesisir (Bahari) 13.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/52_Perkembangan Kota 1.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/50_Budaya Pesisir (Bahari) 12.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/52_Perkembangan Kota 1.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/53_Perkembangan Kota 2.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/51_Budaya Pesisir (Bahari) 13.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/53_Perkembangan Kota 2.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/54_Perkembangan Kota 3.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/52_Perkembangan Kota 1.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/54_Perkembangan Kota 3.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/55_Perkembangan Kota 4.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/53_Perkembangan Kota 2.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/55_Perkembangan Kota 4.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/56_Perkembangan Kota 5.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/54_Perkembangan Kota 3.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/56_Perkembangan Kota 5.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/57_Perkembangan Kota 6.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/55_Perkembangan Kota 4.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/57_Perkembangan Kota 6.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/58_Perkembangan Kota 7.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/56_Perkembangan Kota 5.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/58_Perkembangan Kota 7.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/59_Perkembangan Kota 8.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/57_Perkembangan Kota 6.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/59_Perkembangan Kota 8.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/60_Perkembangan Kota 9.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/58_Perkembangan Kota 7.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/60_Perkembangan Kota 9.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/61_Perkembangan Kota 10.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/59_Perkembangan Kota 8.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/61_Perkembangan Kota 10.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/62_Perkembangan Kota 11.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/60_Perkembangan Kota 9.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/62_Perkembangan Kota 11.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/63_Gedung P (Gereja Kuno) 1.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/61_Perkembangan Kota 10.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/63_Gedung P (Gereja Kuno) 1.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/64_Gedung P (Gereja Kuno) 2.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/62_Perkembangan Kota 11.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/64_Gedung P (Gereja Kuno) 2.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/65_Gedung P (Gereja Kuno) 3.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/63_Gedung P (Gereja Kuno) 1.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/65_Gedung P (Gereja Kuno) 3.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/66_Gedung P (Gereja Kuno) 4.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/64_Gedung P (Gereja Kuno) 2.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/66_Gedung P (Gereja Kuno) 4.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/67_Gedung P (Gereja Kuno) 5.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/65_Gedung P (Gereja Kuno) 3.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/67_Gedung P (Gereja Kuno) 5.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/68_Gedung P (Gereja Kuno) 6.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/66_Gedung P (Gereja Kuno) 4.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/68_Gedung P (Gereja Kuno) 6.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/69_Gedung P (Gereja Kuno) 7.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/67_Gedung P (Gereja Kuno) 5.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/69_Gedung P (Gereja Kuno) 7.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/70_Gedung P (Gereja Kuno) 8.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/68_Gedung P (Gereja Kuno) 6.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/70_Gedung P (Gereja Kuno) 8.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/71_Gedung P (Gereja Kuno) 9.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/69_Gedung P (Gereja Kuno) 7.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/71_Gedung P (Gereja Kuno) 9.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/72_Gedung P (Gereja Kuno) 10.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/70_Gedung P (Gereja Kuno) 8.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/72_Gedung P (Gereja Kuno) 10.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/73_Gedung P (Gereja Kuno) 11.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/71_Gedung P (Gereja Kuno) 9.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/73_Gedung P (Gereja Kuno) 11.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/74_Gedung P (Gereja Kuno) 12.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/72_Gedung P (Gereja Kuno) 10.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/74_Gedung P (Gereja Kuno) 12.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/75_Gedung P (Gereja Kuno) 13.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/73_Gedung P (Gereja Kuno) 11.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/75_Gedung P (Gereja Kuno) 13.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/76_Gedung P (Gereja Kuno) 14.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/74_Gedung P (Gereja Kuno) 12.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/76_Gedung P (Gereja Kuno) 14.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/77_Gedung P (Gereja Kuno) 15.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/75_Gedung P (Gereja Kuno) 13.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/77_Gedung P (Gereja Kuno) 15.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/78_Gedung P (Gereja Kuno) 16.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/76_Gedung P (Gereja Kuno) 14.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/78_Gedung P (Gereja Kuno) 16.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/79_Gedung P (Gereja Kuno) 17.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/77_Gedung P (Gereja Kuno) 15.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/79_Gedung P (Gereja Kuno) 17.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/80_Gedung P (Gereja Kuno) 18.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/78_Gedung P (Gereja Kuno) 16.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/80_Gedung P (Gereja Kuno) 18.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/81_Galeri Naskah Kuno.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/79_Gedung P (Gereja Kuno) 17.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/81_Galeri Naskah Kuno.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/82_Galeri Keramik.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/80_Gedung P (Gereja Kuno) 18.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/82_Galeri Keramik.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/83_Galeri Perunggu.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/81_Galeri Naskah Kuno.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/83_Galeri Perunggu.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/84_Koridor Lantai 1.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/82_Galeri Keramik.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/84_Koridor Lantai 1.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/85_Area Pameran Khusus.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/83_Galeri Perunggu.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/85_Area Pameran Khusus.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/86_Ruang Spesial.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/84_Koridor Lantai 1.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/86_Ruang Spesial.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/87_Scene 87.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/85_Area Pameran Khusus.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/87_Scene 87.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/88_Scene 88.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/86_Ruang Spesial.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/88_Scene 88.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/89_Scene 89.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/87_Scene 87.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/89_Scene 89.jpg": [
+    {
+      "yaw": 0.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/90_Scene 90.jpg",
+      "target_name": "Maju",
+      "type": "arrow",
+      "label": "Maju"
+    },
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/88_Scene 88.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ],
+  "assets/Museum La Galigo/90_Scene 90.jpg": [
+    {
+      "yaw": 180.0,
+      "pitch": -10.0,
+      "target": "assets/Museum La Galigo/89_Scene 89.jpg",
+      "target_name": "Kembali",
+      "type": "arrow",
+      "label": "Kembali"
+    }
+  ]
+}
