@@ -175,7 +175,13 @@ class App {
         // Sync VR mode state
         this.cardboardManager.onModeChange = (isVR) => {
             this.isVRMode = isVR;
-            if (this.panoramaViewer) this.panoramaViewer.setVRMode(isVR);
+            if (this.panoramaViewer) {
+                this.panoramaViewer.setVRMode(isVR);
+                // Ensure panorama group is visible if a scene was previously loaded
+                if (isVR && this.panoramaViewer.currentPath && !this.panoramaViewer.group.visible) {
+                    this.panoramaViewer.group.visible = true;
+                }
+            }
             if (this.vrButton) {
                 this.vrButton.style.display = isVR ? 'none' :
                     (this.vrButton.id === 'vr-goggle-button') ? 'flex' : '';
@@ -201,7 +207,13 @@ class App {
             this.camera.updateProjectionMatrix();
 
             if (this.deviceOrientationControls) this.deviceOrientationControls.enabled = false;
-            if (this.panoramaViewer) this.panoramaViewer.setVRMode(true);
+            if (this.panoramaViewer) {
+                this.panoramaViewer.setVRMode(true);
+                // Ensure panorama group is visible if a scene was previously loaded
+                if (this.panoramaViewer.currentPath && !this.panoramaViewer.group.visible) {
+                    this.panoramaViewer.group.visible = true;
+                }
+            }
             if (this.vrButton) this.vrButton.style.display = 'none';
         });
 
@@ -236,6 +248,19 @@ class App {
 
             this.renderer.state.reset();
         });
+
+        // VR controller (Cardboard v2 button / Android controller trigger).
+        // Must be set up here — InputHandler is constructed before this async
+        // method resolves, so renderer.xr.enabled is still false at that point.
+        const vrController = this.renderer.xr.getController(0);
+        vrController.addEventListener('select', () => {
+            const gc = this.gazeController;
+            if (gc?.hoveredObject) {
+                console.log('[VR] Manual trigger via controller button');
+                gc.trigger(gc.hoveredObject, gc.hoveredIntersect);
+            }
+        });
+        this.scene.add(vrController);
     }
 
     createVRButton() {

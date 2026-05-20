@@ -141,24 +141,23 @@ export class VROverlay {
             (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
     }
 
-    renderStep2() {
+    // fromOrientationChange: true when called from orientation event (no user gesture)
+    renderStep2(fromOrientationChange = false) {
         this.checkOrientation();
 
         if (this.isLandscape) {
-            // Android with native WebXR: Enter VR directly (skip swipe)
-            // Android without WebXR: go through fullscreen flow (cardboard fallback)
-            const hasWebXR = 'xr' in navigator;
-            if (this.isAndroid() && hasWebXR) {
-                console.log('Android + WebXR + Landscape: Auto-entering VR...');
-                this.hide();
-                if (this.onEnterVR) this.onEnterVR();
-                return;
-            }
-            // Android without WebXR or iOS/Others: Show fullscreen instruction
-            if (this.isAndroid() && !hasWebXR) {
-                // Android fallback: use requestFullscreen API directly
-                console.log('Android fallback + Landscape: Requesting fullscreen...');
-                this._androidFullscreenAndEnter();
+            if (this.isAndroid()) {
+                if (fromOrientationChange) {
+                    // Orientation change events are NOT user gestures.
+                    // Show a button so the user creates a fresh user activation
+                    // before requestSession('immersive-vr') is called.
+                    console.log('Android + Landscape (from rotation): showing VR button...');
+                    this._renderAndroidLandscapeButton();
+                } else {
+                    // Still inside the user gesture from "IZINKAN" click — proceed directly.
+                    console.log('Android + Landscape: entering VR...');
+                    this._androidEnterVR();
+                }
                 return;
             }
             // iOS/Others: Show swipe instruction (needed for fullscreen)
@@ -168,18 +167,40 @@ export class VROverlay {
         }
     }
 
-    async _androidFullscreenAndEnter() {
-        try {
-            const el = document.documentElement;
-            if (el.requestFullscreen) {
-                await el.requestFullscreen();
-            } else if (el.webkitRequestFullscreen) {
-                await el.webkitRequestFullscreen();
-            }
-        } catch (e) {
-            console.log('Fullscreen not available:', e);
-        }
-        // Lock landscape
+    // Shown when user rotates phone to landscape (no active user gesture).
+    _renderAndroidLandscapeButton() {
+        this.overlay.innerHTML = `
+            <div class="vr-overlay-content">
+                <div class="vr-overlay-corner-logo">
+                    <svg viewBox="0 0 24 24" fill="#EA4335"><path d="M20.74 6H3.21C2.55 6 2 6.57 2 7.28v10.44c0 .7.55 1.28 1.23 1.28h4.79c.52 0 .98-.34 1.14-.84l.99-3.11c.23-.71.88-1.19 1.62-1.19h.46c.74 0 1.39.48 1.62 1.19l.99 3.11c.16.5.63.84 1.14.84h4.79c.68 0 1.23-.57 1.23-1.28V7.28c0-.71-.55-1.28-1.26-1.28zM7.5 14.5c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm9 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
+                    <span>Google Cardboard</span>
+                </div>
+                <div class="vr-overlay-center">
+                    <svg class="vr-overlay-gesture-icon" viewBox="0 0 24 24" fill="#4285F4">
+                        <path d="M20.74 6H3.21C2.55 6 2 6.57 2 7.28v10.44c0 .7.55 1.28 1.23 1.28h4.79c.52 0 .98-.34 1.14-.84l.99-3.11c.23-.71.88-1.19 1.62-1.19h.46c.74 0 1.39.48 1.62 1.19l.99 3.11c.16.5.63.84 1.14.84h4.79c.68 0 1.23-.57 1.23-1.28V7.28c0-.71-.55-1.28-1.26-1.28zM7.5 14.5c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm9 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/>
+                    </svg>
+                    <p class="vr-overlay-instruction">Siap masuk mode <strong>VR</strong></p>
+                    <div class="vr-overlay-actions">
+                        <button id="vr-android-start" class="vr-overlay-btn primary">MASUK VR</button>
+                        <button id="vr-android-cancel" class="vr-overlay-btn secondary">BATAL</button>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        this.overlay.querySelector('#vr-android-start').addEventListener('click', () => {
+            this._androidEnterVR();
+        });
+        this.overlay.querySelector('#vr-android-cancel').addEventListener('click', () => {
+            this.hide();
+        });
+    }
+
+    async _androidEnterVR() {
+        // Do NOT call requestFullscreen() here — it consumes the user activation
+        // that navigator.xr.requestSession('immersive-vr') needs.
+        // Native WebXR manages its own immersive display; Cardboard fallback
+        // calls requestFullscreen() internally via CardboardModeManager.
         try {
             if (screen.orientation && screen.orientation.lock) {
                 await screen.orientation.lock('landscape');
@@ -375,7 +396,7 @@ export class VROverlay {
             // Only re-render if orientation changed
             if (wasLandscape !== this.isLandscape && this.currentStep === 2) {
                 this.stopFullscreenWatch(); // Stop old watcher
-                this.renderStep2();
+                this.renderStep2(true); // fromOrientationChange = true (no user gesture)
             }
         };
 

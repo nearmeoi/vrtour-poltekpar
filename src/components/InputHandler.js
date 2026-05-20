@@ -29,6 +29,9 @@ export class InputHandler {
         this._lastTapX = 0;
         this._lastTapY = 0;
 
+        // Track whether admin drag disabled controls (so mouseup always restores)
+        this._controlsDisabledByAdmin = false;
+
         // Bound handlers (for cleanup)
         this._onResize = this._handleResize.bind(this);
         this._onWheel = this._handleWheel.bind(this);
@@ -243,6 +246,7 @@ export class InputHandler {
 
         const { intersects } = this._raycastFromScreen(e.clientX, e.clientY);
         if (this.app.panoramaViewer.handleAdminMouseDown(intersects)) {
+            this._controlsDisabledByAdmin = true;
             this.app.controls.enabled = false;
         }
     }
@@ -258,6 +262,9 @@ export class InputHandler {
     _handleMouseUp() {
         if (this.app.panoramaViewer?.isDraggingHotspot) {
             this.app.panoramaViewer.handleAdminMouseUp();
+        }
+        if (this._controlsDisabledByAdmin) {
+            this._controlsDisabledByAdmin = false;
             this.app.controls.enabled = true;
         }
     }
@@ -272,6 +279,7 @@ export class InputHandler {
         const { intersects } = this._raycastFromScreen(touch.clientX, touch.clientY);
 
         if (this.app.panoramaViewer.handleAdminMouseDown(intersects)) {
+            this._controlsDisabledByAdmin = true;
             this.app.controls.enabled = false;
         }
     }
@@ -289,6 +297,9 @@ export class InputHandler {
     _handleAdminTouchEnd() {
         if (this.app.panoramaViewer?.isDraggingHotspot) {
             this.app.panoramaViewer.handleAdminMouseUp();
+        }
+        if (this._controlsDisabledByAdmin) {
+            this._controlsDisabledByAdmin = false;
             this.app.controls.enabled = true;
         }
     }
@@ -313,26 +324,9 @@ export class InputHandler {
         window.addEventListener('touchmove', this._onAdminTouchMove, { passive: false });
         window.addEventListener('touchend', this._onAdminTouchEnd);
 
-        // WebXR session events
-        if (this.app.renderer.xr.enabled) {
-            this.app.renderer.xr.addEventListener('sessionstart', () => {
-                this.app.camera.fov = CONFIG.fov.vr;
-                this.app.camera.updateProjectionMatrix();
-            });
-            this.app.renderer.xr.addEventListener('sessionend', () => {
-                this.app.camera.fov = CONFIG.fov.default;
-                this.app.camera.updateProjectionMatrix();
-            });
-
-            // VR Controller / Cardboard v2 Button Trigger
-            this.app.renderer.xr.getController(0).addEventListener('select', () => {
-                const gc = this.app.gazeController;
-                if (gc?.hoveredObject) {
-                    console.log('[VR] Manual trigger via button');
-                    gc.trigger(gc.hoveredObject, gc.hoveredIntersect);
-                }
-            });
-        }
+        // Note: WebXR controller and session listeners are set up in _setupWebXR()
+        // inside main.js, because initWebXR() is async — renderer.xr.enabled is
+        // still false when InputHandler is constructed.
     }
 
     dispose() {
