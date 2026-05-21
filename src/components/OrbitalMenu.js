@@ -291,6 +291,26 @@ export class OrbitalMenu {
         this.group.visible = false;
     }
 
+    // Reposition menu items for VR vs normal mode.
+    // eyeY: actual XR camera y (read from renderer.xr.getCamera().position.y).
+    //       Falls back to 0 when not provided (local-space default).
+    adjustForVR(isVR, eyeY) {
+        const yPos = isVR ? (eyeY !== undefined ? eyeY : 0) : CONFIG.camera.eyeLevel;
+        const totalAngle = Math.PI * 0.45;
+        const startAngle = Math.PI - totalAngle / 2;
+        const step = this.itemCount > 1 ? totalAngle / (this.itemCount - 1) : 0;
+
+        this.thumbnails.forEach((itemGroup, i) => {
+            const theta = startAngle + i * step;
+            itemGroup.position.set(
+                Math.sin(theta) * this.radius,
+                yPos,
+                Math.cos(theta) * this.radius
+            );
+            itemGroup.lookAt(0, yPos, 0);
+        });
+    }
+
     dispose() {
         // Cleanup textures to prevent memory leaks
         this.thumbnails.forEach(mesh => {

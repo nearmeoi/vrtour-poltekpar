@@ -219,9 +219,10 @@ class App {
             }
             if (this.vrButton) this.vrButton.style.display = 'none';
 
-            // In WebXR 'local' space the camera starts at y≈0.
-            // Lower the orbital menu so items sit at eye level (y=0) not y=1.6.
-            if (this.orbitalMenu) this.orbitalMenu.adjustForVR(true);
+            // Reset sync sentinel so the render loop reads the actual XR camera y
+            // on the very first frame and calls adjustForVR with the real eye height.
+            // This works correctly for both 'local' (y≈0) and 'local-floor' (y≈1.6) spaces.
+            this._vrEyeY = undefined;
         });
 
         // Session end
@@ -241,6 +242,7 @@ class App {
             }
 
             // Restore orbital menu to normal height after VR session ends
+            this._vrEyeY = undefined;
             if (this.orbitalMenu) this.orbitalMenu.adjustForVR(false);
 
             // Restore renderer state after VR polyfill session ends
@@ -558,6 +560,21 @@ class App {
             this.gyroscopeControls.update();
         } else if (this.controls) {
             this.controls.update();
+        }
+
+        // Sync orbital menu height to XR camera each VR frame.
+        // renderer.xr.getCamera().position.y gives the actual eye height regardless
+        // of whether the device uses 'local' (y≈0) or 'local-floor' (y≈1.6) space.
+        if (this.isVRMode && this.orbitalMenu && this.renderer.xr.isPresenting) {
+            const xrCam = this.renderer.xr.getCamera();
+            if (xrCam) {
+                const eyeY = xrCam.position.y;
+                if (this._vrEyeY === undefined || Math.abs(eyeY - this._vrEyeY) > 0.02) {
+                    this._vrEyeY = eyeY;
+                    this.orbitalMenu.adjustForVR(true, eyeY);
+                    console.log('[VR] Menu eye height synced to', eyeY.toFixed(3));
+                }
+            }
         }
 
         // Build interactables list
