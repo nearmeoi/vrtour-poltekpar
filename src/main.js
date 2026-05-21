@@ -334,10 +334,6 @@ class App {
             return;
         }
 
-        // Pre-adjust orbital menu BEFORE session starts to avoid "menu above" flash
-        // (WebXR camera starts at y≈0 in local space; menu default is y=1.6)
-        if (this.orbitalMenu) this.orbitalMenu.adjustForVR(true);
-
         try {
             // iOS Safari scroll trick to hide address bar
             if (this.isIOSDevice) {
@@ -352,8 +348,6 @@ class App {
             this.renderer.xr.setSession(session);
             console.log('WebXR session started via overlay');
         } catch (e) {
-            // Restore menu if session failed
-            if (this.orbitalMenu) this.orbitalMenu.adjustForVR(false);
             console.log('Failed to start WebXR session:', e.message);
         }
     }
@@ -507,8 +501,6 @@ class App {
             this.panoramaViewer.currentAudio.pause();
         }
         this.currentState = 'menu';
-        // Ensure menu y-position matches current VR state before showing
-        if (this.orbitalMenu) this.orbitalMenu.adjustForVR(this.isVRMode);
         this.orbitalMenu.show();
     }
 
