@@ -12,6 +12,11 @@ export const TOUR_DATA = [
     panorama: 'assets/Museum Kota/01_Scene 1.jpg',
     thumbnail: 'assets/thumb_museum_kota.jpg',
     audio: 'assets/Narasi/Audio/Museum Kota/1. Pembuka Virtual Tour.mp3',
+    subtitles: [
+      { start: 0.0, end: 3.2, text: 'Selamat datang di Museum Kota Makassar.' },
+      { start: 3.2, end: 7.6, text: 'Pada tur virtual ini, Anda akan menelusuri jejak sejarah Kota Makassar.' },
+      { start: 7.6, end: 12.5, text: 'Arahkan pandangan Anda ke hotspot untuk berpindah dan mengeksplorasi setiap ruang.' }
+    ],
     duration: 200,
     initialHeading: 0,
     autoRotate: false,
@@ -22,9 +27,14 @@ export const TOUR_DATA = [
     title: 'Museum La Galigo',
     subtitle: 'Pintu Masuk',
     description: 'Fort Rotterdam – Museum Terlengkap di Sulawesi Selatan',
-    panorama: 'assets/Museum La Galigo/01_Pintu Masuk.jpg',
+    panorama: 'assets/Museum La Galigo/03_Pintu Masuk.jpg',
     thumbnail: 'assets/thumb_lagaligo.jpg',
     audio: 'assets/Narasi/Audio/Lagaligo/1. Pintu Masuk.mp3',
+    subtitles: [
+      { start: 0.0, end: 3.4, text: 'Selamat datang di Museum La Galigo, bagian dari kawasan Fort Rotterdam.' },
+      { start: 3.4, end: 8.4, text: 'Museum ini menyimpan koleksi penting sejarah dan kebudayaan Sulawesi Selatan.' },
+      { start: 8.4, end: 13.0, text: 'Silakan ikuti tur virtual ini untuk melihat ruang demi ruang secara imersif.' }
+    ],
     duration: 200,
     initialHeading: 0,
     autoRotate: false,
@@ -38,6 +48,11 @@ export const TOUR_DATA = [
     panorama: 'assets/Pantai Losari/01_Scene 1.jpg',
     thumbnail: 'assets/thumb_pantai_losari.webp',
     audio: 'assets/Narasi/Audio/Panlos/1. Pintu Masuk KawasanWaterfront.mp3',
+    subtitles: [
+      { start: 0.0, end: 3.0, text: 'Selamat datang di kawasan wisata Pantai Losari.' },
+      { start: 3.0, end: 7.2, text: 'Destinasi ini merupakan ikon pesisir Kota Makassar yang ramai dikunjungi wisatawan.' },
+      { start: 7.2, end: 12.0, text: 'Lanjutkan tur untuk menikmati panorama waterfront dan titik-titik menarik di sekitarnya.' }
+    ],
     duration: 200,
     initialHeading: 0,
     autoRotate: false,
