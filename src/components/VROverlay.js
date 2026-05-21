@@ -196,18 +196,10 @@ export class VROverlay {
         });
     }
 
-    async _androidEnterVR() {
-        // Do NOT call requestFullscreen() here — it consumes the user activation
-        // that navigator.xr.requestSession('immersive-vr') needs.
-        // Native WebXR manages its own immersive display; Cardboard fallback
-        // calls requestFullscreen() internally via CardboardModeManager.
-        try {
-            if (screen.orientation && screen.orientation.lock) {
-                await screen.orientation.lock('landscape');
-            }
-        } catch (e) {
-            console.log('Orientation lock not available:', e);
-        }
+    _androidEnterVR() {
+        // Do NOT call requestFullscreen() or screen.orientation.lock() here —
+        // both consume the user activation that requestSession('immersive-vr') needs.
+        // Landscape is already locked by LandingScreen.lockLandscape().
         this.hide();
         if (this.onEnterVR) this.onEnterVR();
     }
