@@ -1,4 +1,3 @@
-import { requestGyroscopePermission } from '../utils/deviceDetection.js';
 
 /**
  * LandingScreen — Handles the landing page UI and initial setup
@@ -37,22 +36,20 @@ export class LandingScreen {
                 console.warn('Audio context resume failed:', e);
             }
 
-            // Request Gyroscope Permission (iOS 13+)
-            // Must be done on user gesture (click)
+            // Enable Gyroscope Controls (handles iOS 13+ permission from within user gesture)
             try {
-                const gyroGranted = await requestGyroscopePermission();
-                if (gyroGranted) {
-                    const hasRealGyro = await this._testGyroscope();
-                    this.app.hasRealGyroscope = hasRealGyro;
-                    if (hasRealGyro) {
+                if (this.app.gyroscopeControls) {
+                    const gyroEnabled = await this.app.gyroscopeControls.enable();
+                    if (gyroEnabled) {
                         this.app.isGyroEnabled = true;
+                        // OrbitControls stays enabled as touch-drag fallback when gyro has no data
                         console.log('Gyroscope enabled for Magic Window mode');
                     } else {
-                        console.log('No real gyroscope detected, using OrbitControls');
+                        console.log('No gyroscope available, using OrbitControls');
                     }
                 }
             } catch (e) {
-                console.warn('Gyroscope request failed:', e);
+                console.warn('Gyroscope enable failed:', e);
             }
 
             // Fade out landing screen
@@ -90,25 +87,4 @@ export class LandingScreen {
         }
     }
 
-    /**
-     * Test if a real gyroscope is present by waiting for a deviceorientation event.
-     * @returns {Promise<boolean>}
-     */
-    _testGyroscope() {
-        return new Promise((resolve) => {
-            const timeout = setTimeout(() => {
-                window.removeEventListener('deviceorientation', handler);
-                resolve(false);
-            }, 1000);
-
-            const handler = (e) => {
-                if (e.alpha !== null || e.beta !== null || e.gamma !== null) {
-                    clearTimeout(timeout);
-                    window.removeEventListener('deviceorientation', handler);
-                    resolve(true);
-                }
-            };
-            window.addEventListener('deviceorientation', handler);
-        });
-    }
 }

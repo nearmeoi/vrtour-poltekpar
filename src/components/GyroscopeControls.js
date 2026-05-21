@@ -38,6 +38,12 @@ export class GyroscopeControls {
      * Request permission and enable controls
      * Must be called from a user gesture (click/tap)
      */
+    // window.orientation is deprecated on modern Android Chrome — use screen.orientation.angle as fallback
+    _getScreenOrientation() {
+        if (typeof window.orientation === 'number') return window.orientation;
+        return screen.orientation?.angle ?? 0;
+    }
+
     async enable() {
         if (!hasGyroscope()) {
             console.log('Gyroscope not available');
@@ -64,12 +70,12 @@ export class GyroscopeControls {
         window.addEventListener('deviceorientationabsolute', this.onDeviceOrientation, false);
         window.addEventListener('orientationchange', this.onScreenOrientation, false);
 
-        // Get initial screen orientation
-        this.screenOrientation = window.orientation || 0;
+        // Get initial screen orientation (landscape-safe)
+        this.screenOrientation = this._getScreenOrientation();
 
         this.enabled = true;
         this.gotAnyData = false; // Track if we ever got valid data
-        console.log('Gyroscope controls enabled');
+        console.log('Gyroscope controls enabled, screenOrientation:', this.screenOrientation);
         return true;
     }
 
@@ -91,10 +97,7 @@ export class GyroscopeControls {
 
         if (alpha === null || beta === null || gamma === null) return;
 
-        // Check for "stuck" zeros (sometimes browsers fire the event but don't provide real data)
-        // We only mark gotAnyData if at least one value is non-zero
-        if (!this.gotAnyData && (Math.abs(alpha) > 0.0001 || Math.abs(beta) > 0.0001 || Math.abs(gamma) > 0.0001)) {
-            console.log('Gyroscope: Real movement data received:', alpha, beta, gamma);
+        if (!this.gotAnyData) {
             this.gotAnyData = true;
         }
 
@@ -106,17 +109,11 @@ export class GyroscopeControls {
     }
 
     onScreenOrientation() {
-        this.screenOrientation = window.orientation || 0;
+        this.screenOrientation = this._getScreenOrientation();
     }
 
     update() {
         if (!this.enabled) return;
-
-        if (!this.deviceOrientation.alpha && !this.deviceOrientation.beta) {
-            // Only skip if absolutely NO data (null/undefined)
-            // But if it's 0, it might be valid
-            // Let's just allow it anyway to be safe
-        }
 
         const alpha = THREE.MathUtils.degToRad(this.deviceOrientation.alpha);
         const beta = THREE.MathUtils.degToRad(this.deviceOrientation.beta);

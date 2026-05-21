@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import './style.css';
 
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { DeviceOrientationControls } from './utils/DeviceOrientationControls.js';
+import { GyroscopeControls } from './components/GyroscopeControls.js';
 import { GazeController } from './components/GazeController.js';
 import { PanoramaViewer } from './components/PanoramaViewer.js';
 import { isIOS, isAndroid, isMobile, isCardboardForced } from './utils/deviceDetection.js';
@@ -138,8 +138,9 @@ class App {
         this.controls.rotateSpeed = CONFIG.animation.rotateSpeed;
         this.controls.target.set(0, CONFIG.camera.eyeLevel, 0);
 
-        // Gyroscope Controls (for Magic Window mode)
-        this.deviceOrientationControls = new DeviceOrientationControls(this.camera);
+        // Gyroscope Controls (for Magic Window mode) — created but NOT enabled yet.
+        // enable() must be called from a user gesture (LandingScreen.enterTour).
+        this.gyroscopeControls = new GyroscopeControls(this.camera, this.renderer.domElement);
     }
 
     // ==================== WEBXR ====================
@@ -182,6 +183,8 @@ class App {
                     this.panoramaViewer.group.visible = true;
                 }
             }
+            // Reposition orbital menu for cardboard VR (camera stays at y=1.6 in cardboard mode)
+            if (this.orbitalMenu) this.orbitalMenu.adjustForVR(isVR);
             if (this.vrButton) {
                 this.vrButton.style.display = isVR ? 'none' :
                     (this.vrButton.id === 'vr-goggle-button') ? 'flex' : '';
@@ -206,7 +209,7 @@ class App {
             this.camera.fov = CONFIG.fov.vr;
             this.camera.updateProjectionMatrix();
 
-            if (this.deviceOrientationControls) this.deviceOrientationControls.enabled = false;
+            if (this.gyroscopeControls) this.gyroscopeControls.enabled = false;
             if (this.panoramaViewer) {
                 this.panoramaViewer.setVRMode(true);
                 // Ensure panorama group is visible if a scene was previously loaded
@@ -215,6 +218,10 @@ class App {
                 }
             }
             if (this.vrButton) this.vrButton.style.display = 'none';
+
+            // In WebXR 'local' space the camera starts at y≈0.
+            // Lower the orbital menu so items sit at eye level (y=0) not y=1.6.
+            if (this.orbitalMenu) this.orbitalMenu.adjustForVR(true);
         });
 
         // Session end
@@ -224,14 +231,17 @@ class App {
             this.camera.fov = CONFIG.fov.default;
             this.camera.updateProjectionMatrix();
 
-            if (this.deviceOrientationControls && this.isGyroEnabled) {
-                this.deviceOrientationControls.enabled = true;
+            if (this.gyroscopeControls && this.isGyroEnabled) {
+                this.gyroscopeControls.enabled = true;
             }
 
             if (this.panoramaViewer) this.panoramaViewer.setVRMode(false);
             if (this.vrButton) {
                 this.vrButton.style.display = (this.vrButton.id === 'vr-goggle-button') ? 'flex' : '';
             }
+
+            // Restore orbital menu to normal height after VR session ends
+            if (this.orbitalMenu) this.orbitalMenu.adjustForVR(false);
 
             // Restore renderer state after VR polyfill session ends
             // to prevent "drawElements: no buffer" error
@@ -324,6 +334,10 @@ class App {
             return;
         }
 
+        // Pre-adjust orbital menu BEFORE session starts to avoid "menu above" flash
+        // (WebXR camera starts at y≈0 in local space; menu default is y=1.6)
+        if (this.orbitalMenu) this.orbitalMenu.adjustForVR(true);
+
         try {
             // iOS Safari scroll trick to hide address bar
             if (this.isIOSDevice) {
@@ -338,6 +352,8 @@ class App {
             this.renderer.xr.setSession(session);
             console.log('WebXR session started via overlay');
         } catch (e) {
+            // Restore menu if session failed
+            if (this.orbitalMenu) this.orbitalMenu.adjustForVR(false);
             console.log('Failed to start WebXR session:', e.message);
         }
     }
@@ -491,6 +507,8 @@ class App {
             this.panoramaViewer.currentAudio.pause();
         }
         this.currentState = 'menu';
+        // Ensure menu y-position matches current VR state before showing
+        if (this.orbitalMenu) this.orbitalMenu.adjustForVR(this.isVRMode);
         this.orbitalMenu.show();
     }
 
@@ -538,14 +556,15 @@ class App {
     render() {
         const delta = this.clock.getDelta();
 
-        // Update controls
+        // Update controls — mutually exclusive so gyroscope / cardboard
+        // is not overridden by OrbitControls every frame.
+        // Gyro only takes over once it has received at least one valid event;
+        // before that, OrbitControls serves as touch-drag fallback.
         if (this.cardboardManager && this.cardboardManager.isCardboardMode) {
             this.cardboardManager.update();
-        } else if (this.isGyroEnabled && this.deviceOrientationControls) {
-            this.deviceOrientationControls.update();
-        }
-
-        if (this.controls) {
+        } else if (this.isGyroEnabled && this.gyroscopeControls?.gotAnyData) {
+            this.gyroscopeControls.update();
+        } else if (this.controls) {
             this.controls.update();
         }
 
