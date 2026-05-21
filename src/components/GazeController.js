@@ -60,18 +60,24 @@ export class GazeController {
     }
 
     update(scene, interactables, delta) {
-        // In WebXR mode, use the XR camera
+        // Use world position/direction so the reticle always reflects the
+        // current frame's camera quaternion. raycaster.setFromCamera() reads
+        // camera.matrixWorld which may be one frame stale (updated by
+        // renderer.render()), while getWorldPosition/Direction() forces an
+        // updateWorldMatrix() from the live quaternion.
+        const origin    = new THREE.Vector3();
+        const direction = new THREE.Vector3();
+
         let currentCamera = this.camera;
         if (this.renderer && this.renderer.xr && this.renderer.xr.isPresenting) {
-            currentCamera = this.renderer.xr.getCamera();
+            const xrCamera = this.renderer.xr.getCamera();
+            xrCamera.getWorldPosition(origin);
+            xrCamera.getWorldDirection(direction);
+            currentCamera = xrCamera;
+        } else {
+            this.camera.getWorldPosition(origin);
+            this.camera.getWorldDirection(direction);
         }
-
-        // Use center screen coordinate for the gaze dot
-        const screenPos = new THREE.Vector2(0, 0);
-        this.raycaster.setFromCamera(screenPos, currentCamera);
-        
-        const origin = this.raycaster.ray.origin.clone();
-        const direction = this.raycaster.ray.direction.clone();
 
         // Always update reticle position
         this.mesh.position.copy(origin).add(direction.multiplyScalar(this.reticleDistance));
@@ -80,7 +86,6 @@ export class GazeController {
         if (this.triggerLockTime > 0) {
             this.triggerLockTime -= delta;
             this.clearHover();
-            // Reticle position is already updated above
             return;
         }
 
