@@ -334,6 +334,9 @@ class App {
             return;
         }
 
+        // Debug: show which path is taken
+        this._showVRDebug(`xr.enabled=${this.renderer.xr.enabled} cardboard=${this.useCardboardFallback}`);
+
         try {
             // iOS Safari scroll trick to hide address bar
             if (this.isIOSDevice) {
@@ -347,9 +350,37 @@ class App {
             });
             this.renderer.xr.setSession(session);
             console.log('WebXR session started via overlay');
+            this._hideVRDebug();
         } catch (e) {
             console.log('Failed to start WebXR session:', e.message);
+            this._showVRDebug('VR Error: ' + (e.message || e.name || String(e)), true);
         }
+    }
+
+    _showVRDebug(msg, isError = false) {
+        let el = document.getElementById('vr-debug-msg');
+        if (!el) {
+            el = document.createElement('div');
+            el.id = 'vr-debug-msg';
+            Object.assign(el.style, {
+                position: 'fixed', top: '50%', left: '50%',
+                transform: 'translate(-50%,-50%)',
+                background: 'rgba(0,0,0,0.85)', color: '#fff',
+                padding: '16px 24px', borderRadius: '12px',
+                fontSize: '14px', fontFamily: 'monospace',
+                zIndex: '999999', maxWidth: '80vw', textAlign: 'center',
+                lineHeight: '1.5'
+            });
+            document.body.appendChild(el);
+        }
+        el.style.border = isError ? '2px solid #f55' : '2px solid #4af';
+        el.textContent = msg;
+        el.style.display = 'block';
+    }
+
+    _hideVRDebug() {
+        const el = document.getElementById('vr-debug-msg');
+        if (el) el.style.display = 'none';
     }
 
     // iOS Safari trick: make page taller than viewport, scroll to trigger bar hide
