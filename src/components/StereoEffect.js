@@ -260,6 +260,11 @@ export class StereoEffect {
 
             this.stereo.update(camera);
 
+            // Stereo cameras inherit the main camera's layer mask via stereo.update().
+            // Disable layer 1 (reticle) so each eye does NOT render it with parallax offset.
+            this.stereo.cameraL.layers.disable(1);
+            this.stereo.cameraR.layers.disable(1);
+
             // Restore original aspect ratio
             camera.aspect = originalAspect;
             camera.updateProjectionMatrix();
@@ -302,6 +307,25 @@ export class StereoEffect {
             this.renderer.setViewport(width / 2 - dividerWidth / 2, 0, dividerWidth, height);
             this.renderer.setClearColor(0x000000, 1);
             this.renderer.clearColor();
+
+            // 5. Render reticle (layer 1) centered in each eye using the main camera
+            //    (no eye offset). autoClear is already false — overlays on distorted bg.
+            const prevMask = camera.layers.mask;
+            camera.layers.set(1);
+            camera.aspect = (width / 2) / height;
+            camera.updateProjectionMatrix();
+
+            this.renderer.setScissor(0, 0, width / 2, height);
+            this.renderer.setViewport(0, 0, width / 2, height);
+            this.renderer.render(scene, camera);
+
+            this.renderer.setScissor(width / 2, 0, width / 2, height);
+            this.renderer.setViewport(width / 2, 0, width / 2, height);
+            this.renderer.render(scene, camera);
+
+            camera.layers.mask = prevMask;
+            camera.aspect = originalAspect;
+            camera.updateProjectionMatrix();
 
             // Cleanup
             this.renderer.setScissorTest(false);

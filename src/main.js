@@ -12,6 +12,7 @@ import { VROverlay } from './components/VROverlay.js';
 import { CONFIG } from './config.js';
 import { InfoOverlay } from './components/InfoOverlay.js';
 import { InfoPanel3D } from './components/InfoPanel3D.js';
+import { SubtitlePanel3D } from './components/SubtitlePanel3D.js';
 import { InputHandler } from './components/InputHandler.js';
 import { LandingScreen } from './components/LandingScreen.js';
 import { OrbitalMenu } from './components/OrbitalMenu.js';
@@ -127,6 +128,8 @@ class App {
             100
         );
         this.camera.position.set(0, CONFIG.camera.eyeLevel, CONFIG.camera.zOffset);
+        // Allow camera to see all layers including layer 1 (reticle overlay)
+        this.camera.layers.enableAll();
     }
 
     initControls() {
@@ -401,6 +404,7 @@ class App {
 
         // 3D Info Panel (VR Mode)
         this.infoPanel3D = new InfoPanel3D(this.camera, this.scene);
+        this.subtitlePanel3D = new SubtitlePanel3D(this.camera, this.scene);
 
         // Panorama viewer
         this.panoramaViewer = new PanoramaViewer(
@@ -411,6 +415,7 @@ class App {
         );
         this.panoramaViewer.setInfoOverlay(this.infoOverlay);
         this.panoramaViewer.setInfoPanel3D(this.infoPanel3D);
+        this.panoramaViewer.setSubtitlePanel3D(this.subtitlePanel3D);
 
         // Orbital Menu (Main Hub)
         this.orbitalMenu = new OrbitalMenu(this.scene, this.camera, (index) => {
@@ -607,6 +612,9 @@ class App {
     // ==================== CLEANUP ====================
 
     dispose() {
+        if (this.renderer) {
+            this.renderer.setAnimationLoop(null);
+        }
         // Extracted modules
         this.inputHandler?.dispose();
 
@@ -614,7 +622,35 @@ class App {
         this.panoramaViewer?.dispose?.();
         this.orbitalMenu?.dispose?.();
         this.gazeController?.dispose?.();
+        this.subtitlePanel3D?.dispose?.();
         this.cardboardManager?.dispose?.();
+        this.gyroscopeControls?.dispose?.();
+        this.infoPanel3D?.dispose?.();
+        this.infoOverlay?.dispose?.();
+        this.controls?.dispose?.();
+
+        // Clean up scene objects
+        if (this.scene) {
+            this.scene.traverse(child => {
+                if (child.isMesh) {
+                    if (child.geometry) child.geometry.dispose();
+                    if (child.material) {
+                        if (Array.isArray(child.material)) {
+                            child.material.forEach(mat => {
+                                if (mat.map) mat.map.dispose();
+                                mat.dispose();
+                            });
+                        } else {
+                            if (child.material.map) child.material.map.dispose();
+                            child.material.dispose();
+                        }
+                    }
+                }
+            });
+        }
+
+        // Dispose renderer
+        this.renderer?.dispose?.();
 
         // DOM cleanup
         this.debugInfo?.remove();
