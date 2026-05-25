@@ -194,6 +194,12 @@ class App {
             }
         };
 
+        // Pass reticle mesh so StereoEffect can hide it during stereo render
+        // and re-draw it centered in each half-viewport (no parallax).
+        if (this.gazeController?.mesh && this.cardboardManager.stereoEffect) {
+            this.cardboardManager.stereoEffect.reticleMesh = this.gazeController.mesh;
+        }
+
         // Create VR button (same goggle icon)
         this.createVRButton();
         console.log('Cardboard fallback initialized');
