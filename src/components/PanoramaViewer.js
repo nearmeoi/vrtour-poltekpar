@@ -79,7 +79,7 @@ export class PanoramaViewer {
         this.createLoadingIndicator();
 
         // ── Sub-modules ───────────────────────────────────────────────────────
-        this.texManager = new TextureManager();
+        this.texManager = new TextureManager(this.renderer);
 
         this.hotspotsGroup = new THREE.Group();
         this.group.add(this.hotspotsGroup);
@@ -108,6 +108,7 @@ export class PanoramaViewer {
 
     setInfoOverlay(overlay)   { this.infoOverlay  = overlay; }
     setInfoPanel3D(panel)     { this.infoPanel3D   = panel;  }
+    setSubtitlePanel3D(panel) { this.subtitlePanel3D = panel; }
 
     _handleInfoHotspot(data) {
         if (this.infoPanel3D) {
@@ -133,12 +134,14 @@ export class PanoramaViewer {
 
         // Stop any playing audio
         if (this.currentAudio) { this.currentAudio.pause(); this.currentAudio = null; }
+        this.subtitlePanel3D?.clear();
 
         if (location.audio) {
             this.currentAudio = new Audio(location.audio);
             this.currentAudio.loop   = false;
             this.currentAudio.volume = 0.5;
             this.audioControls.setAudio(this.currentAudio);
+            this.subtitlePanel3D?.setTrack(this.currentAudio, location.subtitles || []);
             this.currentAudio.addEventListener('ended', () =>
                 this.audioControls.setState(false, this.audioControls.isMuted)
             );
@@ -148,6 +151,7 @@ export class PanoramaViewer {
         } else {
             this.audioControls.setAudio(null);
             this.audioControls.setState(false, false);
+            this.subtitlePanel3D?.clear();
         }
 
         // Bersihkan state dari lokasi sebelumnya
@@ -286,16 +290,9 @@ export class PanoramaViewer {
         this.movementOffset.set(0, 0, 0);
 
         if (targetPosition) {
-            // Get camera world position
-            const camPos = new THREE.Vector3();
-            if (this.renderer?.xr?.isPresenting) {
-                const xrCamera = this.renderer.xr.getCamera();
-                xrCamera.getWorldPosition(camPos);
-            } else if (this.camera) {
-                this.camera.getWorldPosition(camPos);
-            }
-            
             // Calculate direction from camera to target position
+            const camPos = new THREE.Vector3();
+            if (this.camera) this.camera.getWorldPosition(camPos);
             this.targetMovementVector = targetPosition.clone().sub(camPos).normalize();
         }
 
@@ -382,6 +379,8 @@ export class PanoramaViewer {
     removeHotspot(data)     { this.hotspotManager.remove(data); }
     refreshHotspot(data)    { this.hotspotManager.refresh(data); }
 
+    get isDraggingHotspot() { return this.hotspotManager?.isDragging ?? false; }
+
     // Proxy admin interaction handlers to HotspotManager
     handleAdminClick(intersects)       { return this.hotspotManager.handleAdminClick(intersects); }
     handleAdminRightClick(intersects)  { return this.hotspotManager.handleAdminRightClick(intersects); }
@@ -392,6 +391,10 @@ export class PanoramaViewer {
     setAdminMode(isActive) {
         this.isAdminMode = isActive;
         this.hotspotManager.isAdminMode = isActive;
+        if (!isActive && this.hotspotManager.isDragging) {
+            this.hotspotManager.isDragging = false;
+            this.hotspotManager.draggedMesh = null;
+        }
         console.log('Admin Mode:', isActive ? 'Enabled' : 'Disabled');
     }
 
@@ -545,8 +548,20 @@ export class PanoramaViewer {
         if (this.basicMaterial && this.basicMaterial.map !== null) {
             this.basicMaterial.color.setScalar(this.panoramaBrightness);
         }
-        if (this.backBtn) this.backBtn.visible = false; // Always hidden (menu-less design)
+        if (this.backBtn) {
+            this.backBtn.visible = false; // Always hidden (menu-less design)
+            // Lower the button in VR — narrower FOV (50°) and reference-space
+            // differences mean the default -1.0 appears too high in the headset.
+            this.backBtn.position.y = isVR ? -1.5 : -1.0;
+        }
         if (!isVR && this.infoPanel3D) this.infoPanel3D.hide();
+        if (this.subtitlePanel3D) this.subtitlePanel3D.setVRMode(isVR);
+    }
+
+    // Sync panorama group height to the actual XR eye position so content
+    // appears at the correct level in native VR (local reference space, y≈0).
+    adjustGroupForVR(eyeY) {
+        this.group.position.y = eyeY !== undefined ? eyeY : CONFIG.camera.eyeLevel;
     }
 
     // ──────────────────────────────────────────────────────────────────────────
@@ -603,12 +618,13 @@ export class PanoramaViewer {
         this.updateLoadingSpinner();
         this.updateLoadingPosition();
         this.updateControlDockRotation();
+        this.subtitlePanel3D?.update(delta);
 
         // ── Zoom/Travel Transition Logic ─────────────────────────────────────────────
         if (this.fadeState === 'fading_out') {
             // Zoom effect before scene change
             if (this.targetMovementVector) {
-                this.movementProgress += delta * 1.5; 
+                this.movementProgress += delta * 4.0; // Sped up from 1.5 to 4.0 for instant feel
                 const dist = 28; // Adjusted zoom distance as requested
                 
                 // Ease-in cubic for a smoother acceleration
@@ -619,7 +635,7 @@ export class PanoramaViewer {
             }
 
             // Using fadeOpacity as a virtual timer for the transition
-            this.fadeOpacity += delta * 1.5; 
+            this.fadeOpacity += delta * 4.0; 
             if (this.fadeOpacity >= 1) {
                 this.fadeOpacity = 1;
                 this.movementProgress = 1; // Cap movement progress for the reverse phase
@@ -642,7 +658,7 @@ export class PanoramaViewer {
         } else if (this.fadeState === 'fading_in') {
             // Reverse the zoom effect to simulate arriving in the new room
             if (this.targetMovementVector) {
-                this.movementProgress -= delta * 1.5; 
+                this.movementProgress -= delta * 4.0; 
                 if (this.movementProgress < 0) this.movementProgress = 0;
                 
                 const dist = 28; // Must match distance from fading_out
@@ -656,7 +672,7 @@ export class PanoramaViewer {
                 }
             }
 
-            this.fadeOpacity -= delta * 1.5;
+            this.fadeOpacity -= delta * 4.0;
             if (this.fadeOpacity <= 0) {
                 this.fadeOpacity = 0;
                 this.fadeState = 'idle';
@@ -666,25 +682,18 @@ export class PanoramaViewer {
         }
 
         // ── Sync to Camera ────────────────────────────────────────────────────
+        // Sphere radius is 50 units — the camera is always inside regardless of small offsets.
+        // We do NOT follow the XR camera position to avoid incorrect placement in the first XR frame
+        // (XR camera world matrix may not be ready). Instead we rely on the large sphere radius.
         const camPos = new THREE.Vector3();
-        if (this.renderer?.xr?.isPresenting) {
-            const xrCamera = this.renderer.xr.getCamera();
-            xrCamera.getWorldPosition(camPos);
-        } else if (this.camera) {
+        if (this.camera) {
             this.camera.getWorldPosition(camPos);
         }
 
-        const offset = camPos.sub(this.group.position);
-        
-        // Offset for sphere and hotspots based on movement (simulating traveling)
+        // sceneOffset: only applies the travel-transition movement; sphere stays at group origin otherwise
         const sceneOffset = new THREE.Vector3();
-        if (this.renderer?.xr?.isPresenting) {
-            // In VR, we must sync the sphere to the physical room offset
-            sceneOffset.copy(offset);
-        }
-
         if (this.movementOffset) {
-            // Subtract movementOffset so the scene moves towards the camera
+            // Subtract movementOffset so the scene shifts toward the camera (zoom-in effect)
             sceneOffset.sub(this.movementOffset);
         }
 
@@ -692,14 +701,15 @@ export class PanoramaViewer {
             this.sphere.position.copy(sceneOffset);
             this.sphere.updateMatrix();
         }
-        
+
         if (this.hotspotsGroup) {
             this.hotspotsGroup.position.copy(sceneOffset);
         }
 
         if (this.fadeMesh) {
-            // Fade mesh is attached directly to camera offset, independent of movement
-            this.fadeMesh.position.copy(offset);
+            // Fade mesh stays near the camera (close-range overlay)
+            const camOffset = camPos.clone().sub(this.group.position);
+            this.fadeMesh.position.copy(camOffset);
         }
     }
 
@@ -709,6 +719,7 @@ export class PanoramaViewer {
 
     hide() {
         if (this.currentAudio) { this.currentAudio.pause(); this.currentAudio = null; }
+        this.subtitlePanel3D?.clear();
         this.group.visible = false;
     }
 
