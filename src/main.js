@@ -250,10 +250,13 @@ class App {
                 this.vrButton.style.display = (this.vrButton.id === 'vr-goggle-button') ? 'flex' : '';
             }
 
-            // Restore orbital menu and panorama group to normal height after VR ends
+            // Restore orbital menu to normal height after VR session ends
             this._vrEyeY = undefined;
             if (this.orbitalMenu) this.orbitalMenu.adjustForVR(false);
-            if (this.panoramaViewer) this.panoramaViewer.adjustGroupForVR(CONFIG.camera.eyeLevel);
+            // Restore back button to non-VR position
+            if (this.panoramaViewer?.backBtn) {
+                this.panoramaViewer.backBtn.position.y = -1.0;
+            }
 
             // Restore renderer state after VR polyfill session ends
             // to prevent "drawElements: no buffer" error
@@ -584,9 +587,14 @@ class App {
                 if (this._vrEyeY === undefined || Math.abs(eyeY - this._vrEyeY) > 0.02) {
                     this._vrEyeY = eyeY;
                     this.orbitalMenu.adjustForVR(true, eyeY);
-                    // Sync panorama group so back button & hotspots sit at the
-                    // correct height relative to the actual XR eye position.
-                    if (this.panoramaViewer) this.panoramaViewer.adjustGroupForVR(eyeY);
+                    // Adjust ONLY the back button's local y so it sits ~1 m below
+                    // the actual XR eye — never move the whole panorama group or
+                    // hotspots will shift out of the camera frustum.
+                    if (this.panoramaViewer?.backBtn) {
+                        // group.position.y is fixed at 1.6; button local y:
+                        // world_y = 1.6 + local_y  →  local_y = (eyeY - 1.0) - 1.6
+                        this.panoramaViewer.backBtn.position.y = eyeY - 2.6;
+                    }
                     console.log('[VR] Menu eye height synced to', eyeY.toFixed(3));
                 }
             }

@@ -558,11 +558,6 @@ export class PanoramaViewer {
         if (this.subtitlePanel3D) this.subtitlePanel3D.setVRMode(isVR);
     }
 
-    // Sync panorama group height to the actual XR eye position so content
-    // appears at the correct level in native VR (local reference space, y≈0).
-    adjustGroupForVR(eyeY) {
-        this.group.position.y = eyeY !== undefined ? eyeY : CONFIG.camera.eyeLevel;
-    }
 
     // ──────────────────────────────────────────────────────────────────────────
     // CONTROL DOCK FOLLOW
