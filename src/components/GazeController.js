@@ -25,6 +25,8 @@ export class GazeController {
         // Position will be updated in update() loop
         this.scene.add(this.mesh);
         this.mesh.renderOrder = 10001; // Higher than hotspots (9999)
+        // Layer 1: rendered separately in cardboard stereo to prevent parallax shadow
+        this.mesh.layers.set(1);
 
         // Progress indicator (Inner circle filling up)
         const progressGeo = new THREE.CircleGeometry(reticleSize * 1.5, 32);
@@ -36,6 +38,7 @@ export class GazeController {
         });
         this.progressMesh = new THREE.Mesh(progressGeo, progressMat);
         this.progressMesh.renderOrder = 10002;
+        this.progressMesh.layers.set(1); // Same layer as reticle
         this.progressMesh.scale.set(0, 0, 1);
         this.mesh.add(this.progressMesh);
 

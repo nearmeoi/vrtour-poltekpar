@@ -166,8 +166,6 @@ export class StereoEffect {
             type: THREE.UnsignedByteType,
             depthBuffer: true,
             stencilBuffer: false,
-            samples: 4,
-            colorSpace: THREE.SRGBColorSpace // Ensure correct color vibrancy
         });
 
         this.renderTargetR = new THREE.WebGLRenderTarget(renderWidth, renderHeight, {
@@ -177,8 +175,6 @@ export class StereoEffect {
             type: THREE.UnsignedByteType,
             depthBuffer: true,
             stencilBuffer: false,
-            samples: 4,
-            colorSpace: THREE.SRGBColorSpace // Ensure correct color vibrancy
         });
 
         // Update material uniforms
@@ -260,6 +256,12 @@ export class StereoEffect {
 
             this.stereo.update(camera);
 
+            // Exclude reticle (layer 1) from stereo cameras — it is rendered
+            // separately below using the main camera so both eyes see it perfectly
+            // centered, eliminating the parallax "shadow/double" artifact.
+            this.stereo.cameraL.layers.disable(1);
+            this.stereo.cameraR.layers.disable(1);
+
             // Restore original aspect ratio
             camera.aspect = originalAspect;
             camera.updateProjectionMatrix();
@@ -302,6 +304,26 @@ export class StereoEffect {
             this.renderer.setViewport(width / 2 - dividerWidth / 2, 0, dividerWidth, height);
             this.renderer.setClearColor(0x000000, 1);
             this.renderer.clearColor();
+
+            // 5. Render reticle (layer 1) centered in each eye using the main
+            //    camera (no eye offset). autoClear is already false so the reticle
+            //    overlays on top of the distorted background.
+            const prevMask = camera.layers.mask;
+            camera.layers.set(1); // Only render layer-1 objects (reticle)
+            camera.aspect = (width / 2) / height;
+            camera.updateProjectionMatrix();
+
+            this.renderer.setScissor(0, 0, width / 2, height);
+            this.renderer.setViewport(0, 0, width / 2, height);
+            this.renderer.render(scene, camera);
+
+            this.renderer.setScissor(width / 2, 0, width / 2, height);
+            this.renderer.setViewport(width / 2, 0, width / 2, height);
+            this.renderer.render(scene, camera);
+
+            camera.layers.mask = prevMask;
+            camera.aspect = originalAspect;
+            camera.updateProjectionMatrix();
 
             // Cleanup
             this.renderer.setScissorTest(false);
